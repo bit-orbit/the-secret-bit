@@ -28,3 +28,5 @@
 - [ ] cron
 - [ ] tar
 - [ ] 7z
+- [ ] supervisor
+- [ ] cowsay
