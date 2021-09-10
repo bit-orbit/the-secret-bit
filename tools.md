@@ -1,30 +1,30 @@
-grep
-wget
-netcat
-tree
-ls
-ping
-traceroute
-nmap
-git
-fuser
-grep
-wget
-netcat
-tree
-ls
-ping
-traceroute
-nmap
-git
-fuser
-Neofetch
-History
-Cat
-Rm
-Mv
-Cp
-Cd
-cron
-tar
-7z
+- [ ] grep
+- [ ] wget
+- [ ] netcat
+- [ ] tree
+- [ ] ls
+- [ ] ping
+- [ ] traceroute
+- [ ] nmap
+- [ ] git
+- [ ] fuser
+- [ ] grep
+- [ ] wget
+- [ ] netcat
+- [ ] tree
+- [ ] ls
+- [ ] ping
+- [ ] traceroute
+- [ ] nmap
+- [ ] git
+- [ ] fuser
+- [ ] Neofetch
+- [ ] History
+- [ ] Cat
+- [ ] Rm
+- [ ] Mv
+- [ ] Cp
+- [ ] Cd
+- [ ] cron
+- [ ] tar
+- [ ] 7z
