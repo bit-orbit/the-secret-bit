@@ -1,88 +1,88 @@
-grep
-wget
-netcat
-tree
-ls
-ping
-traceroute
-nmap
-git
-fuser
-Neofetch
-History
-Cat
-Rm
-Mv
-Cp
-Cd
-cron
-tar
-7z
-crunch
-xdd
-cpio
-cut
- ssh
-awk
-aria2c
-chmod
-chown
-chattr
-write
-wall
-apg
-curl
-date
-dd
-privoxy
-fdisk
-mkfs
-df
-du
-diff
-dig
-nslookup
-dpkg
-macchanger
-ffmpeg
-file
-find
-locate
-free
-ftp
-mount - umount
-gpg
-head
-tail
-htop
-kill - killall - pkill
-ln
-nl
-lsattr
-mkdir
-mkfifo
-mtr
-nice
-renice
-nohup
-netstat
-pip3
-pv
-pwd
-scp
-sftp
-sed
-split
-stat
-strace
-systemctl
-tee
-xargs
-uniq
-blkid
-lsblk
-w
-less
-watch
-wc
-youtube-dl
+- [ ] grep
+- [ ] wget
+- [ ] netcat
+- [ ] tree
+- [ ] ls
+- [ ] ping
+- [ ] traceroute
+- [ ] nmap
+- [ ] git
+- [ ] fuser
+- [ ] Neofetch
+- [ ] History
+- [ ] Cat
+- [ ] Rm
+- [ ] Mv
+- [ ] Cp
+- [ ] Cd
+- [ ] cron
+- [ ] tar
+- [ ] 7z
+- [ ] crunch
+- [ ] xdd
+- [ ] cpio
+- [ ] cut
+- [ ] ssh
+- [ ] awk
+- [ ] aria2c
+- [ ] chmod
+- [ ] chown
+- [ ] chattr
+- [ ] write
+- [ ] wall
+- [ ] apg
+- [ ] curl
+- [ ] date
+- [ ] dd
+- [ ] privoxy
+- [ ] fdisk
+- [ ] mkfs
+- [ ] df
+- [ ] du
+- [ ] diff
+- [ ] dig
+- [ ] nslookup
+- [ ] dpkg
+- [ ] macchanger
+- [ ] ffmpeg
+- [ ] file
+- [ ] find
+- [ ] locate
+- [ ] free
+- [ ] ftp
+- [ ] mount - umount
+- [ ] gpg
+- [ ] head
+- [ ] tail
+- [ ] htop
+- [ ] kill - killall - pkill
+- [ ] ln
+- [ ] nl
+- [ ] lsattr
+- [ ] mkdir
+- [ ] mkfifo
+- [ ] mtr
+- [ ] nice
+- [ ] renice
+- [ ] nohup
+- [ ] netstat
+- [ ] pip3
+- [ ] pv
+- [ ] pwd
+- [ ] scp
+- [ ] sftp
+- [ ] sed
+- [ ] split
+- [ ] stat
+- [ ] strace
+- [ ] systemctl
+- [ ] tee
+- [ ] xargs
+- [ ] uniq
+- [ ] blkid
+- [ ] lsblk
+- [ ] w
+- [ ] less
+- [ ] watch
+- [ ] wc
+- [ ] youtube-dl
