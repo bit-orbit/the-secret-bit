@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supervisors on TheSecretBit</title>
+    <link>/supervisor/</link>
+    <description>Recent content in Supervisors on TheSecretBit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-IR</language><atom:link href="/supervisor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/supervisor/supervisor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/supervisor/supervisor/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
