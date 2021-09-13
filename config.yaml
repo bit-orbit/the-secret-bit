@@ -19,7 +19,7 @@ imaging:
 params:
   description: TheSecretBit Book!
   homeMetaContent: TheSecretBit Book!
-  footer: Made with Love with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  footer: Made with Love with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   #codePenUser: someUser
@@ -29,9 +29,11 @@ params:
   showThemeSwitcher: true
   defaultDarkTheme: false
   moveFooterToHeader: false
-  logoAlt: "An alternative text description of the logo"
+  logoAlt: "logo"
   customCss:
+    - css/custom_01.css
   customJs:
+    - js/custom_01.js
 
 
 menu:
@@ -39,9 +41,12 @@ menu:
     - name: Home
       url: /
       weight: 1
+    - name: Posts
+      url: /posts/
+      weight: 1
     - name: Tags
       url: /tags/
-      weight: 4
+      weight: 1
 
 markup:
   defaultMarkdownHandler: goldmark
