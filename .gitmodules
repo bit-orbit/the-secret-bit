@@ -1,3 +1,12 @@
 [submodule "themes/book"]
 	path = themes/book
 	url = https://github.com/alex-shpak/hugo-book
+[submodule "themes/cupper-hugo-theme"]
+	path = themes/cupper-hugo-theme
+	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
+[submodule "content/themes/zdoc"]
+	path = content/themes/zdoc
+	url = https://github.com/zzossig/hugo-theme-zzo.git
+[submodule "themes/zdoc"]
+	path = themes/zdoc
+	url = https://github.com/zzossig/hugo-theme-zzo.git
