@@ -13,4 +13,6 @@ tags: ['supervisor','process manager']
 با یک عکس شروع میکنیم!
 
 
-!["Picture ALt"](/images/supervisor/supervisor1.jpg)
+!["سوپروایزر"](/images/supervisor/supervisor1.jpg)
+
+

@@ -3,7 +3,7 @@ languageCode : fa-IR
 title : TheSecretBit
 publishDir : docs/
 theme : cupper-hugo-theme
-
+canonifyurls : true
 
 
 
