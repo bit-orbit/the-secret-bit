@@ -1,8 +1,6 @@
 ---
-title: "My First Document"
-date: 2019-03-26T08:47:11+01:00
-description: You will find some of the most common and helpful pages from our documentation.
-draft: false
+title: "Supervisor"
+date: 2021-09-13T20:18:34+04:30
+tags: ['supervisor','process manager']
 ---
-
-Your markdown here.
+Test
