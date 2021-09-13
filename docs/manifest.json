@@ -1,14 +1,14 @@
 {
   "name": "TheSecretBit",
   "short_name": "TheSecretBit",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/TheSecretBit/",
+  "scope": "/TheSecretBit/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/TheSecretBit/favicon.svg",
       "sizes": "512x512"
     }
   ]

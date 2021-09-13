@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Supervisors on TheSecretBit</title>
-    <link>/supervisor/</link>
+    <link>https://bit-orbit.github.io/TheSecretBit/supervisor/</link>
     <description>Recent content in Supervisors on TheSecretBit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fa-IR</language><atom:link href="/supervisor/index.xml" rel="self" type="application/rss+xml" />
+    <language>fa-IR</language><atom:link href="https://bit-orbit.github.io/TheSecretBit/supervisor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/supervisor/supervisor/</link>
+      <link>https://bit-orbit.github.io/TheSecretBit/supervisor/supervisor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/supervisor/supervisor/</guid>
+      <guid>https://bit-orbit.github.io/TheSecretBit/supervisor/supervisor/</guid>
       <description></description>
     </item>
     
