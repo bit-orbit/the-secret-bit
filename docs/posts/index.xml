@@ -16,8 +16,8 @@
       <description>Nano A Simple OpenSource Editor.
 Menu
  Installation Usage  Part 1 Install It by using
-hugo server --gcPart 2 Its so simple
-print(&#39;Nano is great!&#39;) Created in: 2020-14-9,3:20Pm Last edit in: 2020-14-9,3:20Pm
+hugo server --gc  Part 2 Its so simple
+print(&#39;Nano is great!&#39;)  Created in: 2020-14-9,3:20Pm Last edit in: 2020-14-9,3:20Pm
 Author or Authors:
  Alirezadigi  </description>
     </item>
