@@ -5,7 +5,3 @@ title: "Home"
 
 Welcome to **TheSecretBit Book!**:
 
-{{< ticks >}}
-* Screen reader and keyboard accessible
-* Responsive
-{{< /ticks >}}
