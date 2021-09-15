@@ -38,13 +38,13 @@ params:
 
 menu:
   nav:
-    - name: Home
+    - name: روی جلد
       url: /
       weight: 1
-    - name: Posts
+    - name: فصل ها
       url: /posts/
       weight: 1
-    - name: Tags
+    - name: تگ ها
       url: /tags/
       weight: 1
 
