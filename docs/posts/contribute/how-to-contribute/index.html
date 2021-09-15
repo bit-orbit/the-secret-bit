@@ -6,11 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.88.1" />
-  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/tags/">
+  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/posts/contribute/how-to-contribute/">
 
   
     
-    <meta name="description" content="Tags">
+    <meta name="description" content="اگر اینجا هستید یعنی شما هم حرفی برای گفتن دارید.
+برای مشارکت ما چند اصول و مفهموم داریم که رعایت آنها باعث می‌شود کتاب یک شکل ادامه پیدا کند.
+نکته اول اینه که همه ابزار ها یک تمپلیت دارند. درواقع باید با توجه به یک مدل خاصی از md نوشته بشن. با همکاری شما یک تمپلیت رو تدارک دیدیم. عالی میشه که بر اساس این بنویسید. ممکنه ابزار ها نیازی به عکس نداشته باشند، ولی اگه نیاز بود دقیقا مثل تمپلیت عکس رو لینک کنید.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -58,7 +60,7 @@
 
   
   
-  <title>Tags | the-secret-bit</title>
+  <title>نحوه مشارکت | the-secret-bit</title>
 </head>
 
   <body>
@@ -238,32 +240,71 @@
         <div>
           
   <main id="main">
-    <h1>Tags</h1>
-    <ul class="patterns-list">
-      
-        <li>
-          <h2>
-            <a href="https://bit-orbit.github.io/the-secret-bit/tags/how-to-contribute/">
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              (1) how-to-contribute
-            </a>
-          </h2>
-        </li>
-      
-        <li>
-          <h2>
-            <a href="https://bit-orbit.github.io/the-secret-bit/tags/%D9%85%D8%B4%D8%A7%D8%B1%DA%A9%D8%AA/">
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              (1) مشارکت
-            </a>
-          </h2>
-        </li>
-      
-    </ul>
+    <h1>نحوه مشارکت</h1>
+    <p>اگر اینجا هستید یعنی شما هم حرفی برای گفتن دارید.</p>
+<p>برای مشارکت ما چند اصول و مفهموم داریم که رعایت آنها باعث می‌شود کتاب یک شکل ادامه پیدا کند.</p>
+<p>نکته اول اینه که همه ابزار ها یک تمپلیت دارند. درواقع باید با توجه به یک مدل خاصی از
+md
+نوشته بشن. با
+همکاری شما یک تمپلیت رو تدارک دیدیم. عالی میشه که بر اساس این بنویسید.
+ممکنه ابزار ها نیازی به عکس نداشته باشند، ولی اگه نیاز بود دقیقا مثل تمپلیت عکس رو لینک کنید.</p>
+<p>منو دقیقا یک فهرست برای یک ابزار است، ممکنه یک ابزار موضوعات مختلفی داشته باشد پس سعی کنید موضوعات رو در
+منو بنویسید.</p>
+<p>و در پایین ترین قسمت اگر مایل بودید ایمل و نامتون رو به عنوان نویسنده چپتر بنویسید.</p>
+<pre><code class="language-md">[![&quot;Image Alt&quot;](img src)](Link of image)
+
+# Tool name
+Description
+
+Menu
+
+- [Part 1](id)
+- [Part 2](id)
+
+### Part 1
+Description
+
+
+### Part 2
+Description
+
+
+Author or Authors:
+
+- name1 &lt;email@example.com&gt;
+- name2 &lt;email2@some.com&gt;
+</code></pre>
+<p>برای شروع باید
+hugo
+را نصب کنید. بعد از نصب، سایت را از
+<a href="https://github.com/bit-orbit/the-secret-bit.git">ریپازیتوری</a>
+گیت هاب دانلود کنید.</p>
+<p>تقریبا تمام راه رو آمدیم، قدم بعدی دانلود تم سایت است پس با این دستور تم را دانلود می‌کنیم. و الان باهم سینک هستیم :)</p>
+<pre><code class="language-bash">git submodule update --init --force --remote
+</code></pre>
+<p>برای درست کردن یک چپتر جدید باید در ریپازیتوری سایت این دستور رو بزنید و
+همانطور که می‌دانید جای
+NameOfTool
+باید نام ابزاری که می‌خواهید دربارش بنویسید را بنویسید.</p>
+<pre><code class="language-bash">hugo new posts/NameOfTool/NameOfTool.md
+</code></pre>
+<p>فایل مارک داون هر ابزار در یک پوشه ای به نام خود آن ابزار قرار دارد.
+اگر نیاز شد تا فایلی مانند عکس برای یک چپتر قرار دهیم، درون خود پوشه ابزار یک پوشه به همان نام ساخته
+می‌شود. و عکس ها درون آن قرار می‌گیرند.</p>
+<pre><code>content/posts/
+└── ls
+    └── ls.md
+    └── ls
+        ├── image1.jpg
+        ├── image2.png
+</code></pre>
+<p>فراموش نکنید که در هدر هر فایل
+md
+یک لیست از تگ ها وجود دارد، این لیست به راحت تر پیدا شدن ابزار شما کمک میکند، پس سعی کنید این لیست را به اندازه کافی کامل کنید.</p>
+<pre><code class="language-md">tags : [&quot;tool-name&quot;, &quot;what-it-do&quot;, &quot;go-on&quot;]
+</code></pre>
+<p>از الان شما هم می‌توانید به ما توی کامل تر کردن این کتاب کمک کنید. خِرَد یارتون.</p>
+
   </main>
 
           
