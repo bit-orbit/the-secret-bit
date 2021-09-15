@@ -1,6 +1,6 @@
-baseURL : https://bit-orbit.github.io/TheSecretBit/
+baseURL : https://bit-orbit.github.io/the-secret-bit
 languageCode : fa-IR
-title : TheSecretBit
+title : the-secret-bit
 publishDir : docs/
 theme : cupper-hugo-theme/
 canonifyurls : true
@@ -17,8 +17,8 @@ imaging:
   quality: 99
 
 params:
-  description: TheSecretBit Book!
-  homeMetaContent: TheSecretBit Book!
+  description: a linux command hand-book for geek's
+  homeMetaContent: the-secret-bit
   footer: Made with Love with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
