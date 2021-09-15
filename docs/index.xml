@@ -8,33 +8,6 @@
     <language>fa-IR</language>
     <lastBuildDate>Sun, 13 Sep 2020 18:27:58 +0100</lastBuildDate><atom:link href="https://bit-orbit.github.io/TheSecretBit/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Nano</title>
-      <link>https://bit-orbit.github.io/TheSecretBit/posts/nano/nano/</link>
-      <pubDate>Tue, 14 Sep 2021 15:13:24 +0430</pubDate>
-      
-      <guid>https://bit-orbit.github.io/TheSecretBit/posts/nano/nano/</guid>
-      <description>Nano A Simple OpenSource Editor.
-Menu
- Installation Usage  Part 1 Install It by using
-hugo server --gcPart 2 Its so simple
-print(&#39;Nano is great!&#39;) to test
-Created in: 2020-14-9,3:20Pm Last edit in: 2020-14-9,3:20Pm
-Author or Authors:
- Alirezadigi  </description>
-    </item>
-    
-    <item>
-      <title>Supervisor</title>
-      <link>https://bit-orbit.github.io/TheSecretBit/posts/supervisor/supervisor/</link>
-      <pubDate>Mon, 13 Sep 2021 20:18:34 +0430</pubDate>
-      
-      <guid>https://bit-orbit.github.io/TheSecretBit/posts/supervisor/supervisor/</guid>
-      <description>سلام!
-قراره که با هم supervisor رو بررسی کنیم
-با یک عکس شروع میکنیم!</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>https://bit-orbit.github.io/TheSecretBit/about/</link>
       <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
