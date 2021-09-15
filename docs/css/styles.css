@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
     font-family: 'Miriam Libre';
-    src: url('https://bit-orbit.github.io/TheSecretBit/css/fonts/miriamlibre-bold.woff2') format('woff2'), url('https://bit-orbit.github.io/TheSecretBit/css/fonts/miriamlibre-bold.woff') format('woff');
+    src: url('https://bit-orbit.github.io/the-secret-bit/css/fonts/miriamlibre-bold.woff2') format('woff2'), url('https://bit-orbit.github.io/the-secret-bit/css/fonts/miriamlibre-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -512,7 +512,7 @@ caption {
 }
 .note.warning {
     border-left: 0;
-    background-image: url(https://bit-orbit.github.io/TheSecretBit/css/images/stripe.svg);
+    background-image: url(https://bit-orbit.github.io/the-secret-bit/css/images/stripe.svg);
     background-size: 0.5rem auto;
     background-repeat: repeat-y;
 }
@@ -531,7 +531,7 @@ caption {
     width: 1rem;
     height: 1rem;
     margin-right: 0.25rem;
-    background-image: url(https://bit-orbit.github.io/TheSecretBit/css/images/icon-tick.svg);
+    background-image: url(https://bit-orbit.github.io/the-secret-bit/css/images/icon-tick.svg);
     background-size: 100% auto;
     position: absolute;
     left: -1.25rem;

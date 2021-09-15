@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on TheSecretBit</title>
-    <link>https://bit-orbit.github.io/TheSecretBit/tags/</link>
-    <description>Recent content in Tags on TheSecretBit</description>
+    <title>Tags on the-secret-bit</title>
+    <link>https://bit-orbit.github.io/the-secret-bit/tags/</link>
+    <description>Recent content in Tags on the-secret-bit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fa-IR</language><atom:link href="https://bit-orbit.github.io/TheSecretBit/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>fa-IR</language><atom:link href="https://bit-orbit.github.io/the-secret-bit/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
