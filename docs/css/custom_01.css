@@ -5,14 +5,12 @@
     src: url("https://cdn.blackiq.ir/fa.BlackIQ.ir/font/iransans/iransans.ttf");
 }
 
-* {
-    font-family: iransans, sans-serif;
-}
-
 .rtl {
     direction: rtl;
+    font-family: iransans, sans-serif;
 }
 
 .ltr {
     direction: ltr;
+    font-family: iransans, sans-serif;
 }
