@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap'); */
+
+@font-face {
+    font-family: iransans;
+    src: url("https://cdn.blackiq.ir/fa.BlackIQ.ir/font/iransans/iransans.ttf");
+}
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: iransans, sans-serif;
 }
 
 .rtl {
