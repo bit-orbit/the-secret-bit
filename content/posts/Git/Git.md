@@ -4,7 +4,7 @@ date: 2021-09-17T14:20:01+04:30
 tags: ['git', 'VCS', ]
 draft: false
 ---
-!["git"](./Git/git.png)
+!["git"](/images/Git/git.png)
 
 # گیت چیست؟
 سیستم کنترل ورژن های مختلف پروژه
