@@ -2,7 +2,7 @@
 title: "Git"
 date: 2021-09-17T14:20:01+04:30
 tags: ['git', 'VCS', ]
-draft: false
+draft: true
 ---
 !["git"](/images/Git/git.png)
 
