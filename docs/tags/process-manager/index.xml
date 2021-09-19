@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>process manager on TheSecretBit</title>
+    <link>https://bit-orbit.github.io/TheSecretBit/tags/process-manager/</link>
+    <description>Recent content in process manager on TheSecretBit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Mon, 13 Sep 2021 20:18:34 +0430</lastBuildDate><atom:link href="https://bit-orbit.github.io/TheSecretBit/tags/process-manager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supervisor</title>
+      <link>https://bit-orbit.github.io/TheSecretBit/posts/supervisor/supervisor/</link>
+      <pubDate>Mon, 13 Sep 2021 20:18:34 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/TheSecretBit/posts/supervisor/supervisor/</guid>
+      <description>سلام!
+قراره که با هم supervisor رو بررسی کنیم
+با یک عکس شروع میکنیم!</description>
+    </item>
+    
+  </channel>
+</rss>
