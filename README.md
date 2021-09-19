@@ -2,21 +2,13 @@
 
 ## Table of tools & Status
 
-**Published**
+- **Published** | When a section is complete
 
-When a section is complete
+- **Editing** | When a section is written and being edited
 
-**Editing**
+- **In progress** | When a section is being written and has not reached the editing stage
 
-When a section is written and being edited
-
-**In progress**
-
-When a section is being written and has not reached the editing stage
-
-**Reserved**
-
-When a section is given to one and is waiting to start
+- **Reserved** | When a section is given to one and is waiting to start
 
 |Name|In Charge|Started|Ended|Status|
 |:-:|:-:|:-:|:-:|:-:|
@@ -31,11 +23,11 @@ When a section is given to one and is waiting to start
 |nmap|-|-|-|-|
 |fuser|-|-|-|-|
 |neofetch|-|-|-|-|
-|history|-|-|-|-|
+|history|Amir|-|-|Reserved|
 |cat|-|-|-|-|
 |rm|-|-|-|-|
-|mv|-|-|-|-|
-|cd|-|-|-|-|
+|mv|Amir|-|-|Reserved|
+|cd|Amir|-|-|Reserved|
 |cron|-|-|-|-|
 |tar|-|-|-|-|
 |7z|-|-|-|-|
@@ -86,7 +78,7 @@ When a section is given to one and is waiting to start
 |pip|-|-|-|-|
 |pv|-|-|-|-|
 |pwd|-|-|-|-|
-|scp|-|-|-|-|
+|scp|Amir|-|-|Reserved|
 |split|-|-|-|-|
 |stat|-|-|-|-|
 |strace|-|-|-|-|
@@ -107,3 +99,6 @@ When a section is given to one and is waiting to start
 |kill|-|-|-|-|
 |killall|-|-|-|-|
 |pkill|-|-|-|-|
+|supervisor|Alireza|-|-|Reserved|
+|reboot|Amir|-|-|Reserved|
+|shutdown|Amir|-|-|Reserved|
