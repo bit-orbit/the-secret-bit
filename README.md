@@ -1,13 +1,6 @@
-## The Secret Bit
+# The Secret Bit
 
-## Table of tools
-
-|Name|In Charge|Started|Ended|Status|
-|:-:|:-:|:-:|:-:|:-:|
-|git|shahriar|Sep 17 2021|-|In Progress|
-|wget|arya|September 18, 2021|-|In Progress|
-
-### Status
+## Table of tools & Status
 
 **Published**
 
@@ -24,3 +17,8 @@ When a section is being written and has not reached the editing stage
 **Reserved**
 
 When a section is given to one and is waiting to start
+
+|Name|In Charge|Started|Ended|Status|
+|:-:|:-:|:-:|:-:|:-:|
+|git|shahriar|Sep 17 2021|-|In Progress|
+|wget|arya|September 18, 2021|-|In Progress|
