@@ -7,18 +7,18 @@
 
 ### Status
 
-- Published
+**Published**
 
 When a section is complete
 
-- Editing
+**Editing**
 
 When a section is written and being edited
 
-- In progress
+**In progress**
 
 When a section is being written and has not reached the editing stage
 
-- Reserved
+**Reserved**
 
 When a section is given to one and is waiting to start
