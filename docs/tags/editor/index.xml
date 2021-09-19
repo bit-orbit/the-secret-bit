@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>editor on TheSecretBit</title>
+    <link>https://bit-orbit.github.io/TheSecretBit/tags/editor/</link>
+    <description>Recent content in editor on TheSecretBit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Tue, 14 Sep 2021 15:13:24 +0430</lastBuildDate><atom:link href="https://bit-orbit.github.io/TheSecretBit/tags/editor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nano</title>
+      <link>https://bit-orbit.github.io/TheSecretBit/posts/nano/nano/</link>
+      <pubDate>Tue, 14 Sep 2021 15:13:24 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/TheSecretBit/posts/nano/nano/</guid>
+      <description>Nano A Simple OpenSource Editor.
+Menu
+ Installation Usage  Part 1 Install It by using
+hugo server --gcPart 2 Its so simple
+print(&#39;Nano is great!&#39;) to test
+Created in: 2020-14-9,3:20Pm Last edit in: 2020-14-9,3:20Pm
+Author or Authors:
+ Alirezadigi  </description>
+    </item>
+    
+  </channel>
+</rss>

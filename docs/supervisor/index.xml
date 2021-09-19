@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supervisors on TheSecretBit</title>
+    <link>https://bit-orbit.github.io/TheSecretBit/supervisor/</link>
+    <description>Recent content in Supervisors on TheSecretBit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Tue, 26 Mar 2019 08:47:11 +0100</lastBuildDate><atom:link href="https://bit-orbit.github.io/TheSecretBit/supervisor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Document</title>
+      <link>https://bit-orbit.github.io/TheSecretBit/supervisor/supervisor/</link>
+      <pubDate>Tue, 26 Mar 2019 08:47:11 +0100</pubDate>
+      
+      <guid>https://bit-orbit.github.io/TheSecretBit/supervisor/supervisor/</guid>
+      <description>Your markdown here.</description>
+    </item>
+    
+  </channel>
+</rss>
