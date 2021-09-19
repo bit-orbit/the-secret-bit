@@ -1,1 +1,0 @@
-navigator.serviceWorker&&navigator.serviceWorker.register("/TheSecretBit/sw.js",{scope:"/TheSecretBit/"})
