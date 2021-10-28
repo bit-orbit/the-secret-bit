@@ -12,8 +12,8 @@
 
 |Name|In Charge|Started|Ended|Status|
 |:-:|:-:|:-:|:-:|:-:|
-|git|shahriar|Sep 17 2021|-|In Progress|
-|wget|arya|September 18, 2021|-|In Progress|
+|git|-|-|-|-|
+|wget|@shabane|September 18, 2021|-|Published|
 |grep|-|-|-|-|
 |netcat|-|-|-|-|
 |tree|-|-|-|-|
@@ -23,11 +23,11 @@
 |nmap|-|-|-|-|
 |fuser|-|-|-|-|
 |neofetch|-|-|-|-|
-|history|Amir|-|-|Reserved|
+|history|-|-|-|-|
 |cat|-|-|-|-|
 |rm|-|-|-|-|
-|mv|Amir|-|-|Reserved|
-|cd|Amir|-|-|Reserved|
+|mv|-|-|-|-|
+|cd|-|-|-|-|
 |cron|-|-|-|-|
 |tar|-|-|-|-|
 |7z|-|-|-|-|
@@ -78,7 +78,7 @@
 |pip|-|-|-|-|
 |pv|-|-|-|-|
 |pwd|-|-|-|-|
-|scp|Amir|-|-|Reserved|
+|scp|-|-|-|-|
 |split|-|-|-|-|
 |stat|-|-|-|-|
 |strace|-|-|-|-|
@@ -99,6 +99,6 @@
 |kill|-|-|-|-|
 |killall|-|-|-|-|
 |pkill|-|-|-|-|
-|supervisor|Alireza|-|-|Reserved|
-|reboot|Amir|-|-|Reserved|
-|shutdown|Amir|-|-|Reserved|
+|supervisor|-|-|-|-|
+|reboot|-|-|-|-|
+|shutdown|-|-|-|-|
