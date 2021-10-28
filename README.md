@@ -13,7 +13,7 @@
 |Name|In Charge|Started|Ended|Status|
 |:-:|:-:|:-:|:-:|:-:|
 |git|-|-|-|-|
-| wget | [arya](https://github.com/shabane) | شنبه، 27 شهریور، سال 1400 | پنجشنبه، 6 آبان، سال 1400 | Published |
+|wget|[arya](https://github.com/shabane)|شنبه، 27 شهریور، سال 1400|پنجشنبه، 6 آبان، سال 1400|Published|
 |grep|-|-|-|-|
 |netcat|-|-|-|-|
 |tree|-|-|-|-|
@@ -28,7 +28,7 @@
 |rm|-|-|-|-|
 |mv|-|-|-|-|
 |cd|-|-|-|-|
-|cron|-|-|-|-|
+|cron|[arya](https://github.com/shabane)|پنجشنبه، 6 آبان، سال 1400|-|In Progress|
 |tar|-|-|-|-|
 |7z|-|-|-|-|
 |crunch|-|-|-|-|
