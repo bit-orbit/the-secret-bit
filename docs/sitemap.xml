@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/comm/comm/</loc>
+    <lastmod>2021-10-06T15:57:30+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/comm/</loc>
+    <lastmod>2021-10-06T15:57:30+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/compare-two-file/</loc>
+    <lastmod>2021-10-06T15:57:30+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/</loc>
+    <lastmod>2021-10-06T15:57:30+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/</loc>
+    <lastmod>2021-10-06T15:57:30+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/%D9%85%D9%82%D8%A7%DB%8C%D8%B3%D9%87-%D9%81%D8%A7%DB%8C%D9%84/</loc>
+    <lastmod>2021-10-06T15:57:30+03:30</lastmod>
+  </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/git/git/</loc>
     <lastmod>2021-09-17T14:20:01+04:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tags/git/</loc>
-    <lastmod>2021-09-17T14:20:01+04:30</lastmod>
-  </url><url>
-    <loc>https://bit-orbit.github.io/the-secret-bit/posts/</loc>
-    <lastmod>2021-09-17T14:20:01+04:30</lastmod>
-  </url><url>
-    <loc>https://bit-orbit.github.io/the-secret-bit/tags/</loc>
     <lastmod>2021-09-17T14:20:01+04:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tags/vcs/</loc>
