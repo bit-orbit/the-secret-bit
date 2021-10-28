@@ -1,7 +1,7 @@
 ---
 title: "Comm"
 date: 2021-10-06T15:57:30+03:30
-draft: true
+draft: True
 tags: ['comm', 'compare two file', 'مقایسه فایل']
 ---
 
