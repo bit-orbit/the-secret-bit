@@ -13,7 +13,7 @@
 |Name|In Charge|Started|Ended|Status|
 |:-:|:-:|:-:|:-:|:-:|
 |git|-|-|-|-|
-|wget|@shabane|September 18, 2021|-|Published|
+| wget | [arya](https://github.com/shabane) | شنبه، 27 شهریور، سال 1400 | پنجشنبه، 6 آبان، سال 1400 | Published |
 |grep|-|-|-|-|
 |netcat|-|-|-|-|
 |tree|-|-|-|-|
