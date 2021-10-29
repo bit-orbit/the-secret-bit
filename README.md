@@ -1,4 +1,4 @@
-# The Secret Bit
+# [The Secret Bit](https://bit-orbit.github.io/the-secret-bit/posts/)
 
 ## Table of tools & Status
 
