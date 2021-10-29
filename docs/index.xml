@@ -17,30 +17,6 @@
     </item>
     
     <item>
-      <title>Comm</title>
-      <link>https://bit-orbit.github.io/the-secret-bit/posts/comm/comm/</link>
-      <pubDate>Wed, 06 Oct 2021 15:57:30 +0330</pubDate>
-      
-      <guid>https://bit-orbit.github.io/the-secret-bit/posts/comm/comm/</guid>
-      <description>مقایسه دو فایل خط به خط comm file1 file2  </description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://bit-orbit.github.io/the-secret-bit/posts/git/git/</link>
-      <pubDate>Fri, 17 Sep 2021 14:20:01 +0430</pubDate>
-      
-      <guid>https://bit-orbit.github.io/the-secret-bit/posts/git/git/</guid>
-      <description>دستورات گیت 1-وارد کردن گیت در پروژه
-$ git init  2- اضافه کردن تغییرات یک فایل و بردن به استیج
-$ git add {اسم فایل}  2.1- اضافه کردن تغییرات تمامی فایل های پروژه
-$ git add -A  3- کامیت کردن تغییرات:
-$ git commit  3.1-کامیت کردن تغییرات به همراه کامیت مسیج
-$ git commit -m {متن پیام}  4- مشاهده برنچ های موجود در پروژه:
-$ git branch  5-ساخت برنچ جدید در پروژه یا رفتن به یکی از یرنچ های پروژه</description>
-    </item>
-    
-    <item>
       <title>Wget</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/wget/wget/</link>
       <pubDate>Fri, 17 Sep 2021 12:27:38 +0430</pubDate>
