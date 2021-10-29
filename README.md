@@ -28,7 +28,7 @@
 |rm|-|-|-|-|
 |mv|-|-|-|-|
 |cd|-|-|-|-|
-|cron|[arya](https://github.com/shabane)|پنجشنبه، 6 آبان، سال 1400|-|In Progress|
+|cron|[arya](https://github.com/shabane)|پنجشنبه، 6 آبان، سال 1400|جمعه، 7 آبان، سال 1400|Published|
 |tar|-|-|-|-|
 |7z|-|-|-|-|
 |crunch|-|-|-|-|
