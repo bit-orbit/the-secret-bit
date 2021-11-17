@@ -34,10 +34,12 @@ Menu
 ### Part 1
 Description
 
+---
 
 ### Part 2
 Description
 
+---
 
 Author or Authors:
 
