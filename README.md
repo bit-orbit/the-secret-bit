@@ -24,11 +24,11 @@ man page
 ان ابزار سر بزنید تا هر آپشن دیگری که نیاز دارید را یاد بگیرید و استفاده کنید.
 امیدوارم در اتمام کتاب در کنار ما باشید. گرچه ابزار ها تمامی ندارند :)
 
-برای مطالعه فصل های تکمیل شده کتاب از این
+برای *مطالعه* فصل های تکمیل شده کتاب از این
 [لینک](https://bit-orbit.github.io/the-secret-bit/posts/)
 استفاده کنید.
 
-و برای مشارکت این
+و برای *مشارکت* این
 [لینک](https://bit-orbit.github.io/the-secret-bit/posts/contribute/how-to-contribute/)
 را مشاهده کنید.
 
@@ -44,8 +44,8 @@ man page
 ### فهرست فصل ها
 |Chapter 📖|Author 👽|Status 🗽|
 |:-:|:-:|:-:|
-| cron | [Arya](https://github.com/shabane) | ✔️ |
-| wget | [Arya](https://github.com/shabane) | ✔️ |
+| [cron](https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/) | [Arya](https://github.com/shabane) | ✔️ |
+| [wget](https://bit-orbit.github.io/the-secret-bit/posts/wget/wget/) | [Arya](https://github.com/shabane) | ✔️ |
 | netcat | [Arya](https://github.com/shabane) | ✏️ |
 |git|⁉️|⁉️|
 |grep|⁉️|⁉️|
