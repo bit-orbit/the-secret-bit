@@ -26,10 +26,14 @@ md
 # Tool name
 Description
 
+---
+
 Menu
 
 - [Part 1](id)
 - [Part 2](id)
+
+---
 
 ### Part 1
 Description
