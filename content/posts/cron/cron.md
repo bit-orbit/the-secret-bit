@@ -75,7 +75,7 @@ yes
 
 ```bash
 #m  h   dom   mon   dow    command
-*   *    *     *     1     /usr/bin/cmd
+0   0    *     *     1     /usr/bin/cmd
 ```
 </div>
 
@@ -85,7 +85,7 @@ yes
 
 ```bash
 #m  h   dom   mon   dow    command
-*   *    *     1     *     /usr/bin/tar -cf /media/bkp/archive-02.tar /home/
+0   0    *     1     *     /usr/bin/tar -cf /media/bkp/archive-02.tar /home/
 ```
 </div>
 
@@ -97,7 +97,7 @@ home
 
 ```bash
 #m  h   dom   mon   dow    command
-*   *    6     *     *     /usr/bin/tar -cf /media/bkp/archive-02.tar /home/
+0   0    6     *     *     /usr/bin/tar -cf /media/bkp/archive-02.tar /home/
 ```
 </div>
 
@@ -108,7 +108,7 @@ home
 
 ```bash
 #m  h   dom   mon   dow    command
-*   23   *     *     6     /usr/bin/ls > /var/log/list-of-file.log
+0   23   *     *     6     /usr/bin/ls > /var/log/list-of-file.log
 ```
 </div>
 
