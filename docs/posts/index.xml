@@ -6,16 +6,7 @@
     <description>Recent content in Posts on the-secret-bit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-IR</language>
-    <lastBuildDate>Thu, 02 Dec 2021 00:06:44 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>netcat</title>
-      <link>https://bit-orbit.github.io/the-secret-bit/posts/nc/nc/</link>
-      <pubDate>Thu, 02 Dec 2021 00:06:44 +0330</pubDate>
-      
-      <guid>https://bit-orbit.github.io/the-secret-bit/posts/nc/nc/</guid>
-      <description>فهرست  مرور مفاهیم پیشنیاز درست کردن چت سرور اتصال به یک پورت خاص اسکن کردن پورت banner grabing درست کردن درب پشتی رمزنگاری ارتباط سوییچ های پر استفاده Author or Authors:   مرور ابزار netcat ابزار ساده‌ای است که می‌تواند داده ها را تحت شبکه بنویسد و با بخواند. netcat یک ابزار شبکه است که هکر ها بسیار طرفدار آن‌اند و البته این ابزار با تمامی قابلیت هایش بسیار سبک است.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 28 Oct 2021 17:04:54 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cron</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/</link>
@@ -41,8 +32,8 @@
       
       <guid>https://bit-orbit.github.io/the-secret-bit/posts/contribute/how-to-contribute/</guid>
       <description>اگر اینجا هستید یعنی شما هم حرفی برای گفتن دارید.
-برای مشارکت ما چند اصول و مفهموم داریم که رعایت آنها باعث می‌شود کتاب یک شکل ادامه پیدا کند.
-نکته اول اینه که همه ابزار ها یک تمپلیت دارند. درواقع باید با توجه به یک مدل خاصی از md نوشته بشن. با همکاری شما یک تمپلیت رو تدارک دیدیم. عالی میشه که بر اساس این بنویسید. ممکنه ابزار ها نیازی به عکس نداشته باشند، ولی اگه نیاز بود دقیقا مثل تمپلیت عکس رو لینک کنید.</description>
+برای مشارکت ما چند اصول و مفهموم داریم که رعایت آنها باعث می‌شود کتاب با یک ساختار منظم ادامه پیدا کند.
+نکته اول اینه که همه ابزار ها یک تمپلیت دارند. درواقع باید با توجه به یک مدل خاصی از md نوشته بشن. با همکاری شما یک تمپلیت مشخص کردیم. عالی میشه که بر اساس این بنویسید. ممکنه ابزار ها نیازی به عکس نداشته باشند، ولی اگه نیاز بود دقیقا مثل تمپلیت عکس رو لینک کنید.</description>
     </item>
     
   </channel>

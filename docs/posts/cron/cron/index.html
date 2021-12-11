@@ -298,13 +298,13 @@ yes
 <p>برای مثال اگر بخواهید کامندی را هر دوشنبه یک بار اجرا کنید،</p>
 <div dir='ltr'>
 <pre><code class="language-bash">#m  h   dom   mon   dow    command
-*   *    *     *     1     /usr/bin/cmd
+0   0    *     *     1     /usr/bin/cmd
 </code></pre>
 </div>
 <p>ستون سوم از سمت راست نشان دهنده ماه است، این ستون عددی بین 1 تا 12 می‌گیرد که این عدد ماه خاصی را مشخص می‌کند. برای اجرای یک کامند در ماه اول سال به اینشکل عمل می‌کنیم</p>
 <div dir='ltr'>
 <pre><code class="language-bash">#m  h   dom   mon   dow    command
-*   *    *     1     *     /usr/bin/tar -cf /media/bkp/archive-02.tar /home/
+0   0    *     1     *     /usr/bin/tar -cf /media/bkp/archive-02.tar /home/
 </code></pre>
 </div>
 <ul>
@@ -315,7 +315,7 @@ home
 </ul>
 <div dir='ltr'>
 <pre><code class="language-bash">#m  h   dom   mon   dow    command
-*   *    6     *     *     /usr/bin/tar -cf /media/bkp/archive-02.tar /home/
+0   0    6     *     *     /usr/bin/tar -cf /media/bkp/archive-02.tar /home/
 </code></pre>
 </div>
 <ul>
@@ -324,7 +324,7 @@ home
 </ul>
 <div dir='ltr'>
 <pre><code class="language-bash">#m  h   dom   mon   dow    command
-*   23   *     *     6     /usr/bin/ls &gt; /var/log/list-of-file.log
+0   23   *     *     6     /usr/bin/ls &gt; /var/log/list-of-file.log
 </code></pre>
 </div>
 <p>و آخرین ستون از سمت راست نشانه دقیقه است، اجرای یک کامند در دقیقه 10 در ساعت 10 در روز دهم هر ماه</p>
