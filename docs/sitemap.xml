@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/nc/nc/</loc>
+    <lastmod>2021-12-02T00:06:44+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/</loc>
+    <lastmod>2021-12-02T00:06:44+03:30</lastmod>
+  </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/</loc>
     <lastmod>2021-10-28T17:04:54+03:30</lastmod>
   </url><url>
@@ -9,9 +15,6 @@
     <lastmod>2021-10-28T17:04:54+03:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tags/cron-tab/</loc>
-    <lastmod>2021-10-28T17:04:54+03:30</lastmod>
-  </url><url>
-    <loc>https://bit-orbit.github.io/the-secret-bit/posts/</loc>
     <lastmod>2021-10-28T17:04:54+03:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tags/schedule/</loc>
