@@ -1,7 +1,7 @@
 ---
 title: "netcat"
 date: 2021-12-02T00:06:44+03:30
-draft: true
+draft: false
 ---
 
 [![netcat](nc.png)](nc.png)
