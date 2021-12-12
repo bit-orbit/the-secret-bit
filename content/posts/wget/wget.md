@@ -7,6 +7,8 @@ tags: ["wget", "download", "internet", "download-manager", "دانلود", "ای
 
 <div dir='rtl'>
 
+[![wget](cover.png)](cover.png)
+
 ### فهرست
 > - [مقدمه](#مقدمه)
 > - [دانلود فایل](#دانلود-فایل)
