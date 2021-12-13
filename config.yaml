@@ -17,7 +17,7 @@ imaging:
   quality: 99
 
 params:
-  description: a linux command hand-book for geek's
+  description: linux command's hand-book
   homeMetaContent: the-secret-bit
   footer: Made with Love with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
   # For more date formats see https://gohugo.io/functions/format/
@@ -41,12 +41,15 @@ menu:
     - name: روی جلد
       url: /
       weight: 1
+    - name: مشارکت در کتاب
+      url: /nav/contribute/how-to-contribute/
+      weight: 2
     - name: فصل ها
       url: /posts/
-      weight: 1
+      weight: 3
     - name: تگ ها
       url: /tags/
-      weight: 1
+      weight: 4
 
 markup:
   defaultMarkdownHandler: goldmark
