@@ -1,7 +1,7 @@
 ---
 title: "wc"
 date: 2021-12-13T14:57:49+03:30
-draft: true
+draft: false
 tags: [
     "tools",
     "text-processing",
