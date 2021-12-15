@@ -47,6 +47,7 @@ man page
 | [cron](https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/) | [Arya](https://github.com/shabane) | ✔️ |
 | [wget](https://bit-orbit.github.io/the-secret-bit/posts/wget/wget/) | [Arya](https://github.com/shabane) | ✔️ |
 | [netcat](https://bit-orbit.github.io/the-secret-bit/posts/nc/nc/) | [Arya](https://github.com/shabane) | ✔️ |
+| [wc](https://bit-orbit.github.io/the-secret-bit/posts/wc/wc/) | [Arya](https://github.com/shabane) | ✔️ |
 |git|⁉️|⁉️|
 |grep|⁉️|⁉️|
 |tree|⁉️|⁉️|
@@ -123,7 +124,6 @@ man page
 |w|⁉️|⁉️|
 |less|⁉️|⁉️|
 |match|⁉️|⁉️|
-|wc|⁉️|⁉️|
 |watch|⁉️|⁉️|
 |youtube⁉️dl|⁉️|⁉️|
 |sed|⁉️|⁉️|
