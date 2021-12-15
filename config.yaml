@@ -50,6 +50,9 @@ menu:
     - name: تگ ها
       url: /tags/
       weight: 4
+    - name: انجمن
+      url: https://github.com/bit-orbit/the-secret-bit/issue
+      weight: 5
 
 markup:
   defaultMarkdownHandler: goldmark
