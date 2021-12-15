@@ -7,6 +7,7 @@ tags: ['cron', 'cron-tab', 'schedule']
 
 <div dir='rtl'>
 
+![cron](cover.jpg)
 
 ### فهرست
 > - [مقدمه](#مقدمه)
