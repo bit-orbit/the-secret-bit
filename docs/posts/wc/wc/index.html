@@ -13,9 +13,9 @@
     <meta name="description" content="فهرست  نمایش تعداد خط
 نمایش تعداد کلمات
 نمایش تعداد کاراکتر
+پایپ | pipe 
 نویسنده | نویسندگان
-  مرور نام برنامه wc مختصر word count به معنی شمارش کلمات است، این برنامه متنی را از ورودی استاندار می‌خواند و یا لیستی از فایل ها را می‌گیرد و در خروجی با توجه به سوییچ های انتخاب شده تعداد خط های جدید، تعداد کلمات و یا تعداد کاراکتر ها را نمایش می‌دهد.
- نمایش تعداد خط فرض کنید فایلی به اسم write.">
+  مرور نام برنامه wc مختصر word count به معنی شمارش کلمات است، این برنامه متنی را از ورودی استاندار می‌خواند و یا لیستی از فایل ها را می‌گیرد و در خروجی با توجه به سوییچ های انتخاب شده تعداد خط های جدید، تعداد کلمات و یا تعداد کاراکتر ها را نمایش می‌دهد.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -276,6 +276,7 @@
 <p><a href="#%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%AE%D8%B7">نمایش تعداد خط</a></p>
 <p><a href="#%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%DA%A9%D9%84%D9%85%D8%A7%D8%AA">نمایش تعداد کلمات</a></p>
 <p><a href="#%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%DA%A9%D8%A7%D8%B1%D8%A7%DA%A9%D8%AA%D8%B1">نمایش تعداد کاراکتر</a></p>
+<p><a href="#pipe">پایپ | pipe </a></p>
 <p><a href="#author-or-authors">نویسنده | نویسندگان</a></p>
 </blockquote>
 <hr>
@@ -327,6 +328,21 @@ wc
 </code></pre>
 <p>خروجی</p>
 <pre><code class="language-bash">43 write.txt
+</code></pre>
+<hr>
+<h3 id="pipe">pipe</h3>
+<p>برنامه
+wc
+یکی از برنامه هایی است که می‌تواند یک ورودی را از خروجی برنامه‌ای دیگر بوسیله عمگر
+pipe
+بگیرد. برای مثال فایل
+<code>write.txt</code>
+را با برنامه
+<a href="https://bit-orbit.github.io/the-secret-bit/posts/cat/cat">cat</a>
+می‌خوانیم و خروجی آن را به
+wc
+پایپ می‌کنیم تا تعداد خط های این فایل را بشمارد.</p>
+<pre><code class="language-bash">cat write.txt | wc -l
 </code></pre>
 <hr>
 <h3 id="author-or-authors">Author or Authors:</h3>
