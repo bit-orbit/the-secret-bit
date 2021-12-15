@@ -51,7 +51,7 @@ menu:
       url: /tags/
       weight: 4
     - name: انجمن
-      url: https://github.com/bit-orbit/the-secret-bit/issue
+      url: https://github.com/bit-orbit/the-secret-bit/issues
       weight: 5
 
 markup:
