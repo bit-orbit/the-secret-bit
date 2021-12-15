@@ -55,7 +55,7 @@ wc
 را بنویسیم
 
 ```bash
-$ wc write.txt -l
+ wc write.txt -l
 ```
 خروجی
 ```bash
@@ -71,7 +71,7 @@ $ wc write.txt -l
 برای شمارش تعداد کلمات استفاده می‌شود
 
 ```bash
-$ wc -w write.txt
+ wc -w write.txt
 ```
 خروجی
 ```bash
@@ -87,7 +87,7 @@ $ wc -w write.txt
 استفاده می‌شود
 
 ```bash
-$ wc -m write.txt
+ wc -m write.txt
 ```
 خروجی
 ```bash
