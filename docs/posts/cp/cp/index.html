@@ -6,11 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.93.1" />
-  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/posts/">
+  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/posts/cp/cp/">
 
   
     
-    <meta name="description" content="Posts">
+    <meta name="description" content="فهرست  مقدمه کپی کردن فایل کپی کردن چندین فایل به یک دایرکتوری کپی کردن یک پوشه دیدن تغییرات   مقدمه ابزار cp یکی پر استفاده ترین ابزار های کامندلاین است. cp برای کپی کردن فایل ها و دایرکتوری ها استفاده می‌شود.
+ کپی کردن فایل برای کپی کردن یک فایل به یک دایرکتوری دیگر، دو آرگومان نیاز است. ارگومان اول منبع و دومین آرگومان مقصد.
+# source dest $ cp /var/log/syslog ~/Desktop/system_logs.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -58,7 +60,7 @@
 
   
   
-  <title>Posts | the-secret-bit</title>
+  <title>cp | the-secret-bit</title>
 </head>
 
   <body>
@@ -263,100 +265,81 @@
       <div class="main-and-footer">
         <div>
           
-<main id="main">
-  <h1>Posts</h1>
-  
-  <input
-    id="search"
-    type="text"
-    placeholder="Search by title..."
-    aria-label="Search by title"
-  />
-  
-  <ul class="patterns-list" id="list">
-    
-    <li>
-      <h2>
-        <a href="https://bit-orbit.github.io/the-secret-bit/posts/cp/cp/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use xlink:href="#bookmark"></use>
-          </svg>
-          cp
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="https://bit-orbit.github.io/the-secret-bit/posts/wc/wc/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use xlink:href="#bookmark"></use>
-          </svg>
-          wc
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="https://bit-orbit.github.io/the-secret-bit/posts/nc/nc/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use xlink:href="#bookmark"></use>
-          </svg>
-          netcat
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use xlink:href="#bookmark"></use>
-          </svg>
-          Cron
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="https://bit-orbit.github.io/the-secret-bit/posts/wget/wget/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use xlink:href="#bookmark"></use>
-          </svg>
-          Wget
-        </a>
-      </h2>
-    </li>
-    
-  </ul>
-</main>
+  <main id="main">
+    <h1>cp</h1>
+    <div dir='rtl'>
+<p><a href="cp.jpg"><img src="cp.jpg" alt="&ldquo;cp command in linux&rdquo;"></a></p>
+<h3 id="فهرست">فهرست</h3>
+<ul>
+<li><a href="#%D9%85%D9%82%D8%AF%D9%85%D9%87">مقدمه</a></li>
+<li><a href="#%DA%A9%D9%BE%DB%8C-%DA%A9%D8%B1%D8%AF%D9%86-%D9%81%D8%A7%DB%8C%D9%84">کپی کردن فایل</a></li>
+<li><a href="#%DA%A9%D9%BE%DB%8C-%DA%A9%D8%B1%D8%AF%D9%86-%DA%86%D9%86%D8%AF%DB%8C%D9%86-%D9%81%D8%A7%DB%8C%D9%84-%D8%A8%D9%87-%DB%8C%DA%A9-%D8%AF%D8%A7%DB%8C%D8%B1%DA%A9%D8%AA%D9%88%D8%B1%DB%8C">کپی کردن چندین فایل به یک دایرکتوری</a></li>
+<li><a href="#%DA%A9%D9%BE%DB%8C-%DA%A9%D8%B1%D8%AF%D9%86-%DB%8C%DA%A9-%D9%BE%D9%88%D8%B4%D9%87">کپی کردن یک پوشه</a></li>
+<li><a href="#%D8%AF%DB%8C%D8%AF%D9%86-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA">دیدن تغییرات</a></li>
+</ul>
+<hr>
+<h3 id="مقدمه">مقدمه</h3>
+<p>ابزار
+cp
+یکی پر استفاده ترین ابزار های کامندلاین است.
+cp
+برای کپی کردن فایل ها و دایرکتوری ها استفاده می‌شود.</p>
+<hr>
+<h3 id="کپی-کردن-فایل">کپی کردن فایل</h3>
+<p>برای کپی کردن یک فایل به یک دایرکتوری دیگر، دو آرگومان نیاز است.
+ارگومان اول منبع و دومین آرگومان مقصد.</p>
+<div dir='ltr'>
+<pre><code># source dest
+$ cp /var/log/syslog ~/Desktop/system_logs.log
+</code></pre>
+</div>
+<hr>
+<h3 id="کپی-کردن-چندین-فایل-به-یک-دایرکتوری">کپی کردن چندین فایل به یک دایرکتوری</h3>
+<p>زمانی که نیاز شد چندین فایل را به یک دایرکتوری منتقل کنید، تمام ارگومان های
+اولی را به عنوان فایل منبع و آخرین آرگومان را به عنوان دایرکتوری مقصد وارد مشخص می‌کنید.</p>
+<div dir='ltr'>
+<pre><code>$ cp /var/log/syslog /var/log/boot.log /var/log/apt/history.log ~/Destop/logs
+</code></pre>
+</div>
+<hr>
+<h3 id="کپی-کردن-یک-پوشه">کپی کردن یک پوشه</h3>
+<p>برای کپی کردن یک پوشه از سوییچ
+<code>-r</code>
+استفاده می‌کنیم، این سوییچ تمامی فایل ها و دایرکتوری های داخل پوشه منبع را
+به مقصد منتقل می‌کند</p>
+<div dir='ltr'>
+<pre><code>$ cp -r /var/log ~/Desktop/backups
+</code></pre>
+</div>
+<hr>
+<h3 id="دیدن-تغییرات">دیدن تغییرات</h3>
+<p>به صورت پیشفرض زمانی که شما فایلی را کپی می‌کنید
+cp
+هیچ یک از کپی ها را به شما گزارش نخواهد داد، پس برای اینکه پیشرفت
+کپی را ببینید کافی است از سوییچ
+<code>v-</code>
+استفاده کنید.</p>
+<div dir='ltr'>
+<pre><code>$ cp -v -r /var/log/apt /tmp
+
+# '/var/log/apt' -&gt; '/tmp/apt'
+# '/var/log/apt/eipp.log.xz' -&gt; '/tmp/apt/eipp.log.xz'
+# '/var/log/apt/term.log' -&gt; '/tmp/apt/term.log'
+# '/var/log/apt/term.log.1.gz' -&gt; '/tmp/apt/term.log.1.gz'
+# '/var/log/apt/history.log' -&gt; '/tmp/apt/history.log'
+# '/var/log/apt/history.log.1.gz' -&gt; '/tmp/apt/history.log.1.gz'
+# '/var/log/apt/term.log.2.gz' -&gt; '/tmp/apt/term.log.2.gz'
+# '/var/log/apt/history.log.2.gz' -&gt; '/tmp/apt/history.log.2.gz'
+</code></pre>
+</div>
+</div>
+<hr>
+<h3 id="author-or-authors">Author or Authors:</h3>
+<ul>
+<li><em><a href="https://github.com/shabane">Arya</a></em> | <strong><a href="mailto:m.mohamadshabane@gmail.com">m.mohamadshabane@gmail.com</a></strong></li>
+</ul>
+
+  </main>
 
           
             <footer role="contentinfo">
