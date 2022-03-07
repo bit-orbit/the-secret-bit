@@ -37,17 +37,17 @@ draft: true
 
     $ cat test.txt
     # Hi,
-    this
-    is
-    a
-    test
-    file
-    written by AmirHosein Sohrabi.
-    Always strive to achieve the goal. life is Beautiful.
+      this
+      is
+      a
+      test
+      file
+      written by AmirHosein Sohrabi.
+      Always strive to achieve the goal. life is Beautiful.
 
     $ fmt test.txt
     # Hi,this is a test file
-    written by AmirHosein Sohrabi.Always strive to achieve the goal. life is Beautiful.
+      written by AmirHosein Sohrabi.Always strive to achieve the goal. life is Beautiful.
 
 
 ---
@@ -60,16 +60,16 @@ draft: true
     
     $ cat test.txt
     # Hi, this is a test file written by AmirHosein Sohrabi.
-    Always strive to achieve the goal. life is Beautiful.
+      Always strive to achieve the goal. life is Beautiful.
     
     $ fmt -w 20 test.txt
     # Hi, this is a test
-    file written by
-    AmirHosein Sohrabi.
-    Always strive
-    to achieve the
-    goal. life is
-    Beautiful.
+      file written by
+      AmirHosein Sohrabi.
+      Always strive
+      to achieve the
+      goal. life is
+      Beautiful.
 
             
 
@@ -82,29 +82,29 @@ draft: true
 
 
     $ cat test.txt
-    # Hi, this is a test file written by AmirHosein Sohrabi.  Always strive to
-    achieve the goal. life is Beautiful.  Hi, this is a test file written by
-    AmirHosein Sohrabi.  Always strive to achieve the goal. life is Beautiful.
-    Hi, this is a test file written by AmirHosein Sohrabi.  Always strive
-    to achieve the goal. life is Beautiful.
+    # Hi, this is a test file written by AmirHosein Sohrabi.  Always   strive to
+      achieve the goal. life is Beautiful.  Hi, this is a test file written   by
+      AmirHosein Sohrabi.  Always strive to achieve the goal. life is   Beautiful.
+      Hi, this is a test file written by AmirHosein Sohrabi.  Always strive
+      to achieve the goal. life is Beautiful.
 
     $ fmt -t test.txt
     # Hi, this is a test file written by AmirHosein Sohrabi.
-    Always strive to achieve the goal. life is Beautiful.
-    Hi, this is a test
-    file written by
-    AmirHosein Sohrabi.
-    Always strive
-    to achieve the
-    goal. life is
-    Beautiful.
-    Hi, this is a test
-    file written by
-    AmirHosein Sohrabi.
-    Always strive
-    to achieve the
-    goal. life is
-    Beautiful.
+      Always strive to achieve the goal. life is Beautiful.
+      Hi, this is a test
+      file written by
+      AmirHosein Sohrabi.
+      Always strive
+      to achieve the
+      goal. life is
+      Beautiful.
+      Hi, this is a test
+      file written by
+      AmirHosein Sohrabi.
+      Always strive
+      to achieve the
+      goal. life is
+      Beautiful.
                   
 ---
 
@@ -116,12 +116,12 @@ draft: true
 </div>
 
     $ cat test.txt   
-    # Hi   ,  this  is   a      test    file     written by AmirHosein Sohrabi.
-    Always strive to   achieve    the  goal.     life is Beautiful. 
+    # Hi   ,  this  is   a      test    file     written by AmirHosein   Sohrabi.
+      Always strive to   achieve    the  goal.     life is Beautiful. 
                     
     $ fmt -u test.txt
     # Hi , this is a test file written by AmirHosein Sohrabi.  Always strive
-    to achieve the goal.  life is Beautiful.
+      to achieve the goal.  life is Beautiful.
                                     
 
 ---

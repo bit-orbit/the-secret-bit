@@ -39,59 +39,59 @@ draft: false
 </div>
 $ nl /proc/cpuinfo
 
-     1  processor       : 0
-     2  vendor_id       : GenuineIntel
-     3  cpu family      : 15
-     4  model           : 6
-     5  model name      : Intel(R) Pentium(R) 4 CPU 3.40GHz
-     6  stepping        : 5
-     7  microcode       : 0xb
-     8  cpu MHz         : 2400.000
-     9  cache size      : 2048 KB
-    10  physical id     : 0
-    11  siblings        : 2
-    12  core id         : 0
-    13  cpu cores       : 1
-    14  apicid          : 0
-    15  initial apicid  : 0
-    16  fpu             : yes
-    17  fpu_exception   : yes
-    18  cpuid level     : 6
-    19  wp              : yes
-    20  flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl est tm2 cid cx16 xtpr pdcm lahf_lm pti
-    21  bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
-    22  bogomips        : 6824.12
-    23  clflush size    : 64
-    24  cache_alignment : 128
-    25  address sizes   : 36 bits physical, 48 bits virtual
-    26  power management:
+     # 1  processor       : 0
+       2  vendor_id       : GenuineIntel
+       3  cpu family      : 15
+       4  model           : 6
+       5  model name      : Intel(R) Pentium(R) 4 CPU 3.40GHz
+       6  stepping        : 5
+       7  microcode       : 0xb
+       8  cpu MHz         : 2400.000
+       9  cache size      : 2048 KB
+       10  physical id     : 0
+       11  siblings        : 2
+       12  core id         : 0
+       13  cpu cores       : 1
+       14  apicid          : 0
+       15  initial apicid  : 0
+       16  fpu             : yes
+       17  fpu_exception   : yes
+       18  cpuid level     : 6
+       19  wp              : yes
+       20  flags           : fpu vme de pse tsc msr pae mce cx8 apic sepmtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ssht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pnidtes64 monitor ds_cpl est tm2 cid cx16 xtpr pdcm lahf_lm pti
+       21  bugs            : cpu_meltdown spectre_v1 spectre_v2spec_store_bypass l1tf mds swapgs itlb_multihit
+       22  bogomips        : 6824.12
+       23  clflush size    : 64
+       24  cache_alignment : 128
+       25  address sizes   : 36 bits physical, 48 bits virtual
+       26  power management:
        
-    27  processor       : 1
-    28  vendor_id       : GenuineIntel
-    29  cpu family      : 15
-    30  model           : 6
-    31  model name      : Intel(R) Pentium(R) 4 CPU 3.40GHz
-    32  stepping        : 5
-    33  microcode       : 0xb
-    34  cpu MHz         : 3400.000
-    35  cache size      : 2048 KB
-    36  physical id     : 0
-    37  siblings        : 2
-    38  core id         : 0
-    39  cpu cores       : 1
-    40  apicid          : 1
-    41  initial apicid  : 1
-    42  fpu             : yes
-    43  fpu_exception   : yes
-    44  cpuid level     : 6
-    45  wp              : yes
-    46  flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl est tm2 cid cx16 xtpr pdcm lahf_lm pti
-    47  bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
-    48  bogomips        : 6824.12
-    49  clflush size    : 64
-    50  cache_alignment : 128
-    51  address sizes   : 36 bits physical, 48 bits virtual
-    52  power management:
+       27  processor       : 1
+       28  vendor_id       : GenuineIntel
+       29  cpu family      : 15
+       30  model           : 6
+       31  model name      : Intel(R) Pentium(R) 4 CPU 3.40GHz
+       32  stepping        : 5
+       33  microcode       : 0xb
+       34  cpu MHz         : 3400.000
+       35  cache size      : 2048 KB
+       36  physical id     : 0
+       37  siblings        : 2
+       38  core id         : 0
+       39  cpu cores       : 1
+       40  apicid          : 1
+       41  initial apicid  : 1
+       42  fpu             : yes
+       43  fpu_exception   : yes
+       44  cpuid level     : 6
+       45  wp              : yes
+       46  flags           : fpu vme de pse tsc msr pae mce cx8 apic sepmtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ssht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pnidtes64 monitor ds_cpl est tm2 cid cx16 xtpr pdcm lahf_lm pti
+       47  bugs            : cpu_meltdown spectre_v1 spectre_v2spec_store_bypass l1tf mds swapgs itlb_multihit
+       48  bogomips        : 6824.12
+       49  clflush size    : 64
+       50  cache_alignment : 128
+       51  address sizes   : 36 bits physical, 48 bits virtual
+       52  power management:
        
 
 ---
