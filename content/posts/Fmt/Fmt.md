@@ -36,7 +36,7 @@ draft: true
 </div>
 
     $ cat test.txt
-    Hi,
+    # Hi,
     this
     is
     a
@@ -46,7 +46,7 @@ draft: true
     Always strive to achieve the goal. life is Beautiful.
 
     $ fmt test.txt
-    Hi,this is a test file
+    # Hi,this is a test file
     written by AmirHosein Sohrabi.Always strive to achieve the goal. life is Beautiful.
 
 
@@ -59,11 +59,11 @@ draft: true
 
     
     $ cat test.txt
-    Hi, this is a test file written by AmirHosein Sohrabi.
+    # Hi, this is a test file written by AmirHosein Sohrabi.
     Always strive to achieve the goal. life is Beautiful.
     
     $ fmt -w 20 test.txt
-    Hi, this is a test
+    # Hi, this is a test
     file written by
     AmirHosein Sohrabi.
     Always strive
@@ -82,14 +82,14 @@ draft: true
 
 
     $ cat test.txt
-    Hi, this is a test file written by AmirHosein Sohrabi.  Always strive to
+    # Hi, this is a test file written by AmirHosein Sohrabi.  Always strive to
     achieve the goal. life is Beautiful.  Hi, this is a test file written by
     AmirHosein Sohrabi.  Always strive to achieve the goal. life is Beautiful.
     Hi, this is a test file written by AmirHosein Sohrabi.  Always strive
     to achieve the goal. life is Beautiful.
 
     $ fmt -t test.txt
-    Hi, this is a test file written by AmirHosein Sohrabi.
+    # Hi, this is a test file written by AmirHosein Sohrabi.
     Always strive to achieve the goal. life is Beautiful.
     Hi, this is a test
     file written by
@@ -116,11 +116,11 @@ draft: true
 </div>
 
     $ cat test.txt   
-    Hi   ,  this  is   a      test    file     written by AmirHosein Sohrabi.
+    # Hi   ,  this  is   a      test    file     written by AmirHosein Sohrabi.
     Always strive to   achieve    the  goal.     life is Beautiful. 
                     
     $ fmt -u test.txt
-    Hi , this is a test file written by AmirHosein Sohrabi.  Always strive
+    # Hi , this is a test file written by AmirHosein Sohrabi.  Always strive
     to achieve the goal.  life is Beautiful.
                                     
 
