@@ -87,6 +87,8 @@ $ cat -E 'filename'
 </div>
 $ cat -T 'filename'
 
+---
+
 ### Author or Authors:
 
 - *[Amirhosein](https://github.com/amirhoseinsb)* | **<amirhoseinsohrabi.official@gmail.com>**
