@@ -143,6 +143,8 @@ cat /path/file1 /another/path/file2 /other/path/file3 > finall.txt
 
 ---
 
+---
+
 ### Author or Authors:
 
 - *[Amirhosein](https://github.com/amirhoseinsb)* | **<amirhoseinsohrabi.official@gmail.com>**
