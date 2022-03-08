@@ -50,7 +50,7 @@ static site generator
 
 فورک و کلون کردن ریپازیتوری.
 دومین قدم اینه که این سایت رو از
-[این ادرس](https://github.com/bit-orbit/bit-orbit.github.io)
+[این ادرس](https://github.com/bit-orbit/the-secret-bit)
 fork
 کنید و سپس روی سیستم لوکالتون
 clone
