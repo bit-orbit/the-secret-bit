@@ -1,5 +1,5 @@
 ---
-title: "Sort"
+title: "sort"
 date: 2022-03-07T20:59:03+03:30
 draft: false
 ---
