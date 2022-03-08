@@ -44,10 +44,15 @@ man page
 ### فهرست فصل ها
 |Chapter 📖|Author 👽|Status 🗽|
 |:-:|:-:|:-:|
-| [cron](https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/) | [Arya](https://github.com/shabane) | ✔️ |
-| [wget](https://bit-orbit.github.io/the-secret-bit/posts/wget/wget/) | [Arya](https://github.com/shabane) | ✔️ |
-| [netcat](https://bit-orbit.github.io/the-secret-bit/posts/nc/nc/) | [Arya](https://github.com/shabane) | ✔️ |
-| [wc](https://bit-orbit.github.io/the-secret-bit/posts/wc/wc/) | [Arya](https://github.com/shabane) | ✔️ |
+| [cron](https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/) | [Arya](https://github.com/shabane)                   | ✔️ |
+| [wget](https://bit-orbit.github.io/the-secret-bit/posts/wget/wget/) | [Arya](https://github.com/shabane)                   | ✔️ |
+| [netcat](https://bit-orbit.github.io/the-secret-bit/posts/nc/nc/)   | [Arya](https://github.com/shabane)                   | ✔️ |
+| [wc](https://bit-orbit.github.io/the-secret-bit/posts/wc/wc/)       | [Arya](https://github.com/shabane)                   | ✔️ |
+| [cat](https://bit-orbit.github.io/the-secret-bit/posts/cat/cat/)    | [Arya](https://github.com/shabane)                   | ✔️ |
+| [head](https://bit-orbit.github.io/the-secret-bit/posts/head/head/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [nl](https://bit-orbit.github.io/the-secret-bit/posts/head/head/)   | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [sort](https://bit-orbit.github.io/the-secret-bit/posts/sort/sort/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [fmt](https://bit-orbit.github.io/the-secret-bit/posts/fmt/fmt/)    | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 |git|⁉️|⁉️|
 |grep|⁉️|⁉️|
 |tree|⁉️|⁉️|
@@ -58,7 +63,6 @@ man page
 |fuser|⁉️|⁉️|
 |neofetch|⁉️|⁉️|
 |history|⁉️|⁉️|
-|cat|⁉️|⁉️|
 |rm|⁉️|⁉️|
 |mv|⁉️|⁉️|
 |cd|⁉️|⁉️|
@@ -97,11 +101,9 @@ man page
 |mount|⁉️|⁉️|
 |unmount|⁉️|⁉️|
 |gpg|⁉️|⁉️|
-|head|⁉️|⁉️|
 |tail|⁉️|⁉️|
 |htop|⁉️|⁉️|
 |ln|⁉️|⁉️|
-|nl|⁉️|⁉️|
 |lsattr|⁉️|⁉️|
 |mkinfo|⁉️|⁉️|
 |mtr|⁉️|⁉️|
