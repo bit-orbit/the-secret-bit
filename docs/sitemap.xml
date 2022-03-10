@@ -2,10 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bit-orbit.github.io/the-secret-bit/posts/cp/cp/</loc>
-    <lastmod>2022-03-04T16:28:45+03:30</lastmod>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/gzip/gzip/</loc>
+    <lastmod>2022-03-09T23:07:16+03:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/</loc>
+    <lastmod>2022-03-09T23:07:16+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/file/file/</loc>
+    <lastmod>2022-03-09T21:41:26+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/ls/ls/</loc>
+    <lastmod>2022-03-09T20:52:30+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/locate/locate/</loc>
+    <lastmod>2022-03-09T18:47:24+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/find/find/</loc>
+    <lastmod>2022-03-08T21:18:30+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/paste/paste/</loc>
+    <lastmod>2022-03-08T19:01:01+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/cut/cut/</loc>
+    <lastmod>2022-03-08T15:50:23+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/uniq/uniq/</loc>
+    <lastmod>2022-03-08T14:37:21+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/sort/sort/</loc>
+    <lastmod>2022-03-07T20:59:03+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/nl/nl/</loc>
+    <lastmod>2022-03-07T17:58:20+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/head/head/</loc>
+    <lastmod>2022-03-07T16:13:49+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/cat/cat/</loc>
+    <lastmod>2022-03-06T19:31:33+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/cp/cp/</loc>
     <lastmod>2022-03-04T16:28:45+03:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tags/program/</loc>
