@@ -17,7 +17,7 @@ draft: false
 - [محدود کردن نتایج خروجی](#محدود-کردن-نتایج-خروجی)
 - [جستجوی فایلها بدون حساسیت روی اسم](#جستجوی-فایلها-بدون-حساسیت-روی-اسم)
 - [دیدن تعداد فایل های موجود](#دیدن-تعداد-فایل-های-موجود)
-- [Author or Authors:](#author-or-authors)
+- [Author or Authors](#author-or-authors)
 </div>
 
 
@@ -40,7 +40,9 @@ draft: false
 <div dir='rtl'>
 
 ### جستجوی فایلها
-برای جستجوی فایل مورد نظر بعد از آپدیت دیتابیس از دستور locate استفاده کنید. به مثال زیر توجه کنید.
+برای جستجوی فایل مورد نظر بعد از آپدیت دیتابیس از دستور locate استفاده کنید.
+سینتکس ابزار به این شکل است که فایل یا مسیر فایل را از شما میگیرد و شروع به جستجو میکند. اگر هم میخواستید از سوییچ های ابزار استفاده کنید آن ها را در انتهای دستور اضافه میکنید.
+ به مثال زیر توجه کنید.
 </div>
 
     $ sudo updatedb
@@ -57,7 +59,6 @@ draft: false
 اگر نتیجه ی جستجوی شما طولانی و خسته کنندست میتوانید ترکیب locate با less را امتحان کنید.
 </div>
 
-    $ sudo updatedb
     $ locate /home/amirhosein/Desktop .txt | less
     # /home/amirhosein/Desktop/Os.txt
       /home/amirhosein/Desktop/filejadid.txt
@@ -72,7 +73,6 @@ draft: false
 با استفاده از نماد ستاره در کنار دستور میتوانید تمام فایلهایی که پسوند خاص مد نظر شما را دارند به راحتی پیدا کنید.
 </div>
 
-    $ sudo updatedb
     $ locate *.py
     Or 
     $ locate /home *.py
@@ -83,7 +83,6 @@ draft: false
 شما میتوانید با استفاده از سوییچ -n و عدد مورد نظر نتایج خروجی را به عددی خاص محدود کنید.
 </div>
     
-    $ sudo updatedb
     $ locate -n 2 *.py
     # /etc/python2.7/sitecustomize.py
       /etc/python3.10/sitecustomize.py
@@ -97,7 +96,6 @@ draft: false
 
 </div>
 
-    $ sudo updatedb
     $ locate /home/amirhosein/Desktop test.txt
     # /home/amirhosein/Desktop test.txt
 
@@ -114,7 +112,6 @@ draft: false
 برای درک بهتر موضوع به دستورات زیر دقت کنید.
 </div>
 
-    $ sudo updatedb
     $ locate -c /home/amirhosein/Desktop .txt
     # 35
 
@@ -123,7 +120,7 @@ draft: false
 
 ---
 
-### Author or Authors:
+### Author or Authors
 
 - *[Amirhosein](https://github.com/amirhoseinsb)* | **<amirhoseinsohrabi.official@gmail.com>**
 
