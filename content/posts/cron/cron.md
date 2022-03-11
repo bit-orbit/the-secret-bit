@@ -1,5 +1,5 @@
 ---
-title: "Cron"
+title: "cron"
 date: 2021-10-28T17:04:54+03:30
 draft: false
 tags: ['cron', 'cron-tab', 'schedule']
