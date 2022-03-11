@@ -8,7 +8,7 @@
     <language>fa-IR</language>
     <lastBuildDate>Wed, 09 Mar 2022 23:07:16 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gzip</title>
+      <title>gzip</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/gzip/gzip/</link>
       <pubDate>Wed, 09 Mar 2022 23:07:16 +0330</pubDate>
       
@@ -17,7 +17,7 @@
     </item>
     
     <item>
-      <title>File</title>
+      <title>file</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/file/file/</link>
       <pubDate>Wed, 09 Mar 2022 21:41:26 +0330</pubDate>
       
@@ -53,7 +53,7 @@
     </item>
     
     <item>
-      <title>Paste</title>
+      <title>paste</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/paste/paste/</link>
       <pubDate>Tue, 08 Mar 2022 19:01:01 +0330</pubDate>
       
@@ -71,7 +71,7 @@
     </item>
     
     <item>
-      <title>Uniq</title>
+      <title>uniq</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/uniq/uniq/</link>
       <pubDate>Tue, 08 Mar 2022 14:37:21 +0330</pubDate>
       
@@ -150,7 +150,7 @@
     </item>
     
     <item>
-      <title>Cron</title>
+      <title>cron</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/</link>
       <pubDate>Thu, 28 Oct 2021 17:04:54 +0330</pubDate>
       
@@ -159,7 +159,7 @@
     </item>
     
     <item>
-      <title>Wget</title>
+      <title>wget</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/wget/wget/</link>
       <pubDate>Fri, 17 Sep 2021 12:27:38 +0430</pubDate>
       
