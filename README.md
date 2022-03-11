@@ -50,13 +50,21 @@ man page
 | [wc](https://bit-orbit.github.io/the-secret-bit/posts/wc/wc/)       | [Arya](https://github.com/shabane)                   | ✔️ |
 | [cat](https://bit-orbit.github.io/the-secret-bit/posts/cat/cat/)    | [Arya](https://github.com/shabane)                   | ✔️ |
 | [head](https://bit-orbit.github.io/the-secret-bit/posts/head/head/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
-| [nl](https://bit-orbit.github.io/the-secret-bit/posts/head/head/)   | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [nl](https://bit-orbit.github.io/the-secret-bit/posts/nl/nl/)       | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [sort](https://bit-orbit.github.io/the-secret-bit/posts/sort/sort/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [fmt](https://bit-orbit.github.io/the-secret-bit/posts/fmt/fmt/)    | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [gzip](https://bit-orbit.github.io/the-secret-bit/posts/gzip/gzip/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [file](https://bit-orbit.github.io/the-secret-bit/posts/file/file/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [find](https://bit-orbit.github.io/the-secret-bit/posts/find/find/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [locate](https://bit-orbit.github.io/the-secret-bit/posts/locate/locate) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [paste](https://bit-orbit.github.io/the-secret-bit/posts/paste/paste)    | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [cut](https://bit-orbit.github.io/the-secret-bit/posts/cut/cut)     | Amirhosein & Arya                                    | ✔️ |
+| [cut](https://bit-orbit.github.io/the-secret-bit/posts/ls/ls)       | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [cp](https://bit-orbit.github.io/the-secret-bit/posts/cp/cp/)       | [Arya](https://github.com/shabane)                   | ✔️ |
+| [uniq](https://bit-orbit.github.io/the-secret-bit/posts/uniq/uniq)  | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 |git|⁉️|⁉️|
 |grep|⁉️|⁉️|
 |tree|⁉️|⁉️|
-|ls|⁉️|⁉️|
 |ping|⁉️|⁉️|
 |traceroute|⁉️|⁉️|
 |nmap|⁉️|⁉️|
@@ -71,7 +79,6 @@ man page
 |crunch|⁉️|⁉️|
 |xdd|⁉️|⁉️|
 |cpio|⁉️|⁉️|
-|cut|⁉️|⁉️|
 |ssh|⁉️|⁉️|
 |awk|⁉️|⁉️|
 |aria2c|⁉️|⁉️|
@@ -93,9 +100,6 @@ man page
 |dig|⁉️|⁉️|
 |macchanger|⁉️|⁉️|
 |ffmpeg|⁉️|⁉️|
-|file|⁉️|⁉️|
-|find|⁉️|⁉️|
-|locate|⁉️|⁉️|
 |free|⁉️|⁉️|
 |ftp|⁉️|⁉️|
 |mount|⁉️|⁉️|
@@ -120,7 +124,6 @@ man page
 |systemctl|⁉️|⁉️|
 |tree|⁉️|⁉️|
 |xarge|⁉️|⁉️|
-|uniq|⁉️|⁉️|
 |blkid|⁉️|⁉️|
 |lsblk|⁉️|⁉️|
 |w|⁉️|⁉️|
