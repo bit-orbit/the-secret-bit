@@ -1,5 +1,5 @@
 ---
-title: "Paste"
+title: "paste"
 date: 2022-03-08T19:01:01+03:30
 draft: false
 ---
