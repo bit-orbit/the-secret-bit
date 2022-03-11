@@ -1,7 +1,7 @@
 ---
 title: "watch"
 date: 2022-03-11T08:35:34+03:30
-draft: true
+draft: false
 ---
 
 ![watch-command-in-linux](watch.jpg)

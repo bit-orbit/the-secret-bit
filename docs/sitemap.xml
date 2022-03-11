@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bit-orbit.github.io/the-secret-bit/posts/gzip/gzip/</loc>
-    <lastmod>2022-03-09T23:07:16+03:30</lastmod>
-  </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/</loc>
+    <lastmod>2022-03-11T08:35:34+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/</loc>
+    <lastmod>2022-03-11T08:35:34+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/gzip/gzip/</loc>
     <lastmod>2022-03-09T23:07:16+03:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/file/file/</loc>

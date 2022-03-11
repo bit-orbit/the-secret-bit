@@ -6,7 +6,16 @@
     <description>Recent content in Posts on the-secret-bit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-IR</language>
-    <lastBuildDate>Wed, 09 Mar 2022 23:07:16 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Mar 2022 08:35:34 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>watch</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/</link>
+      <pubDate>Fri, 11 Mar 2022 08:35:34 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/</guid>
+      <description>فهرست   مقدمه اجرای یک کامند در بازه زمانی مشخص برجسته کردن تغییرات بیپ! توقف اجرا در زمان خطا توقف در زمان تغییر خروجی Author or Authors   مقدمه یکی از نیاز های ما در ترمینال این است که کامند ها را در بازه های زمانی مشخص بطور مداوم اجرا کنیم. برای مثال اگر چندین فایل را از یک دایرکتوری به دایرکتوری دیگری منتقل می‌کنید، برای دیدن فایل های منتقل شده می‌توانید هر ثانیه کامند ls را بزنید.</description>
+    </item>
+    
     <item>
       <title>gzip</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/gzip/gzip/</link>
