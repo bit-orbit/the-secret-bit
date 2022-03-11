@@ -1,5 +1,5 @@
 ---
-title: "Wget"
+title: "wget"
 date: 2021-09-17T12:27:38+04:30
 draft: false
 tags: ["wget", "download", "internet", "download-manager", "دانلود", "اینترنت"]
