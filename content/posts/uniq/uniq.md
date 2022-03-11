@@ -1,5 +1,5 @@
 ---
-title: "Uniq"
+title: "uniq"
 date: 2022-03-08T14:37:21+03:30
 draft: false
 ---
