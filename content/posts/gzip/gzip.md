@@ -1,5 +1,5 @@
 ---
-title: "Gzip"
+title: "gzip"
 date: 2022-03-09T23:07:16+03:30
 draft: false
 ---
