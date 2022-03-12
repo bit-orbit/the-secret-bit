@@ -101,8 +101,7 @@ draft: false
 با استفاده از سوییچ u- میتوانید حساب کاربری را در صورت قفل شدن باز کنید.
 </div>
 
-    $ sudo passwd -S amirhosein
-    # amirhosein P 03/11/2022 0 99999 7 -1
+    $ sudo passwd -u amirhosein
 
 ---
 ### Author or Authors
