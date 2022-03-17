@@ -17,7 +17,7 @@ draft: false
 - [فشرده سازی تمامی فایلهای موجود در دایرکتوری](#فشرده-سازی-تمامی-فایلهای-موجود-در-دایرکتوری)
 - [خارج کردن فایل از حالت فشرده](#خارج-کردن-فایل-از-حالت-فشرده)
 - [خارج کردن چند فایل از حالت فشرده](#خارج-کردن-چند-فایل-از-حالت-فشرده)
-- [Author or Authors:](#author-or-authors)
+- [Author or Authors](#author-or-authors)
 </div>
 
 
@@ -100,7 +100,7 @@ draft: false
     $ gzip -d file.gz file1.gz file2.gz
 ---
 
-### Author or Authors:
+### Author or Authors
 
 - *[Amirhosein](https://github.com/amirhoseinsb)* | **<amirhoseinsohrabi.official@gmail.com>**
 
