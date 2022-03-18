@@ -6,7 +6,81 @@
     <description>Recent content in Posts on the-secret-bit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-IR</language>
-    <lastBuildDate>Fri, 11 Mar 2022 08:35:34 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Mar 2022 18:12:46 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>useradd</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/useradd/useradd/</link>
+      <pubDate>Sun, 13 Mar 2022 18:12:46 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/useradd/useradd/</guid>
+      <description>فهرست  فهرست مقدمه ایجاد حساب کاربری ایجاد حساب کاربری با شناسه کاربری خاص ایجاد حساب کاربری در یک گروه خاص ایجاد حساب کاربری با تاریخ انقضای دلخواه نوشتن توضیحات در مورد حساب ایجاد حساب کاربری با رمز عبور حذف کردن حساب کاربری Author or Authors    مقدمه useradd یک ابزار برای اضافه کردن یا حذف یک حساب کاربری است.
+  ایجاد حساب کاربری برای ایجاد حساب کاربری با این ابزار کار عجیب و غریبی نیاز نیست .</description>
+    </item>
+    
+    <item>
+      <title>mkdir</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/mkdir/mkdir/</link>
+      <pubDate>Sun, 13 Mar 2022 17:30:52 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/mkdir/mkdir/</guid>
+      <description>فهرست  فهرست مقدمه ایجاد یک یا چند دایرکتوری به شکل همزمان تنظیم مد دایرکتوری نمایش جزئیات عملیات ایجاد دایرکتوری های تو در تو Author or Authors    مقدمه برای ایجاد دایرکتوری در ترمینال میتوانید از ابزار mkdir استفاده کنید. با استفاده از این ابزار میتوانید در کمتر از چند ثانیه هر تعداد دایرکتوری که نیاز دارید را ایجاد کنید.
+  ایجاد یک یا چند دایرکتوری به شکل همزمان اگر میخواهید که یک یا چند دایرکتوری به شکل همزمان ایجاد کنید، کافیست که از دستور mkdir استفاده کنید و نام دایرکتوری ها را با فاصله از هم دیگر جدا کنید.</description>
+    </item>
+    
+    <item>
+      <title>Touch</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/touch/touch/</link>
+      <pubDate>Sun, 13 Mar 2022 16:27:08 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/touch/touch/</guid>
+      <description>فهرست  فهرست مقدمه ایجاد یک یا چند فایل به شکل همزمان ایجاد نکردن فایل در صورت وجود فایل تغییر یا به روزرسانی زمان دسترسی فایل به روز رسانی یا تغییر زمان اصلاح فایل جایگزین کردن زمان فایل با فایل دیگر ایجاد فایل با زمان دلخواه Author or Authors    مقدمه هنگام مطالعه توضیحات ابزار متوجه میشوید که در واقع این ابزار یک ابزار برای تغییر زمان تغییر یا دسترسی فایل است.</description>
+    </item>
+    
+    <item>
+      <title>shutdown</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/shutdown/shutdown/</link>
+      <pubDate>Sun, 13 Mar 2022 01:48:05 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/shutdown/shutdown/</guid>
+      <description>فهرست  فهرست مقدمه خاموش کردن کامپیوتر ریبوت کردن کامپیوتر خاموش شدن کامپیوتر در ساعت مشخص ریبوت شدن کامپیوتر در ساعت مشخص لغو کردن عملیات ارسال پیغام به دیگر کاربران قبل از خاموش یا ریبوت شدن نمایش مجدد عملیات Author or Authors    مقدمه اگر حوصله ی استفاده از رابط گرافیکی برای خاموش کردن کامپیوتر را ندارید . بهترین میانبر استفاده از خط فرمان است. با استفاده از ابزار کامپیوتر خود را خاموش کنید.</description>
+    </item>
+    
+    <item>
+      <title>history</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/history/history/</link>
+      <pubDate>Sat, 12 Mar 2022 00:13:25 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/history/history/</guid>
+      <description>فهرست  فهرست مقدمه نمایش ده دستور اول و آخر جداکردن دستور خاص از سابقه گرفتن نسخه پشتیبان از سابقه دستورات ذخیره نشدن دستور با ترفند فاصله گرفتن نسخه پشتیبان از دستور خاص Author or Authors    مقدمه اگر از ترمینال لینوکس استفاده میکنید ممکن است برایتان پیش آمده باشد که دستوری را در ترمینال اجرا کرده باشید و آن دستور رافراموش کرده باشید. با استفاده از دستور history میتوانید سابقه دستورات خود را مشاهده کنید.</description>
+    </item>
+    
+    <item>
+      <title>free</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/free/free/</link>
+      <pubDate>Fri, 11 Mar 2022 22:42:41 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/free/free/</guid>
+      <description>فهرست  فهرست مقدمه نمایش مقدار فضای خالی و استفاده شده نمایش اطلاعات رم به بایت، کیلوبایت، مگابایت و &amp;hellip;.. نمایش مقادیر به شکل خلاصه شده نمایش خروجی به شکل مداوم آپدیت اطلاعات هر یک ثانیه یکبار به تعداد دلخواه Author or Authors    مقدمه هنگام استفاده از سیستم عامل لینوکس ممکن است بخواهید وضعیت رم سیستم را مشاهده کنید. با استفاده از دستور free میتوانید در کمتر از ۵ ثانیه تمامی اطلاعات مربوط به رم کامپیوتر را مشاهده کنید.</description>
+    </item>
+    
+    <item>
+      <title>grep</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/grep/grep/</link>
+      <pubDate>Fri, 11 Mar 2022 21:28:11 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/grep/grep/</guid>
+      <description>فهرست  فهرست مقدمه فیلتر کردن کلمه خاص در فایل ترکیب ابزار با cat فیلتر کردن بدون حساسیت به حروف بزرگ و کوچک نمایش تعداد تکرار کلمه خاص در فایل جستجو به شکل بازگشتی جستجو با الگوهای منظم یا regular expression نمایش شماره خطوطی که کلمه خاص در آن ها وجود دارد خروجی رنگی از ابزار ترکیب ابزار با ابزار find جستجو در فایلهای فشرده Author or Authors    مقدمه ابزار grep یکی از اساسی ترین ابزارهای لینوکس است، این ابزار به خانواده ابزارهای egrep و fgrep تعلق دارد.</description>
+    </item>
+    
+    <item>
+      <title>passwd</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/passwd/passwd/</link>
+      <pubDate>Fri, 11 Mar 2022 20:09:17 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/passwd/passwd/</guid>
+      <description>فهرست  فهرست مقدمه تغییر رمز عبور حساب کاربری حذف رمز عبور حساب کاربری منقضی کردن پسورد حساب کاربری غیرفعال کردن خودکار حساب کاربری تغییر رمز عبور در صورت منقضی شدن نمایش وضعیت رمز عبور باز کردن پسورد حساب کاربری Author or Authors    مقدمه ابزار passwd برای تغییر رمزعبور حساب های کاربری استفاده میشود . اما لازم به ذکر است بدانید که کاربر root نسبت به باقی کاربر ها دسترسی بیشتری دارد.</description>
+    </item>
+    
     <item>
       <title>watch</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/</link>
@@ -22,7 +96,7 @@
       <pubDate>Wed, 09 Mar 2022 23:07:16 +0330</pubDate>
       
       <guid>https://bit-orbit.github.io/the-secret-bit/posts/gzip/gzip/</guid>
-      <description>فهرست  فهرست مقدمه فشرده سازی فایل نگهداری فایل اصلی نمایش جزئیات عملیات فشرده سازی همزمان چند فایل فشرده سازی تمامی فایلهای موجود در دایرکتوری خارج کردن فایل از حالت فشرده خارج کردن چند فایل از حالت فشرده Author or Authors:    مقدمه ابزار gzip برای فشرده سازی فایلها استفاده میشود . این ابزار تقریبا به bzip شبیه است. اما در بحث عملیاتی باهم تفاوت دارند که اگر توضیحات ابزار bzip را خوانده باشید متوجه خواهید شد</description>
+      <description>فهرست  فهرست مقدمه فشرده سازی فایل نگهداری فایل اصلی نمایش جزئیات عملیات فشرده سازی همزمان چند فایل فشرده سازی تمامی فایلهای موجود در دایرکتوری خارج کردن فایل از حالت فشرده خارج کردن چند فایل از حالت فشرده Author or Authors    مقدمه ابزار gzip برای فشرده سازی فایلها استفاده میشود . این ابزار تقریبا به bzip شبیه است. اما در بحث عملیاتی باهم تفاوت دارند که اگر توضیحات ابزار bzip را خوانده باشید متوجه خواهید شد</description>
     </item>
     
     <item>

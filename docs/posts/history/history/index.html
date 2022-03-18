@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.94.0" />
-  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/posts/gzip/gzip/">
+  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/posts/history/history/">
 
   
     
-    <meta name="description" content="فهرست  فهرست مقدمه فشرده سازی فایل نگهداری فایل اصلی نمایش جزئیات عملیات فشرده سازی همزمان چند فایل فشرده سازی تمامی فایلهای موجود در دایرکتوری خارج کردن فایل از حالت فشرده خارج کردن چند فایل از حالت فشرده Author or Authors    مقدمه ابزار gzip برای فشرده سازی فایلها استفاده میشود . این ابزار تقریبا به bzip شبیه است. اما در بحث عملیاتی باهم تفاوت دارند که اگر توضیحات ابزار bzip را خوانده باشید متوجه خواهید شد">
+    <meta name="description" content="فهرست  فهرست مقدمه نمایش ده دستور اول و آخر جداکردن دستور خاص از سابقه گرفتن نسخه پشتیبان از سابقه دستورات ذخیره نشدن دستور با ترفند فاصله گرفتن نسخه پشتیبان از دستور خاص Author or Authors    مقدمه اگر از ترمینال لینوکس استفاده میکنید ممکن است برایتان پیش آمده باشد که دستوری را در ترمینال اجرا کرده باشید و آن دستور رافراموش کرده باشید. با استفاده از دستور history میتوانید سابقه دستورات خود را مشاهده کنید.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -58,7 +58,7 @@
 
   
   
-  <title>gzip | the-secret-bit</title>
+  <title>history | the-secret-bit</title>
 </head>
 
   <body>
@@ -264,80 +264,96 @@
         <div>
           
   <main id="main">
-    <h1>gzip</h1>
+    <h1>history</h1>
     <div dir='rtl'>
 <h3 id="فهرست">فهرست</h3>
 <ul>
 <li><a href="#%D9%81%D9%87%D8%B1%D8%B3%D8%AA">فهرست</a></li>
 <li><a href="#%D9%85%D9%82%D8%AF%D9%85%D9%87">مقدمه</a></li>
-<li><a href="#%D9%81%D8%B4%D8%B1%D8%AF%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D9%81%D8%A7%DB%8C%D9%84">فشرده سازی فایل</a></li>
-<li><a href="#%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C-%D9%81%D8%A7%DB%8C%D9%84-%D8%A7%D8%B5%D9%84%DB%8C">نگهداری فایل اصلی</a></li>
-<li><a href="#%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D8%AC%D8%B2%D8%A6%DB%8C%D8%A7%D8%AA-%D8%B9%D9%85%D9%84%DB%8C%D8%A7%D8%AA">نمایش جزئیات عملیات</a></li>
-<li><a href="#%D9%81%D8%B4%D8%B1%D8%AF%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D9%87%D9%85%D8%B2%D9%85%D8%A7%D9%86-%DA%86%D9%86%D8%AF-%D9%81%D8%A7%DB%8C%D9%84">فشرده سازی همزمان چند فایل</a></li>
-<li><a href="#%D9%81%D8%B4%D8%B1%D8%AF%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D8%AA%D9%85%D8%A7%D9%85%DB%8C-%D9%81%D8%A7%DB%8C%D9%84%D9%87%D8%A7%DB%8C-%D9%85%D9%88%D8%AC%D9%88%D8%AF-%D8%AF%D8%B1-%D8%AF%D8%A7%DB%8C%D8%B1%DA%A9%D8%AA%D9%88%D8%B1%DB%8C">فشرده سازی تمامی فایلهای موجود در دایرکتوری</a></li>
-<li><a href="#%D8%AE%D8%A7%D8%B1%D8%AC-%DA%A9%D8%B1%D8%AF%D9%86-%D9%81%D8%A7%DB%8C%D9%84-%D8%A7%D8%B2-%D8%AD%D8%A7%D9%84%D8%AA-%D9%81%D8%B4%D8%B1%D8%AF%D9%87">خارج کردن فایل از حالت فشرده</a></li>
-<li><a href="#%D8%AE%D8%A7%D8%B1%D8%AC-%DA%A9%D8%B1%D8%AF%D9%86-%DA%86%D9%86%D8%AF-%D9%81%D8%A7%DB%8C%D9%84-%D8%A7%D8%B2-%D8%AD%D8%A7%D9%84%D8%AA-%D9%81%D8%B4%D8%B1%D8%AF%D9%87">خارج کردن چند فایل از حالت فشرده</a></li>
+<li><a href="#%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D8%AF%D9%87-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A7%D9%88%D9%84-%D9%88-%D8%A2%D8%AE%D8%B1">نمایش ده دستور اول و آخر</a></li>
+<li><a href="#%D8%AC%D8%AF%D8%A7%DA%A9%D8%B1%D8%AF%D9%86-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%AE%D8%A7%D8%B5-%D8%A7%D8%B2-%D8%B3%D8%A7%D8%A8%D9%82%D9%87">جداکردن دستور خاص از سابقه</a></li>
+<li><a href="#%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%D9%86%D8%B3%D8%AE%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86-%D8%A7%D8%B2-%D8%B3%D8%A7%D8%A8%D9%82%D9%87-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D8%AA">گرفتن نسخه پشتیبان از سابقه دستورات</a></li>
+<li><a href="#%D8%B0%D8%AE%DB%8C%D8%B1%D9%87-%D9%86%D8%B4%D8%AF%D9%86-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A8%D8%A7-%D8%AA%D8%B1%D9%81%D9%86%D8%AF-%D9%81%D8%A7%D8%B5%D9%84%D9%87">ذخیره نشدن دستور با ترفند فاصله</a></li>
+<li><a href="#%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%D9%86%D8%B3%D8%AE%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86-%D8%A7%D8%B2-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%AE%D8%A7%D8%B5">گرفتن نسخه پشتیبان از دستور خاص</a></li>
 <li><a href="#author-or-authors">Author or Authors</a></li>
 </ul>
 </div>
 <hr>
 <div dir='rtl'>
 <h3 id="مقدمه">مقدمه</h3>
-<p>ابزار gzip برای فشرده سازی فایلها استفاده میشود . این ابزار تقریبا به bzip شبیه است. اما در بحث عملیاتی باهم تفاوت دارند که اگر توضیحات ابزار bzip را خوانده باشید متوجه خواهید شد</p>
+<p>اگر از ترمینال لینوکس استفاده میکنید ممکن است برایتان پیش آمده باشد که دستوری را در ترمینال اجرا کرده باشید و آن دستور رافراموش کرده باشید. با استفاده از دستور history میتوانید سابقه دستورات خود را مشاهده کنید. به جز مباحث فراموشی از این دستور برای گرفتن بکاپ از دستورات نیز استفاده میشود. یعنی شما میتوانید از دستور یا دستورات یا حتی فایل history بکاپ تهیه کنید</p>
 </div>
 <hr>
 <div dir='rtl'>
-<h3 id="فشرده-سازی-فایل">فشرده سازی فایل</h3>
-<p>در فشرده سازی فایل با gzip خیلی دقت کنید . زیرا فایل اصلی شما از بین میرود . اما لازم به ذکر است بدانید که تمامی اطلاعات اعم از زمان نام و &hellip;به فایل جدید منتقل خواهند شد. به دستور زیر دقت کنید.</p>
+<h3 id="نمایش-ده-دستور-اول-و-آخر">نمایش ده دستور اول و آخر</h3>
+<p>با استفاده از خود دستور history میتوانید تمامی سوابق دستورات خود را مشاهده کنید. اما در اکثر اوقات ما به آخرین دستورات نیاز داریم. پس از ابزار tail در کنار دستور خود استفاده میکنیم.
+اگر هم میخواستید که ده دستور اول خود را بببینید از ابزار head استفاده کنید.</p>
 </div>
-<pre><code>$ gzip filename
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="نگهداری-فایل-اصلی">نگهداری فایل اصلی</h3>
-<p>اگر میخواهید که هنگام فشرده سازی فایل اصلی حذف نشود از سوییچ -k استفاده کنید.</p>
-</div>
-<pre><code>$ gzip -k filename
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="نمایش-جزئیات-عملیات">نمایش جزئیات عملیات</h3>
-<p>به شکل پیشفرض هنگام فشرده سازی چیزی به شما نمایش داده نخواهد شد. اگر میخواهید که جزئیات عملیات به شما نمایش داده شود از سوییچ -v استفاده کنید.</p>
-</div>
-<pre><code>$ gzip -v filename
-# filename:	  7.5% -- replaced with filename.gz
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="فشرده-سازی-همزمان-چند-فایل">فشرده سازی همزمان چند فایل</h3>
-<p>اگر میخواهید که چند فایل را به شکل همزمان فشرده کنید با گذاشتن فاصله آن ها را از هم جدا کنید.</p>
-</div>
-<pre><code>$ gzip file1 file2 file3
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="فشرده-سازی-تمامی-فایلهای-موجود-در-دایرکتوری">فشرده سازی تمامی فایلهای موجود در دایرکتوری</h3>
-<p>اگر میخواهید که به شکل یکجا تمامی فایلهای موجود در دایرکتوری را به یک فایل فشرده تبدیل کنید از سوییچ -r استفاده کنید.</p>
-</div>
-<pre><code>$ gzip -r directoryname
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="خارج-کردن-فایل-از-حالت-فشرده">خارج کردن فایل از حالت فشرده</h3>
-<p>اگر میخواهید که فایل فشرده تان را از حالت فشرده خارج کنید از سوییچ -d استفاده کنید.</p>
-</div>
-<pre><code>$ gzip -d file.gz
+<pre><code>  $ history | tail
+  # 155  sudo apt-get update
+    156  sudo apt-get install telegram-desktop
+    157  sudo apt-get install figma-linux
+    158  sudo apt-get remove telegram-desktop
+    159  watch free
+    160  watch free -h
+    161  ping google.com
+    162  sudo su
+    163  man tail
+    164  history | tail
 
-Or
-
-$ gunzip file.gz
+$ history | head 
+# 1  man apt-get
+  3  man pm
+  4  sudo apt-get install pm
+  7  sudo apt upgrade
+  11  sudo dpkg -i        'google-chrome-stable_current_amd6      4 (1).deb'\n
+  13  which chrome
+  14  whereis chrome
+  15  مس
+  17  sensors -v
+  18  git --version
 </code></pre>
 <hr>
 <div dir='rtl'>
-<h3 id="خارج-کردن-چند-فایل-از-حالت-فشرده">خارج کردن چند فایل از حالت فشرده</h3>
-<p>اگر میخواهید که چند فایل را به شکل همزمان از حالت فشرده خارج کنید کافیست از سوییچ -d استفاده کنید و نام فایلها را با فاصله از همدیگر جدا کنید.</p>
+<h3 id="جداکردن-دستور-خاص-از-سابقه">جداکردن دستور خاص از سابقه</h3>
+<p>شما میتوانید با استفاده از ابزار grep دستور خاص مد نظر را از سایر دستورات جدا کنید.</p>
 </div>
-<pre><code>$ gzip -d file.gz file1.gz file2.gz
+<pre><code>$ history | grep 'apt-get'
+# 1  man apt-get
+  4  sudo apt-get install pm
+  23  $ sudo apt-get install simplescreenrecorder\n
+  24  $ sudo apt-get install simplescreenrecorder
+  341  sudo apt-get install kget
+  429  apt-get install tor
+  430  sudo apt-get install tor
+  513  sudo apt-get upgrade bzr
+  701  sudo apt-get libwxgtk2.8-dev
+  717  sudo apt-get install woeusb
+  719  sudo apt-get install woeusb-frontend-wxgtk
+  724  sudo apt-get intall aptitude
+  1169  sudo apt-get update
+  1991  sudo apt-get upgrade locate
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="گرفتن-نسخه-پشتیبان-از-سابقه-دستورات">گرفتن نسخه پشتیبان از سابقه دستورات</h3>
+<p>شما میتوانید با استفاده از اوپراتور خروجی از سابقه دستورات خود پشتیبان تهیه کنید.</p>
+</div>
+<pre><code>$ history &gt; backup.txt
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="ذخیره-نشدن-دستور-با-ترفند-فاصله">ذخیره نشدن دستور با ترفند فاصله</h3>
+<p>شما میتوانید دستورات مهم خود را که شامل پسورد ها هم هستند را با استفاده از قرار دادن فاصله قبل از تایپ دستور از حالت ذخیره سازی خارج کنید. برای مثال شما میخواهید که دستور apt-get در سابقه دستورات ذخیره نشود، برای رفع این مشکل قبل از تایپ دستور یک فاصله قرار دهید و بدین ترتیب مشکل رفع میشود.در مثال زیر ستاره نماد فاصله است.</p>
+</div>
+<pre><code>$ *apt-get
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="گرفتن-نسخه-پشتیبان-از-دستور-خاص">گرفتن نسخه پشتیبان از دستور خاص</h3>
+<p>شما میتوانید با استفاده از ابزار grep دستورات را فیلتر کنید و خروجی را به فایل بکاپ اضافه کنید.</p>
+</div>
+<pre><code>$ history | grep 'apt-get' &gt;&gt; backup.txt
 </code></pre>
 <hr>
 <h3 id="author-or-authors">Author or Authors</h3>
