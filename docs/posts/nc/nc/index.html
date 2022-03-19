@@ -10,7 +10,7 @@
 
   
     
-    <meta name="description" content="فهرست  مرور مفاهیم پیشنیاز درست کردن چت سرور اتصال به یک پورت خاص اسکن کردن پورت banner grabing درست کردن درب پشتی رمزنگاری ارتباط سوییچ های پر استفاده Author or Authors:   مرور ابزار netcat ابزار ساده‌ای است که می‌تواند داده ها را تحت شبکه بنویسد و با بخواند. netcat یک ابزار شبکه است که هکر ها بسیار طرفدار آن‌اند و البته این ابزار با تمامی قابلیت هایش بسیار سبک است.">
+    <meta name="description" content="فهرست   فهرست مرور مفاهیم پیشنیاز درست کردن چت سرور اتصال به یک پورت خاص انتقال فایل اسکن کردن پورت banner grabing درست کردن درب پشتی رمزنگاری ارتباط سوییچ های پر استفاده Author or Authors    مرور ابزار netcat ابزار ساده‌ای است که می‌تواند داده ها را تحت شبکه بنویسد و با بخواند. netcat یک ابزار شبکه است که هکر ها بسیار طرفدار آن‌اند و البته این ابزار با تمامی قابلیت هایش بسیار سبک است.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -268,18 +268,22 @@
     <p><a href="nc.png"><img src="nc.png" alt="netcat"></a></p>
 <div dir='rtl'>
 <h3 id="فهرست">فهرست</h3>
+<blockquote>
 <ul>
+<li><a href="#%D9%81%D9%87%D8%B1%D8%B3%D8%AA">فهرست</a></li>
 <li><a href="#%D9%85%D8%B1%D9%88%D8%B1">مرور</a></li>
 <li><a href="#%D9%85%D9%81%D8%A7%D9%87%DB%8C%D9%85-%D9%BE%DB%8C%D8%B4%D9%86%DB%8C%D8%A7%D8%B2">مفاهیم پیشنیاز</a></li>
 <li><a href="#%D8%AF%D8%B1%D8%B3%D8%AA-%DA%A9%D8%B1%D8%AF%D9%86-%DA%86%D8%AA-%D8%B3%D8%B1%D9%88%D8%B1">درست کردن چت سرور</a></li>
 <li><a href="#%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%A8%D9%87-%DB%8C%DA%A9-%D9%BE%D9%88%D8%B1%D8%AA-%D8%AE%D8%A7%D8%B5">اتصال به یک پورت خاص</a></li>
+<li><a href="#%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D9%81%D8%A7%DB%8C%D9%84">انتقال فایل</a></li>
 <li><a href="#%D8%A7%D8%B3%DA%A9%D9%86-%DA%A9%D8%B1%D8%AF%D9%86-%D9%BE%D9%88%D8%B1%D8%AA">اسکن کردن پورت</a></li>
 <li><a href="#banner-grabing">banner grabing</a></li>
 <li><a href="#%D8%AF%D8%B1%D8%B3%D8%AA-%DA%A9%D8%B1%D8%AF%D9%86-%D8%AF%D8%B1%D8%A8-%D9%BE%D8%B4%D8%AA%DB%8C">درست کردن درب پشتی</a></li>
 <li><a href="#%D8%B1%D9%85%D8%B2%D9%86%DA%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7">رمزنگاری ارتباط</a></li>
 <li><a href="#%D8%B3%D9%88%DB%8C%DB%8C%DA%86-%D9%87%D8%A7%DB%8C-%D9%BE%D8%B1-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87">سوییچ های پر استفاده</a></li>
-<li><a href="#author-or-authors">Author or Authors:</a></li>
+<li><a href="#author-or-authors">Author or Authors</a></li>
 </ul>
+</blockquote>
 <hr>
 <h3 id="مرور">مرور</h3>
 <p>ابزار
@@ -471,22 +475,26 @@ nc
 <hr>
 <h3 id="اسکن-کردن-پورت">اسکن کردن پورت</h3>
 <p>این کار برای این است که چک کنیم چه پورت هایی از سیستم باز است.
-برای مثال برای این که ببینیم پورت 80 سرور گوگل باز است یا نه
-اول باید ای‌پی گوگل را بدست بیاورید، برای اینکار با دستور
-<code>nslookup google.com</code>
-ای‌پی گوگل را می گیریم و بعد آن را به
-<code>netcat</code>
-می‌دهیم تا چک کند که آیا پورت 80 این ای‌پی باز است یا خیر.</p>
-<pre><code class="language-bash">nc -nv 142.250.185.142 80
+برای مثال برای این که ببینیم پورت 80 سرور گوگل باز است یا نه،
+دامنه
+google.com
+را به
+<code>nc -z</code>
+می‌دهیم تا چک کند که آیا پورت 80 این سرور باز است یا خیر.
+این نکته را بخاطر داشته باشید که در حالت عادی این سویچ هیچ خروجی ندارد،
+و ما باید با استفاده از سوییچ
+<code>-v</code>
+خروجی را ببینیم.</p>
+<pre><code class="language-bash">nc -vz google.com 80
 </code></pre>
-<p>خروجی این دستور قطعا به این صورت است</p>
-<pre><code class="language-bash">Connection to 142.250.185.142 80 port [tcp/*] succeeded!
+<p>در صورتی که پورت باز باشد خروجی به این شکل است</p>
+<pre><code class="language-bash">Connection to google.com (142.250.186.174) 80 port [tcp/http] succeeded!
 </code></pre>
-<p>اما اگر شما می‌خواید یک محدوده خاصی از پورت های یک سرور را چک کنید باید از سوییچ
-<code>-z</code>
-استفاده کنید.</p>
+<p>اما اگر شما می‌خواید یک محدوده خاصی از پورت های یک سرور را چک کنید باید از علامت
+<code>-</code>
+بین پورت ها استفاده کنید.</p>
 <p>برای مثال من پورت های 21 تا 80 سیستم خودم را چک می‌کنم</p>
-<pre><code class="language-bash">nc -znv 127.0.0.1 21-80
+<pre><code class="language-bash">nc -zv 127.0.0.1 21-80
 </code></pre>
 <p>و در خروجی</p>
 <pre><code class="language-bash">Connection to 127.0.0.1 21 port [tcp/*] succeeded!
