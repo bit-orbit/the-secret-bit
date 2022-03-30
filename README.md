@@ -62,6 +62,7 @@ man page
 | [cut](https://bit-orbit.github.io/the-secret-bit/posts/ls/ls)       | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [cp](https://bit-orbit.github.io/the-secret-bit/posts/cp/cp/)       | [Arya](https://github.com/shabane)                   | ✔️ |
 | [uniq](https://bit-orbit.github.io/the-secret-bit/posts/uniq/uniq)  | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [watch](https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/) | [Arya](https://github.com/shabane)                | ✔️ |
 |git|⁉️|⁉️|
 |grep|⁉️|⁉️|
 |tree|⁉️|⁉️|
@@ -129,7 +130,6 @@ man page
 |w|⁉️|⁉️|
 |less|⁉️|⁉️|
 |match|⁉️|⁉️|
-|watch|⁉️|⁉️|
 |youtube⁉️dl|⁉️|⁉️|
 |sed|⁉️|⁉️|
 |sftp|⁉️|⁉️|
