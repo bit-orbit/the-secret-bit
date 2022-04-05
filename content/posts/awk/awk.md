@@ -1,7 +1,7 @@
 ---
 title: "awk"
 date: 2022-03-22T16:57:04+04:30
-draft: false
+draft: true
 ---
 
 
