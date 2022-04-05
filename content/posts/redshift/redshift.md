@@ -15,6 +15,7 @@ draft: false
 - [نصب ابزار](#نصب-ابزار)
 - [کم کردن نور مانیتور با ابزار](#کم-کردن-نور-مانیتور-با-ابزار)
 - [فعال کردن فیلتر نور آبی](#فعال-کردن-فیلتر-نور-آبی)
+- [ریست کردن ابزار](#ریست-کردن-ابزار)
 - [Author or Authors](#author-or-authors)
 </div>
 
@@ -73,6 +74,14 @@ draft: false
 
 ---
 
+### ریست کردن ابزار
+برای ریست کردن تنظیمات ابزار و برگرداندن نور به حالت پیشفرض از سوییچ x- استفاده کنید.
+</div>
+
+    # reset the setting
+    $ redshift -x
+
+---
 ### Author or Authors
 
 - *[Amirhosein](https://github.com/amirhoseinsb)* | **<amirhoseinsohrabi.official@gmail.com>**
