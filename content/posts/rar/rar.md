@@ -155,4 +155,4 @@ e
 ### Author or Authors
 
 - *[Amirhosein](https://github.com/amirhoseinsb)* | **<amirhoseinsohrabi.official@gmail.com>**
-- *[Amirhosein](https://github.com/shabane)* | **<m.mohamadshabane@gmail.com>**
+- *[Arya](https://github.com/shabane)* | **<m.mohamadshabane@gmail.com>**
