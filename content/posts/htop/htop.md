@@ -45,7 +45,6 @@ draft: False
     # install in arch
     $ pacman -S htop
 
----
 
 ---
 <div dir='rtl'>
@@ -100,7 +99,7 @@ draft: False
     #    740 root       20   0  386M 12052  9268 S  0.0  0.4  0:03.45 /usr/lib/udisks2/udisksd
     #    741 root       20   0 13676  2488  1908 S  0.0  0.1  0:00.04 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
     # 1Help  F2Setup F3SearchF4FilterF5Tree  F6SortByF7Nice -F8Nice +F9Kill  F10Quit 
----
+
 
 ---
 <div dir='rtl'>
@@ -128,7 +127,7 @@ draft: False
     $ echo q | htop | aha --black --line-fix > htop.html
 
 
----
+
 
 ---
 <div dir='rtl'>
@@ -147,7 +146,6 @@ draft: False
     # step 3 
     # select the 9 SIGKILL
 
----
 
 ---
 <div dir='rtl'>
@@ -163,7 +161,7 @@ draft: False
 
     # step 2
     # Type the process name
----
+
 
 ---
 <div dir='rtl'>
