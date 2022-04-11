@@ -151,8 +151,11 @@ e
 
 
 ---
+<div dir = 'rtl'>
+
 ### بیشتر بدانید
 لازم به ذکر است بدانید که ابزار [unrar](http://localhost:1313/the-secret-bit/posts/unrar/unrar/) هم برای استخراج فایل های فشرده کاربرد دارد.
+</div>
 
 ---
 ### Author or Authors

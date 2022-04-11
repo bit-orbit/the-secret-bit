@@ -108,8 +108,12 @@ draft: false
 
 
 ---
+<div dir = 'rtl'>
+
 ### بیشتر بدانید
-لازم است بدانید که ابزار [rar](http://localhost:1313/the-secret-bit/posts/rar/rar/) هم برای مدیریت فایل های فشرده شده کاربرد دارد.
+لازم است بدانید که ابزار [rar](http://localhost:1313/the-secret-bit/posts/rar/rar/)
+ هم برای مدیریت فایل های فشرده شده کاربرد دارد.
+</div>
 
 ---
 ### Author or Authors
