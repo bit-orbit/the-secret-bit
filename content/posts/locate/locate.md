@@ -1,5 +1,5 @@
 ---
-title: "Locate"
+title: "locate"
 date: 2022-03-09T18:47:24+03:30
 draft: false
 ---
