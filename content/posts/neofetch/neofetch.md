@@ -23,7 +23,7 @@ draft: false
 <div dir='rtl'>
 
 ### مقدمه
-برای نمایش اطلاعات کاملی راجب سیستم عامل، سی پی یو، رم و .... میتوانید از ابزار neofetch استفاده کنید. این ابزار به صورت پیشفرض در تمامی توزیع های لینوکسی نصب میباشد.
+برای نمایش اطلاعات کاملی راجب سیستم عامل، سی پی یو، رم و .... میتوانید از ابزار neofetch استفاده کنید.
 </div>
 
 ---
@@ -41,31 +41,6 @@ draft: false
     
     # View the information with neofetch
     $ neofetch
-
-    # OUTPUT
-    #                 ...-:::::-...                 amirhosein@P5PL2-E 
-    #           .-MMMMMMMMMMMMMMM-.              ------------------ 
-    #       .-MMMM`..-:::::::-..`MMMM-.          OS: Linux Mint 20.3 x86_64 
-    #     .:MMMM.:MMMMMMMMMMMMMMM:.MMMM:.        Host: P5PL2-E Rev 1.xx 
-    #    -MMM-M---MMMMMMMMMMMMMMMMMMM.MMM-       Kernel: 5.4.0-91-generic 
-    #  `:MMM:MM`  :MMMM:....::-...-MMMM:MMM:`    Uptime: 2 hours, 41 mins 
-    #  :MMM:MMM`  :MM:`  ``    ``  `:MMM:MMM:    Packages: 2037 (dpkg), 9 (snap) 
-    # .MMM.MMMM`  :MM.  -MM.  .MM-  `MMMM.MMM.   Shell: bash 5.0.17 
-    # :MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   Resolution: 1024x768 
-    # :MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM:MMM:   DE: Xfce 
-    # :MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   WM: Xfwm4 
-    # .MMM.MMMM`  :MM:--:MM:--:MM:  `MMMM.MMM.   WM Theme: Mint-Y 
-    #  :MMM:MMM-  `-MMMMMMMMMMMM-`  -MMM-MMM:    Theme: Mint-Y-Dark [GTK2/3] 
-    #   :MMM:MMM:`                `:MMM:MMM:     Icons: Mint-Y [GTK2/3] 
-    #    .MMM.MMMM:--------------:MMMM.MMM.      Terminal: xfce4-terminal 
-    #      '-MMMM.-MMMMMMMMMMMMMMM-.MMMM-'       Terminal Font: Monospace 12 
-    #        '.-MMMM``--:::::--``MMMM-.'         CPU: Intel Pentium 4 3.40GHz (2) @ 3.400GHz 
-    #             '-MMMMMMMMMMMMM-'              GPU: NVIDIA GeForce GT 430 
-    #                ``-:::::-``                 Memory: 1679MiB / 2991MiB 
-      
-                                                                         
-                                                                         
-      
 
 
 ---
