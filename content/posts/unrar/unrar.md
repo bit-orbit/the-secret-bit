@@ -19,6 +19,7 @@ draft: false
 - [نمایش اطلاعات فایل](#نمایش-اطلاعات-فایل)
 - [تست کردن فایل rar](#تست-کردن-فایل-rar)
 - [استخراج دسته ای فایل ها](#استخراج-دسته-ای-فایل-ها)
+- [بیشتر بدانید](#بیشتر-بدانید)
 - [Author or Authors](#author-or-authors)
 
 </div>
@@ -107,7 +108,10 @@ draft: false
 
 
 ---
+### بیشتر بدانید
+لازم است بدانید که ابزار [rar](http://localhost:1313/the-secret-bit/posts/rar/rar/) هم برای مدیریت فایل های فشرده شده کاربرد دارد.
 
+---
 ### Author or Authors
 
 - *[Amirhosein](https://github.com/amirhoseinsb)* | **<amirhoseinsohrabi.official@gmail.com>**
