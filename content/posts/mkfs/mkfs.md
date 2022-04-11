@@ -21,6 +21,7 @@ draft: false
 - [](#-6)
 - [](#-7)
 - [](#-8)
+- [ابزار fdisk](#ابزار-fdisk)
 - [Author or Authors](#author-or-authors)
 </div>
 
@@ -150,6 +151,15 @@ draft: false
 
 ---
 
+<div dir='rtl'>
+
+### ابزار fdisk
+برای مطالعه توضیحات ابزار fdisk میتوانید روی عبارت زیر کلیک کنید.
+
+[fdisk](http://localhost:1313/the-secret-bit/posts/fdisk/fdisk/)
+</div>
+
+---
 ### Author or Authors
 
 - *[Amirhosein](https://github.com/amirhoseinsb)* | **<amirhoseinsohrabi.official@gmail.com>**
