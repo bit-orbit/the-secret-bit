@@ -12,6 +12,7 @@ draft: true
 
 > - [مقدمه](#مقدمه)
 > - [وارد کردن گیت به داخل پروژه](#وارد-کردن-گیت-به-داخل-پروژه)
+> - [بررسی وضعیت فایل های پروژه](#بررسی-وضعیت-فایل-های-پروژه)
 </div>
 
 ---
@@ -33,7 +34,29 @@ draft: true
 ---
 <div dir='rtl'>
 
+### بررسی فایل های پروژه
+برای اینکه وضعیت پروژه را بررسی کنیم((از نظر اینکه چه فایل های جدیدی به پروژه اضافه شدند یا فایل هایی که از قبل در پروژه بودند محتوایشان تغغیری کرده یا نه از دستور زیر استفاده میکنیم
 
+</div>
+    
+    $ git status                       
+    # On branch main
+    Your branch is up to date with 'origin/main'.
+
+    Changes not staged for commit:
+      (use "git add <file>..." to update what will be committed)
+      (use "git restore <file>..." to discard changes in working directory)
+            modified:   <file name>
+
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+            <file name>
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+ 
+---
+<div dir='rtl'>
+    
 
 ---
 Author or Authors: Shahriar Ghasempour
