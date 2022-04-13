@@ -15,6 +15,7 @@ draft: false
 - [حذف کردن پارتیشن خاص](#حذف-کردن-پارتیشن-خاص)
 - [ایجاد پارتیشن](#ایجاد-پارتیشن)
 - [نمایش توضیحات راهنما](#نمایش-توضیحات-راهنما)
+- [ابزار mkfs](#ابزار-mkfs)
 - [Author or Authors](#author-or-authors)
 </div>
 
@@ -291,8 +292,15 @@ draft: false
     #    o   create a new empty DOS partition table
     #    s   create a new empty Sun partition table
       
-    
-       
+---
+<div dir='rtl'>
+
+### ابزار mkfs
+برای مطالعه توضیحات ابزار mkfs میتوانید روی عبارت زیر کلیک کنید.
+
+[mkfs](http://localhost:1313/the-secret-bit/posts/mkfs/mkfs/)
+</div>
+
 ---
 ### Author or Authors
 
