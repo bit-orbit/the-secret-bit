@@ -63,7 +63,7 @@ man page
 | [cp](https://bit-orbit.github.io/the-secret-bit/posts/cp/cp/)       | [Arya](https://github.com/shabane)                   | ✔️ |
 | [uniq](https://bit-orbit.github.io/the-secret-bit/posts/uniq/uniq)  | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [watch](https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/) | [Arya](https://github.com/shabane)                | ✔️ |
-|git|[Shahriar](https://github.com/shahriaarrr)|✏️|
+|git|[Shahriar](https://github.com/shahriaarrr) & [Arya](https://github.com/shabane)|✏️|
 |grep|⁉️|⁉️|
 |tree|⁉️|⁉️|
 |ping|⁉️|⁉️|
