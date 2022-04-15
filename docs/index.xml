@@ -6,7 +6,93 @@
     <description>Recent content in The Secret Bit on the-secret-bit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-IR</language>
-    <lastBuildDate>Sun, 13 Sep 2020 18:27:58 +0100</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Sep 2020 18:27:58 +0100</lastBuildDate>
+    
+	<atom:link href="https://bit-orbit.github.io/the-secret-bit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mkfs</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/</link>
+      <pubDate>Sat, 09 Apr 2022 18:01:46 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/</guid>
+      <description>فهرست  فهرست مقدمه ایجاد یک پارتیشن و فرمت کردن آن استفاده از فایل سیستم های خاص استفاده از فضای ایجاد شده ابزار fdisk Author or Authors    مقدمه برای ایجاد فایل سیستم یا تغییر فرمت یک پارتیشن به فرمت دیگر میتوانید از از ابزار mkfs استفاده کنید. mkfs مخفف عبارت make file system میباشد. لازم به ذکر است بدانید که هنگام فرمت یک پارتیشن تمامی اطلاعات موجود در پارتیشن از بین خواهند رفت.</description>
+    </item>
+    
+    <item>
+      <title>btop</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/btop/btop/</link>
+      <pubDate>Thu, 07 Apr 2022 01:57:10 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/btop/btop/</guid>
+      <description>فهرست  فهرست مقدمه مانیتور کردن وضعیت کامپیوتر کشتن و بستن یک پروسه نمایش اطلاعات یک پروسه جستجوی پروسه ها تغییر حالت نمایش وضعیت Author or Authors    مقدمه در حوزه مدیریت و مانیتورینگ پروسه ها ابزار هایی مانند htop, ps و &amp;hellip; وجود دارند. اما اگر به دنبال یک ابزار شیک و منظم هستید حتما btop را امتحان کنید. این ابزار اطلاعات کاملی راجب وضعیت رم ها هارد دیسک ها سی پی یو و &amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>neofetch</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/neofetch/neofetch/</link>
+      <pubDate>Thu, 07 Apr 2022 01:27:14 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/neofetch/neofetch/</guid>
+      <description>فهرست  فهرست مقدمه نمایش اطلاعات به شکل کامل ذخیره خروجی در فایل نمایش مشخصات cpu نمایش مشخصات کارت گرافیک خروجی گرفتن از مدل سی پی یو Author or Authors    مقدمه برای نمایش اطلاعات کاملی راجب سیستم عامل، سی پی یو، رم و &amp;hellip;. میتوانید از ابزار neofetch استفاده کنید.
+  نمایش اطلاعات به شکل کامل برای اینکه اطلاعات را به شکل کامل، رنگی و مرتب شده ببینید کافیست از دستور neofetch در خط فرمان استفاده کنید.</description>
+    </item>
+    
+    <item>
+      <title>htop</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/htop/htop/</link>
+      <pubDate>Thu, 07 Apr 2022 00:02:56 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/htop/htop/</guid>
+      <description>فهرست  فهرست مقدمه مانیتور کردن پردازش ها گرفتن خروجی از ابزار کشتن پروسه ها با htop جستجو به دنبال پروسه خاص نمایش پروسه ها به شکل درختی Author or Authors    مقدمه ابزار htop برای مدیریت پردازش های در حال اجرا به کار میرود، اگر میخواهید که پردازش های خود را ببینید آن ها را حذف کنید یا آن ها را مانیتور کنید از ابزار htop استفاده کنید.</description>
+    </item>
+    
+    <item>
+      <title>fdisk</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/fdisk/fdisk/</link>
+      <pubDate>Mon, 04 Apr 2022 20:44:32 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/fdisk/fdisk/</guid>
+      <description>فهرست  فهرست مقدمه لیست کردن پارتیشن های موجود لیست کردن اطلاعات مربوط به هارد دیوایس خاص حذف کردن پارتیشن خاص ایجاد پارتیشن نمایش توضیحات راهنما ابزار mkfs Author or Authors    مقدمه هنگامی که میخواهید از یک هارد یا یک فلش استفاده کنید،در قدم اول باید آن را پارتیشن بندی کنید. یعنی هارد یا فلش یا دیوایسی که کار ذخیره سازی اطلاعات را انجام میدهد را به چند بخش تقسیم کنید.</description>
+    </item>
+    
+    <item>
+      <title>w</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/w/w/</link>
+      <pubDate>Mon, 04 Apr 2022 02:25:13 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/w/w/</guid>
+      <description>فهرست  فهرست مقدمه نمایش کاربرهای وارد شده در سیستم نمایش اطلاعات به صورت خلاصه نمایش بدون هدر مخفی کردن فیلد from نمایش اطلاعات مربوط به یک کاربر خاص Author or Authors    مقدمه برای اینکه متوجه شوید که چه یوزرهایی در سیستم لاگین هستند، میتوانید از دستور w استفاده کنید. زمانی که از این دستور استفاده میکنید، تمامی افرادی که در سیستم حضور دارند به شما نمایش داده خواهد شد.</description>
+    </item>
+    
+    <item>
+      <title>nano</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/nano/nano/</link>
+      <pubDate>Mon, 04 Apr 2022 01:31:42 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/nano/nano/</guid>
+      <description>فهرست  فهرست مقدمه باز کردن فایل با ادیتور ذخیره فایل خروج از ادیتور نمایش خطوط در کنار هم لیست کردن تمامی دستورات ادیتور جستجو در فایل کپی و کات کردن سریع برگشتن به کاراکتر قبلی و بعدی نمایش انتها و ابتدای خط جابه جا شدن در فایل Author or Authors    مقدمه در گنو/لینوکس ادیتور های زیادی در محیط cli داریم ، که هرکدام بسته به سلیقه و راحتی افراد استفاده میشود.</description>
+    </item>
+    
+    <item>
+      <title>less</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/less/less/</link>
+      <pubDate>Sun, 03 Apr 2022 23:20:10 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/less/less/</guid>
+      <description>فهرست  فهرست مقدمه نمایش فایل به صورت صفحه به صفحه جستجو به شکل صفحه به صفحه خروج از ابزار پیمایش به بالا و پایین در ابزار جستجو در فایل شماره گذاری خطوط فایل پرش به انتها و ابتدای فایل ادیت فایل باز شده به شکل همزمان باز کردن صفحه راهنما Author or Authors    مقدمه ابزار less ابزاری برای پیمایش در فایل هاست. با استفاده از ابزار less میتوانید به صورت صفحه به صفحه در فایل پیمایش کنید و با سوییچ های مختلف ابزار یا ترکیب با دیگر ابزار ها فایل خود را پیمایش و فیلتر کنید.</description>
+    </item>
+    
+    <item>
+      <title>tar</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/tar/tar/</link>
+      <pubDate>Sat, 02 Apr 2022 21:05:44 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/tar/tar/</guid>
+      <description>فهرست  فهرست مقدمه ایجاد فایل فشرده ایجاد فایل فشرده از فرمت های خاص غیرفشرده سازی فایل نمایش محتویات فایل اضافه کردن فایلهای جدید به فایل فشرده شده فشرده سازی با فرمت gz غیر فشرده سازی فایل های gz Author or Authors    مقدمه شما با استفاده از ابزار tar میتوانید فایلهای آرشیو را ایجاد و استخراج کنید. البته لازم به ذکر است بدانید که فایلهای شما با فرمت tar فشرده خواهند شد.</description>
+    </item>
+    
     <item>
       <title>rar</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/rar/rar/</link>
@@ -22,7 +108,7 @@
       <pubDate>Tue, 22 Mar 2022 23:28:56 +0430</pubDate>
       
       <guid>https://bit-orbit.github.io/the-secret-bit/posts/unrar/unrar/</guid>
-      <description>فهرست   مقدمه استخراج فایل فشرده استخراج فایل فشرده در دایرکتوری خاص استخراج فایل با ساختار اصلی نمایش اطلاعات فایل تست کردن فایل rar استخراج دسته جمعی فایل ها Author or Authors     مقدمه همانطور که میدانید rar جزو فرمت های متن باز نیست، و به همین دلیل توسعه دهندگان لینوکس ابزار های متعددی برای بازکردن این نوع فایل آرشیو طراحی نکرده اند. اما با این حال یکی از ابزارهایی که با آن میتوانید فایل های خود را از حالت فشرده خارج کنید ابزار unrar هست.</description>
+      <description>فهرست  فهرست مقدمه استخراج فایل فشرده استخراج فایل فشرده در دایرکتوری خاص استخراج فایل با ساختار اصلی نمایش اطلاعات فایل تست کردن فایل rar استخراج دسته ای فایل ها بیشتر بدانید Author or Authors    مقدمه همانطور که میدانید rar جزو فرمت های متن باز نیست، و به همین دلیل توسعه دهندگان لینوکس ابزار های متعددی برای بازکردن این نوع فایل آرشیو طراحی نکرده اند. اما با این حال یکی از ابزارهایی که با آن میتوانید فایل های خود را از حالت فشرده خارج کنید ابزار unrar هست.</description>
     </item>
     
     <item>
@@ -31,7 +117,7 @@
       <pubDate>Mon, 21 Mar 2022 18:04:07 +0330</pubDate>
       
       <guid>https://bit-orbit.github.io/the-secret-bit/posts/redshift/redshift/</guid>
-      <description>فهرست   مقدمه نصب ابزار کم کردن نور مانیتور با ابزار فعال کردن فیلتر نور آبی Author or Authors     مقدمه اگر شب ها بیشتر از کامپیوترتان استفاده میکنید، بهتر است برای جلوگیری از مشکلات بینایی در آینده حالت شب سیستم عامل را فعال کنید. اما همیشه ماجرا اینطوری نیست و در برخی سیستم عامل های لینوکسی حالت شب به شکل پیشفرض موجود نیست و برای اینکه شما به این قابلیت مهم دسترسی داشته باشید باید آن را نصب کنید، اما به دلیل پیچیده بودن مراحل نصب ، استفاده از ابزارهای توسعه داده شده بهترین کار است.</description>
+      <description>فهرست  فهرست مقدمه کم کردن نور مانیتور با ابزار فعال کردن فیلتر نور آبی ریست کردن ابزار Author or Authors    مقدمه اگر شب ها بیشتر از کامپیوترتان استفاده میکنید، بهتر است برای جلوگیری از مشکلات بینایی در آینده حالت شب سیستم عامل را فعال کنید. اما همیشه ماجرا اینطوری نیست و در برخی سیستم عامل های لینوکسی حالت شب به شکل پیشفرض موجود نیست و برای اینکه شما به این قابلیت مهم دسترسی داشته باشید باید آن را نصب کنید، اما به دلیل پیچیده بودن مراحل نصب ، استفاده از ابزارهای توسعه داده شده بهترین کار است.</description>
     </item>
     
     <item>

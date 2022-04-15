@@ -64,6 +64,7 @@ man page
 | [uniq](https://bit-orbit.github.io/the-secret-bit/posts/uniq/uniq)  | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [watch](https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/) | [Arya](https://github.com/shabane)                | ✔️ |
 |git|[Shahriar](https://github.com/shahriaarrr)|✏️|
+|cd|[Motahhar](https://github.com/motahharm)|✏️|
 |grep|⁉️|⁉️|
 |tree|⁉️|⁉️|
 |ping|⁉️|⁉️|
@@ -74,7 +75,6 @@ man page
 |history|⁉️|⁉️|
 |rm|⁉️|⁉️|
 |mv|⁉️|⁉️|
-|cd|⁉️|⁉️|
 |tar|⁉️|⁉️|
 |7z|⁉️|⁉️|
 |crunch|⁉️|⁉️|
