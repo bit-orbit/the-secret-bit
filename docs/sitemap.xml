@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/cd/cd/</loc>
+    <lastmod>2022-04-14T10:52:07+04:30</lastmod>
+  </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/</loc>
-    <lastmod>2022-03-23T00:29:04+04:30</lastmod>
+    <lastmod>2022-04-14T10:52:07+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/</loc>
+    <lastmod>2022-04-09T18:01:46+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/btop/btop/</loc>
+    <lastmod>2022-04-07T01:57:10+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/neofetch/neofetch/</loc>
+    <lastmod>2022-04-07T01:27:14+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/htop/htop/</loc>
+    <lastmod>2022-04-07T00:02:56+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/fdisk/fdisk/</loc>
+    <lastmod>2022-04-04T20:44:32+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/w/w/</loc>
+    <lastmod>2022-04-04T02:25:13+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/nano/nano/</loc>
+    <lastmod>2022-04-04T01:31:42+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/less/less/</loc>
+    <lastmod>2022-04-03T23:20:10+04:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/rar/rar/</loc>
     <lastmod>2022-03-23T00:29:04+04:30</lastmod>
@@ -79,6 +106,9 @@
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/sort/sort/</loc>
     <lastmod>2022-03-07T20:59:03+03:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/fmt/fmt/</loc>
+    <lastmod>2022-03-07T18:44:26+03:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/nl/nl/</loc>
     <lastmod>2022-03-07T17:58:20+03:30</lastmod>

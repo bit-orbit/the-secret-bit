@@ -17,6 +17,7 @@ draft: false
 > - [اضافه کردن فایل های جدید به فایل فشرده شده](#اضافه-کردن-فایل-های-جدید-به-فایل-فشرده-شده)
 > - [ست کردن پسورد برای فایل فشرده](#ست-کردن-پسورد-برای-فایل-فشرده)
 > - [استخراج فایل](#استخراج-فایل)
+> - [همچنین مطالعه کنید](#همچنین-مطالعه-کنید)
 > - [Author or Authors](#author-or-authors)
 </div>
 
@@ -151,7 +152,12 @@ e
 
 
 ---
+<div dir = 'rtl'>
 
+### همچنین مطالعه کنید
+[unrar](/posts/unrar/unrar)
+
+---
 ### Author or Authors
 
 - *[Amirhosein](https://github.com/amirhoseinsb)* | **<amirhoseinsohrabi.official@gmail.com>**

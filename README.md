@@ -63,7 +63,8 @@ man page
 | [cp](https://bit-orbit.github.io/the-secret-bit/posts/cp/cp/)       | [Arya](https://github.com/shabane)                   | ✔️ |
 | [uniq](https://bit-orbit.github.io/the-secret-bit/posts/uniq/uniq)  | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [watch](https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/) | [Arya](https://github.com/shabane)                | ✔️ |
-|git|[Shahriar](https://github.com/shahriaarrr) & [Arya](https://github.com/shabane)|✏️|
+| [cd](https://bit-orbit.github.io/the-secret-bit/posts/cd/cd/) | [Motahhar](https://github.com/motahharm)                | ✔️ |
+|[git](https://bit-orbit.github.io/the-secret-bit/posts/git/git/)|[Shahriar](https://github.com/shahriaarrr)|✔️|
 |grep|⁉️|⁉️|
 |tree|⁉️|⁉️|
 |ping|⁉️|⁉️|
@@ -74,7 +75,6 @@ man page
 |history|⁉️|⁉️|
 |rm|⁉️|⁉️|
 |mv|⁉️|⁉️|
-|cd|⁉️|⁉️|
 |tar|⁉️|⁉️|
 |7z|⁉️|⁉️|
 |crunch|⁉️|⁉️|

@@ -387,7 +387,8 @@ wget
 قرار دهید.</p>
 <p>و برای مشخص کردن خروجی یک دستور از علامت
 <code>#</code>
-در پشت دستور استفاده کنید.</p>
+در پشت هر خروجی استفاده کنید.</p>
+<p>برای مثال:</p>
 <pre><code>$ ls -lh
 
 # drwxr-xr-x 2 root root 4.0K ژانویه   4 21:41 Desktop
@@ -401,43 +402,63 @@ wget
 markdown
 پیروی می‌کنند.</p>
 <pre><code class="language-md">
+---
+title: &quot;toolName&quot;
+date: 2021-09-17T12:27:38+04:30
+draft: true
+tags: [&quot;tag1&quot;, &quot;tag2&quot;, &quot;tag3&quot;]
+---
+
 &lt;div dir='rtl'&gt;
 
 [![&quot;Image Alt&quot;](img src)](Link of image)
 
-فهرست
+### فهرست
 
-- [مقدمه](id)
-- [قسمت دوم](id)
+&gt; - [مقدمه](#id)
+&gt; - [قسمت اول](#id)
+&gt; -  [قسمت دوم](#id)
 
 ---
+
+&lt;div dir='rtl'&gt;
 
 ### مقدمه
 توضیحات
 
+&lt;/div&gt;
+
 ---
 
-# قسمت اول
+&lt;div dir='rtl'&gt;
+
+### قسمت اول
 توضیحات
 
+&lt;/div&gt;
+
 ---
+
+&lt;div dir='rtl'&gt;
 
 ### قسمت دوم
 توضیحات
+
+&lt;/div&gt;
 
 ---
 
 Author or Authors:
 
-- name1 &lt;email@example.com&gt;
-- name2 &lt;email2@some.com&gt;
+- *[Yourname](your github/gitlab)* | **&lt;yourMail@example.com&gt;**
+- *[Author2](Author2 github/gitlab)* | **&lt;yourMail@example.com&gt;**
 
 &lt;/div&gt;
 
 </code></pre>
 <hr>
 <h2 id="5">5</h2>
-<p>برای نمایش دادن عکس ها کافیست یک پوشه داخل پوشه ابزار به نام پوشه اصلی بسازید
+<p>برای نمایش دادن عکس ها کافیست یک پوشه داخل پوشه ابزار به نام پوشه اصلی بسازید.
 مثلا اگر شما در پوشه
 wget
 هستید، باید یک پوشه به همین نام درون همین پوشه بسازید
@@ -450,6 +471,18 @@ wget
         │── 2.png
         └── 3.gif
 </code></pre>
+<hr>
+<h2 id="6">6</h2>
+<p>ههم چیز تمام است! ققط توجه کنید که سایت را بیلد نکنید
+و همچین گزینه
+<strong>draft</strong>
+را
+<strong>true</strong>
+نگهدارید.</p>
+<p>سعنی کنید که در قسمت
+<code>tags</code>
+تگ های مربوط به ابزارتون رو بنویسید.</p>
+<p>ممنون بابت کمک به جامعه <strong>فارسی</strong> لینوکس</p>
 
   </main>
 
