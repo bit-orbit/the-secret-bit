@@ -6,10 +6,17 @@
     <description>Recent content in Posts on the-secret-bit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-IR</language>
-    <lastBuildDate>Sat, 09 Apr 2022 18:01:46 +0430</lastBuildDate>
-    
-	<atom:link href="https://bit-orbit.github.io/the-secret-bit/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 14 Apr 2022 10:52:07 +0430</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cd</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/cd/cd/</link>
+      <pubDate>Thu, 14 Apr 2022 10:52:07 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/cd/cd/</guid>
+      <description>فهرست   مقدمه رفتن به یک دایرکتوری رفتن به دایرکتوری های تو در تو Author or Authors:    مقدمه ابزار cd یکی از ابزارهای سیستمی است که به شما اجازه می دهد به دایرکتوری خاصی رفته و به آن باز می گردید.
+واژه cd مخفف change directory است.
+ رفتن به یک دایرکتوری برای رفتن به یک دایرکتوری با دستور cd و آدرس دایرکتوری مورد نظر خود را می‌نویسیم.</description>
+    </item>
     
     <item>
       <title>mkfs</title>
@@ -17,7 +24,7 @@
       <pubDate>Sat, 09 Apr 2022 18:01:46 +0430</pubDate>
       
       <guid>https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/</guid>
-      <description>فهرست  فهرست مقدمه ایجاد یک پارتیشن و فرمت کردن آن استفاده از فایل سیستم های خاص استفاده از فضای ایجاد شده ابزار fdisk Author or Authors    مقدمه برای ایجاد فایل سیستم یا تغییر فرمت یک پارتیشن به فرمت دیگر میتوانید از از ابزار mkfs استفاده کنید. mkfs مخفف عبارت make file system میباشد. لازم به ذکر است بدانید که هنگام فرمت یک پارتیشن تمامی اطلاعات موجود در پارتیشن از بین خواهند رفت.</description>
+      <description>فهرست   مقدمه ایجاد یک پارتیشن و فرمت کردن آن استفاده از فایل سیستم های خاص استفاده از فضای ایجاد شده همچنین مطاعه کنید Author or Authors     مقدمه برای ایجاد فایل سیستم یا تغییر فرمت یک پارتیشن به فرمت دیگر میتوانید از از ابزار mkfs استفاده کنید. mkfs مخفف عبارت make file system میباشد. لازم به ذکر است بدانید که هنگام فرمت یک پارتیشن تمامی اطلاعات موجود در پارتیشن از بین خواهند رفت.</description>
     </item>
     
     <item>
@@ -320,6 +327,16 @@
       
       <guid>https://bit-orbit.github.io/the-secret-bit/posts/sort/sort/</guid>
       <description>فهرست   مقدمه مرتب سازی فایل مرتب سازی فایل به صورت برعکس مرتب سازی فایل های عددی به ترتیب اعداد کوچک به بزرگ مرتب سازی فایل های عددی به ترتیب اعداد بزرگ به کوچک گرفتن خروجی از فایل مرتب شده به فایل جدید چک کردن مرتب بودن فایل و نمایش خطوط نامرتب مرتب سازی فایل و حذف کلمات تکراری Author or Authors     مقدمه فرض کنید فایلی پر از اسم دارید و میخواهید اسامی را بر اساس حروف الفبا مرتب کنید در همچنین شرایطی استفاده از ابزار sort بهترین کار است.</description>
+    </item>
+    
+    <item>
+      <title>fmt</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/fmt/fmt/</link>
+      <pubDate>Mon, 07 Mar 2022 18:44:26 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/fmt/fmt/</guid>
+      <description>فهرست   مقدمه نمایش فایل متنی با fmt نمایش فایل با طول دلخواه برجسته کردن خط اول فایل حذف کردن فاصله بین کلمات Author or Authors:     مقدمه اگر فایل متنی کوتاه یا بلندی دارید که به هم ریخته است یا به درستی قالب بندی نشده است . میتوانید با ابزار fmt به سرعت فایل خود را قالب بندی کنید.
+  نمایش فایل متنی با fmt اگر به شکل عادی از دستور fmt استفاده کنید تمامی کلمات موجود در فایل در یک خط مساوی قرار خواهند گرفت.</description>
     </item>
     
     <item>
