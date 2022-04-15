@@ -113,7 +113,9 @@ draft: false
 <div dir = 'rtl'>
 
 ### همچنین مطالعه کنید
-[rar](../rar/rar.md)
+
+[rar](/posts/rar/rar)
+
 </div>
 
 ---
