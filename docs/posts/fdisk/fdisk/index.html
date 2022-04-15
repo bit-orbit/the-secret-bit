@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="generator" content="Hugo 0.68.3" />
+  <meta name="generator" content="Hugo 0.93.2" />
   <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/posts/fdisk/fdisk/">
 
   
     
-    <meta name="description" content="فهرست  فهرست مقدمه لیست کردن پارتیشن های موجود لیست کردن اطلاعات مربوط به هارد دیوایس خاص حذف کردن پارتیشن خاص ایجاد پارتیشن نمایش توضیحات راهنما ابزار mkfs Author or Authors    مقدمه هنگامی که میخواهید از یک هارد یا یک فلش استفاده کنید،در قدم اول باید آن را پارتیشن بندی کنید. یعنی هارد یا فلش یا دیوایسی که کار ذخیره سازی اطلاعات را انجام میدهد را به چند بخش تقسیم کنید.">
+    <meta name="description" content="فهرست   مقدمه لیست کردن پارتیشن های موجود لیست کردن اطلاعات مربوط به هارد دیوایس خاص حذف کردن پارتیشن خاص ایجاد پارتیشن نمایش توضیحات راهنما همچنین مطالعه کنید Author or Authors     مقدمه هنگامی که میخواهید از یک هارد یا یک فلش استفاده کنید،در قدم اول باید آن را پارتیشن بندی کنید. یعنی هارد یا فلش یا دیوایسی که کار ذخیره سازی اطلاعات را انجام میدهد را به چند بخش تقسیم کنید.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -267,22 +267,28 @@
     <h1>fdisk</h1>
     <div dir='rtl'>
 <h3 id="فهرست">فهرست</h3>
+<blockquote>
 <ul>
-<li><a href="#%D9%81%D9%87%D8%B1%D8%B3%D8%AA">فهرست</a></li>
 <li><a href="#%D9%85%D9%82%D8%AF%D9%85%D9%87">مقدمه</a></li>
 <li><a href="#%D9%84%DB%8C%D8%B3%D8%AA-%DA%A9%D8%B1%D8%AF%D9%86-%D9%BE%D8%A7%D8%B1%D8%AA%DB%8C%D8%B4%D9%86-%D9%87%D8%A7%DB%8C-%D9%85%D9%88%D8%AC%D9%88%D8%AF">لیست کردن پارتیشن های موجود</a></li>
 <li><a href="#%D9%84%DB%8C%D8%B3%D8%AA-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%87%D8%A7%D8%B1%D8%AF-%D8%AF%DB%8C%D9%88%D8%A7%DB%8C%D8%B3-%D8%AE%D8%A7%D8%B5">لیست کردن اطلاعات مربوط به هارد دیوایس خاص</a></li>
 <li><a href="#%D8%AD%D8%B0%D9%81-%DA%A9%D8%B1%D8%AF%D9%86-%D9%BE%D8%A7%D8%B1%D8%AA%DB%8C%D8%B4%D9%86-%D8%AE%D8%A7%D8%B5">حذف کردن پارتیشن خاص</a></li>
 <li><a href="#%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%D9%BE%D8%A7%D8%B1%D8%AA%DB%8C%D8%B4%D9%86">ایجاد پارتیشن</a></li>
 <li><a href="#%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D8%AA%D9%88%D8%B6%DB%8C%D8%AD%D8%A7%D8%AA-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7">نمایش توضیحات راهنما</a></li>
-<li><a href="#%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1-mkfs">ابزار mkfs</a></li>
+<li><a href="#%D9%87%D9%85%DA%86%D9%86%DB%8C%D9%86-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D9%87-%DA%A9%D9%86%DB%8C%D8%AF">همچنین مطالعه کنید</a></li>
 <li><a href="#author-or-authors">Author or Authors</a></li>
 </ul>
+</blockquote>
 </div>
 <hr>
 <div dir='rtl'>
 <h3 id="مقدمه">مقدمه</h3>
-<p>هنگامی که میخواهید از یک هارد یا یک فلش استفاده کنید،در قدم اول باید آن را پارتیشن بندی کنید. یعنی هارد یا فلش یا دیوایسی که کار ذخیره سازی اطلاعات را انجام میدهد را به چند بخش تقسیم کنید. شما با استفاده از ابزار fdisk میتوانید پارتیشن های ایجاد شده را مدیریت کنید یا پارتیشن جدیدی ایجاد کنید. اما بحث فقط پارتیشن بندی نیست. شما بعد از پارتیشن بندی نیاز به فرمت کردن پارتیشن ها دارید . کار فرمت کردن با استفاده از ابزار mkfs انجام میشود، که این ابزار را هم در همین کتاب میتوانید پیدا کنید و توضیحات آن را مطالعه کنید.</p>
+<p>هنگامی که میخواهید از یک هارد یا یک فلش استفاده کنید،در قدم اول باید آن را پارتیشن بندی کنید. یعنی هارد یا فلش یا دیوایسی که
+کار ذخیره سازی اطلاعات را انجام میدهد را به چند بخش تقسیم کنید. شما با استفاده از ابزار
+<em>fdisk</em>
+میتوانید پارتیشن های ایجاد شده را مدیریت کنید یا پارتیشن جدیدی ایجاد کنید. اما بحث فقط پارتیشن بندی نیست. شما بعد از پارتیشن بندی نیاز به فرمت کردن پارتیشن ها دارید . وظیفه فرمت کردن را ابزار
+<a href="https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/">mkfs</a>
+به عهده دارد.</p>
 </div>
 <hr>
 <div dir='rtl'>
@@ -526,9 +532,8 @@ $ Enter The m Command For Help
 </code></pre>
 <hr>
 <div dir='rtl'>
-<h3 id="ابزار-mkfs">ابزار mkfs</h3>
-<p>برای مطالعه توضیحات ابزار mkfs میتوانید روی عبارت زیر کلیک کنید.</p>
-<p><a href="http://localhost:1313/the-secret-bit/posts/mkfs/mkfs/">mkfs</a></p>
+<h3 id="همچنین-مطالعه-کنید">همچنین مطالعه کنید</h3>
+<p><a href="https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/">mkfs</a></p>
 </div>
 <hr>
 <h3 id="author-or-authors">Author or Authors</h3>

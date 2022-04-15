@@ -1,7 +1,7 @@
 ---
 title: "fmt"
 date: 2022-03-07T18:44:26+03:30
-draft: true
+draft: false
 ---
 
 <div dir='rtl'>
