@@ -33,12 +33,19 @@ man page
 را مشاهده کنید.
 
 
+برای اینکه برای دیگران مشخض کنید که شما در حال نوشتن یکی از ابزار ها هستید
+کافیست در 
+[این فایل](https://docs.google.com/spreadsheets/d/1PXXUOklciHW1glSj9GU8d9ojZw6xKCQVZCAeUhGEg9U/edit?usp=sharing)
+اکسل مشخص کنید.
+
+
+
 ### نماد وضعیت
 > |نماد|معنی|
 > |:--:|:--:|
 > | ✔️ | اتمام فصل |
-> | ⁉️ | نیاز به نویسنده |
-> | ✏️ | درحال نوشتن |
+
+
 
 
 ### فهرست فصل ها
@@ -65,80 +72,7 @@ man page
 | [watch](https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/) | [Arya](https://github.com/shabane)                | ✔️ |
 | [cd](https://bit-orbit.github.io/the-secret-bit/posts/cd/cd/) | [Motahhar](https://github.com/motahharm)                | ✔️ |
 |[git](https://bit-orbit.github.io/the-secret-bit/posts/git/git/)|[Shahriar](https://github.com/shahriaarrr)|✔️|
-|grep|⁉️|⁉️|
-|tree|⁉️|⁉️|
-|ping|⁉️|⁉️|
-|traceroute|⁉️|⁉️|
-|nmap|⁉️|⁉️|
-|fuser|⁉️|⁉️|
-|neofetch|⁉️|⁉️|
-|history|⁉️|⁉️|
-|rm|⁉️|⁉️|
-|mv|⁉️|⁉️|
-|tar|⁉️|⁉️|
-|7z|⁉️|⁉️|
-|crunch|⁉️|⁉️|
-|xdd|⁉️|⁉️|
-|cpio|⁉️|⁉️|
-|ssh|⁉️|⁉️|
-|awk|⁉️|⁉️|
-|aria2c|⁉️|⁉️|
-|chmod|⁉️|⁉️|
-|chown|⁉️|⁉️|
-|chapper|⁉️|⁉️|
-|write|⁉️|⁉️|
-|wall|⁉️|⁉️|
-|apg|⁉️|⁉️|
-|curl|⁉️|⁉️|
-|date|⁉️|⁉️|
-|dd|⁉️|⁉️|
-|privoxy|⁉️|⁉️|
-|fdisk|⁉️|⁉️|
-|mkfs|⁉️|⁉️|
-|dt|⁉️|⁉️|
-|du|⁉️|⁉️|
-|diff|⁉️|⁉️|
-|dig|⁉️|⁉️|
-|macchanger|⁉️|⁉️|
-|ffmpeg|⁉️|⁉️|
-|free|⁉️|⁉️|
-|ftp|⁉️|⁉️|
-|mount|⁉️|⁉️|
-|unmount|⁉️|⁉️|
-|gpg|⁉️|⁉️|
-|tail|⁉️|⁉️|
-|htop|⁉️|⁉️|
-|ln|⁉️|⁉️|
-|lsattr|⁉️|⁉️|
-|mkinfo|⁉️|⁉️|
-|mtr|⁉️|⁉️|
-|nice|⁉️|⁉️|
-|renice|⁉️|⁉️|
-|netstat|⁉️|⁉️|
-|pip|⁉️|⁉️|
-|pv|⁉️|⁉️|
-|pwd|⁉️|⁉️|
-|scp|⁉️|⁉️|
-|split|⁉️|⁉️|
-|stat|⁉️|⁉️|
-|strace|⁉️|⁉️|
-|systemctl|⁉️|⁉️|
-|tree|⁉️|⁉️|
-|xarge|⁉️|⁉️|
-|blkid|⁉️|⁉️|
-|lsblk|⁉️|⁉️|
-|w|⁉️|⁉️|
-|less|⁉️|⁉️|
-|match|⁉️|⁉️|
-|youtube⁉️dl|⁉️|⁉️|
-|sed|⁉️|⁉️|
-|sftp|⁉️|⁉️|
-|kill|⁉️|⁉️|
-|killall|⁉️|⁉️|
-|pkill|⁉️|⁉️|
-|supervisor|⁉️|⁉️|
-|reboot|⁉️|⁉️|
-|shutdown|⁉️|⁉️|
+
 
 
 </div>
