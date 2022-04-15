@@ -1,7 +1,7 @@
 ---
 title: "Cd"
 date: 2022-04-14T10:52:07+04:30
-draft: true
+draft: false
 ---
 
 <div dir='rtl'>
