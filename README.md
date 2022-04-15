@@ -76,7 +76,6 @@ man page
 | [neofetch](https://bit-orbit.github.io/the-secret-bit/posts/neofetch/neofetch/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [history](https://bit-orbit.github.io/the-secret-bit/posts/history/history/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [rm](https://bit-orbit.github.io/the-secret-bit/posts/rm/rm/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
-| [curl](https://bit-orbit.github.io/the-secret-bit/posts/curl/curl/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [fdisk](https://bit-orbit.github.io/the-secret-bit/posts/fdisk/fdisk/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [mkfs](https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [free](https://bit-orbit.github.io/the-secret-bit/posts/free/free/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
