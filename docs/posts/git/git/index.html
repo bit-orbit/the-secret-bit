@@ -5,18 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="generator" content="Hugo 0.88.1" />
+  <meta name="generator" content="Hugo 0.93.2" />
   <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/posts/git/git/">
 
   
     
-    <meta name="description" content="دستورات گیت 1-وارد کردن گیت در پروژه
-$ git init  2- اضافه کردن تغییرات یک فایل و بردن به استیج
-$ git add {اسم فایل}  2.1- اضافه کردن تغییرات تمامی فایل های پروژه
-$ git add -A  3- کامیت کردن تغییرات:
-$ git commit  3.1-کامیت کردن تغییرات به همراه کامیت مسیج
-$ git commit -m {متن پیام}  4- مشاهده برنچ های موجود در پروژه:
-$ git branch  5-ساخت برنچ جدید در پروژه یا رفتن به یکی از یرنچ های پروژه">
+    <meta name="description" content="فهرست   مقدمه ساختار کامند های گیت وارد کردن گیت به داخل پروژه بررسی فایل های پروژه اضافه کردن تغییرات به حالت stage کامیت کردن تغییرات مشاهده تاریخچه کامیت ها بررسی عمیق تر تغییرات پروژه ساخت برنچ جدید در پروژه تغییر برنچ پروژه مرج کردن برنچ حذف کردن برنچ حذف کردن برنچ بدون مرج کردن کلون کردن پروژه از اینترنت وصل کردن پروژه به فضای ابری فرستادن پروژه به فضای ابری مرچ کردن کامیت های پروژه در فضای ابری و سیستم لوکال Author or Authors     مقدمه گیت یک سیستم کنترل ورژن (VCS) میباشد.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -64,7 +58,7 @@ $ git branch  5-ساخت برنچ جدید در پروژه یا رفتن به ی
 
   
   
-  <title>Git | the-secret-bit</title>
+  <title>git | the-secret-bit</title>
 </head>
 
   <body>
@@ -181,7 +175,7 @@ $ git branch  5-ساخت برنچ جدید در پروژه یا رفتن به ی
           alt="logo">
       </a>
       <p class="library-desc">
-         a linux command hand-book for geek&rsquo;s 
+         linux command&rsquo;s hand-book 
       </p>
     </div>
     <nav id="patterns-nav" class="patterns" role="navigation">
@@ -194,19 +188,6 @@ $ git branch  5-ساخت برنچ جدید در پروژه یا رفتن به ی
   </button>
   
   <ul id="patterns-list">
-  
-    <li class="pattern">
-      
-      
-      
-      
-      <a href="https://bit-orbit.github.io/the-secret-bit/tags/" >
-        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-          <use xlink:href="#bookmark"></use>
-        </svg>
-        <span class="text">تگ ها</span>
-      </a>
-    </li>
   
     <li class="pattern">
       
@@ -226,11 +207,50 @@ $ git branch  5-ساخت برنچ جدید در پروژه یا رفتن به ی
       
       
       
+      <a href="https://bit-orbit.github.io/the-secret-bit/nav/contribute/how-to-contribute/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">مشارکت در کتاب</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
       <a href="https://bit-orbit.github.io/the-secret-bit/posts/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
         <span class="text">فصل ها</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="https://bit-orbit.github.io/the-secret-bit/tags/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">تگ ها</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="https://github.com/bit-orbit/the-secret-bit/issues" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">انجمن</span>
       </a>
     </li>
   
@@ -244,42 +264,262 @@ $ git branch  5-ساخت برنچ جدید در پروژه یا رفتن به ی
         <div>
           
   <main id="main">
-    <h1>Git</h1>
-    <p><img src="https://bit-orbit.github.io/the-secret-bit/images/Git/git.png" alt="&ldquo;git&rdquo;"></p>
-<h2 id="دستورات-گیت">دستورات گیت</h2>
-<p>1-وارد کردن گیت در پروژه</p>
-<pre><code>$ git init
+    <h1>git</h1>
+    <div dir='rtl'>
+<h3 id="فهرست">فهرست</h3>
+<blockquote>
+<ul>
+<li><a href="#%D9%85%D9%82%D8%AF%D9%85%D9%87">مقدمه</a></li>
+<li><a href="#%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%DA%A9%D8%A7%D9%85%D9%86%D8%AF-%D9%87%D8%A7%DB%8C-%DA%AF%DB%8C%D8%AA">ساختار کامند های گیت</a></li>
+<li><a href="#%D9%88%D8%A7%D8%B1%D8%AF-%DA%A9%D8%B1%D8%AF%D9%86-%DA%AF%DB%8C%D8%AA-%D8%A8%D9%87-%D8%AF%D8%A7%D8%AE%D9%84-%D9%BE%D8%B1%D9%88%DA%98%D9%87">وارد کردن گیت به داخل پروژه</a></li>
+<li><a href="#%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%DB%8C-%D9%BE%D8%B1%D9%88%DA%98%D9%87">بررسی فایل های پروژه</a></li>
+<li><a href="#%D8%A7%D8%B6%D8%A7%D9%81%D9%87-%DA%A9%D8%B1%D8%AF%D9%86-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA-%D8%A8%D9%87-%D8%AD%D8%A7%D9%84%D8%AA-stage">اضافه کردن تغییرات به حالت stage</a></li>
+<li><a href="#%DA%A9%D8%A7%D9%85%DB%8C%D8%AA-%DA%A9%D8%B1%D8%AF%D9%86-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA">کامیت کردن تغییرات</a></li>
+<li><a href="#%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D9%87-%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA-%D9%87%D8%A7">مشاهده تاریخچه کامیت ها</a></li>
+<li><a href="#%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D8%AA%D8%B1-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA-%D9%BE%D8%B1%D9%88%DA%98%D9%87">بررسی عمیق تر تغییرات پروژه</a></li>
+<li><a href="#%D8%B3%D8%A7%D8%AE%D8%AA-%D8%A8%D8%B1%D9%86%DA%86-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D9%BE%D8%B1%D9%88%DA%98%D9%87">ساخت برنچ جدید در پروژه</a></li>
+<li><a href="#%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1-%D8%A8%D8%B1%D9%86%DA%86-%D9%BE%D8%B1%D9%88%DA%98%D9%87">تغییر برنچ پروژه</a></li>
+<li><a href="#%D9%85%D8%B1%D8%AC-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A8%D8%B1%D9%86%DA%86">مرج کردن برنچ</a></li>
+<li><a href="#%D8%AD%D8%B0%D9%81-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A8%D8%B1%D9%86%DA%86">حذف کردن برنچ</a></li>
+<li><a href="#%D8%AD%D8%B0%D9%81-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A8%D8%B1%D9%86%DA%86-%D8%A8%D8%AF%D9%88%D9%86-%D9%85%D8%B1%D8%AC-%DA%A9%D8%B1%D8%AF%D9%86">حذف کردن برنچ بدون مرج کردن</a></li>
+<li><a href="#%DA%A9%D9%84%D9%88%D9%86-%DA%A9%D8%B1%D8%AF%D9%86-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D8%A7%D8%B2-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA">کلون کردن پروژه از اینترنت</a></li>
+<li><a href="#%D9%88%D8%B5%D9%84-%DA%A9%D8%B1%D8%AF%D9%86-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D8%A8%D9%87-%D9%81%D8%B6%D8%A7%DB%8C-%D8%A7%D8%A8%D8%B1%DB%8C">وصل کردن پروژه به فضای ابری</a></li>
+<li><a href="#%D9%81%D8%B1%D8%B3%D8%AA%D8%A7%D8%AF%D9%86-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D8%A8%D9%87-%D9%81%D8%B6%D8%A7%DB%8C-%D8%A7%D8%A8%D8%B1%DB%8C">فرستادن پروژه به فضای ابری</a></li>
+<li><a href="#%D9%85%D8%B1%DA%86-%DA%A9%D8%B1%D8%AF%D9%86-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA-%D9%87%D8%A7%DB%8C-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D8%AF%D8%B1-%D9%81%D8%B6%D8%A7%DB%8C-%D8%A7%D8%A8%D8%B1%DB%8C-%D9%88-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D9%84%D9%88%DA%A9%D8%A7%D9%84">مرچ کردن کامیت های پروژه در فضای ابری و سیستم لوکال</a></li>
+<li><a href="#author-or-authors">Author or Authors</a></li>
+</ul>
+</blockquote>
+</div>
+<hr>
+<div dir='rtl'>
+<h3 id="مقدمه">مقدمه</h3>
+<p>گیت یک سیستم کنترل ورژن
+(VCS)
+میباشد.ما سیستم های کنترل ورژن زیادی داریم اما در این بین امروزه گیت محبوبترین آنهاست. گیت در سال 2005 توسط لینوس توروالدز خالق کرنل لینوکس ساخته و بصورت اوپن سورس منتشر شد.</p>
+<p>گیت را مثل یک سیستم بکاپ گیری در نظر بگیرید. در این سیستم به هر بکاپ
+<em>commit</em>
+می‌‌‌گویند.</p>
+<p>فایل ها قبل از اینکه
+<em>commit</em>
+بشوند وارد حالتی به اسم
+stage
+می‌شوند، فایل هایی که
+stage
+شدند با یک دستور
+<em>commit</em>
+می‌شوند
+و فایل هایی که در حالت
+<em>stage</em>
+نیستند به کامیت ها اضافه نمی‌شوند.</p>
+<hr>
+<h3 id="ساختار-کامند-های-گیت">ساختار کامند های گیت</h3>
+<p>به یاد داشته باشید که ساختار دستور گیت به این شکل است</p>
+<div dir='ltr'>
+<blockquote>
+<p>git <strong>switch</strong> <em>&ndash;option</em> <strong>args</strong></p>
+</blockquote>
+</div>
+<p>درواقع بعد از کامند
+<em>git</em>
+شما یک سوییچ را برای انجام یک وظیفه خاص انتخاب می‌کنید
+هر سوییچ دارای یک سری اپشن ها هستند که به نسبت اون اپشن نحوه عملکرد
+سوییچ را تغییر می‌دهد.</p>
+<p>مثلا برای دیدن لاگ ها
+از اپشن
+<code>graph--</code>
+استفاده کنید تا یک گراف بصری از برنچ ها به شما نمایش داده شود.</p>
+<p>و در آخر ممکن است یک آپشن گزینه ورودی هایی هم بگیرد
+مانند</p>
+<div dir='ltr'>
+<p><code>git commit -m &quot;message&quot;</code></p>
+</div>
+که توضیحات شما را به کامیت اضافه می‌کند.
+<hr>
+<h3 id="وارد-کردن-گیت-به-داخل-پروژه">وارد کردن گیت به داخل پروژه</h3>
+<p>در این مرحله ابتدا با دستور
+<a href="https://bit-orbit.github.io/the-secret-bit/posts/cd/cd/">cd</a>
+وارد پوشه پروژه‌ای شوید که می‌خواهید گیت را به آن اضافه کنید.</p>
+<p>برای کار کردن و استفاده از گیت ابتدا باید آن را وارد پروژه کرد. با دستور زیر در دایرکتوری پروژه شما یک پوشه
+<code>git.</code>
+ساخته میشود و به این ترتیب گیت وارد پروژه شما میشود.</p>
+</div>
+<pre><code class="language-bash">$ git init
+# Initialized empty Git repository in &lt;your folder path&gt;/.git/
 </code></pre>
-<p>2- اضافه کردن تغییرات یک فایل و بردن به استیج</p>
-<pre><code>$ git add {اسم فایل}
+<hr>
+<div dir='rtl'>
+<h3 id="بررسی-فایل-های-پروژه">بررسی فایل های پروژه</h3>
+<p>برای اینکه وضعیت پروژه را بررسی کنیم از نظر اینکه چه فایل های جدیدی به پروژه اضافه شدند یا فایل هایی که از قبل در پروژه بودند محتوایشان تغغیری کرده یا نه از دستور
+<code>git status</code>
+استفاده می‌کنیم.</p>
+</div>
+<pre><code>$ git status                       
+# On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+        modified:   &lt;file name&gt;
+
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+        &lt;file name&gt;
+
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
 </code></pre>
-<p>2.1- اضافه کردن تغییرات تمامی فایل های پروژه</p>
-<pre><code>$ git add -A
+<hr>
+<div dir='rtl'>
+<h3 id="اضافه-کردن-تغییرات-به-حالت-stage">اضافه کردن تغییرات به حالت stage</h3>
+<p>با دستور زیر میتوانید تغییرات پروژه از اضافه شدن فایل های جدید تا تغییرات فایل های قبلی را اصطلاحا به حالت stage ببرید و برای کامیت کردن و ثبت تغییرات آنها را آماده کنید. کافی است پس از کامند زیر اسم فایل مورد نظر را بنویسید تا وضعیت آن به stage تغییر کند.</p>
+<p>اینکار برای این است که شما انتخاب کنید که چه فایل هایی کامیت بشوند و چه فایل هایی به کامیت اضافه نشوند.</p>
+</div>
+<pre><code>$ git add &lt;file name&gt;                    
 </code></pre>
-<p>3- کامیت کردن تغییرات:</p>
+<div dir='rtl'>
+همچنین با سوییچ -a این دستور میتوانید تمام فایل ها را به حالت stage ببرید
+</div>
+<pre><code>$ git add -a
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="کامیت-کردن-تغییرات">کامیت کردن تغییرات</h3>
+<p>با دستور زیر میتوانید تمامی تغییراتی که با دستور قبل به حالت stage بردید را کامیت و ثبت کنید. پس از وارد کردن دستور زیر ادیتور دیفالت سیستم شما فایلی به نام
+<code>COMMIT_EDITSMG</code>
+را باز میکند و شما باید یک پیغام برای این کامیت بنویسید و با ذخیره کردن و بستن فایل مربوطه تمام تغییرات پروژه شما ثبت میشود.</p>
+</div>
 <pre><code>$ git commit
 </code></pre>
-<p>3.1-کامیت کردن تغییرات به همراه کامیت مسیج</p>
-<pre><code>$ git commit -m {متن پیام}
+<div dir='rtl'>
+<p>همچنین با سوییچ
+<code>m-</code>
+میتوانید بدون باز شدن ادیتور، پیغام مربوطه را بنویسید و تغییرات پروژه را ثبت کنید</p>
+</div>
+<pre><code>$ git commit -m &quot;&lt;your message&gt;&quot;
 </code></pre>
-<p>4- مشاهده برنچ های موجود در پروژه:</p>
+<hr>
+<div dir='rtl'>
+<h3 id="مشاهده-تاریخچه-کامیت-ها">مشاهده تاریخچه کامیت ها</h3>
+<p>گاهی ما میخواهیم بررسی کنیم که روی پروژه خودمان چندبار کامیت کرده ایم و تغییرات پروژه را ببینیم و ببینیم
+<strong>چه کسی</strong>
+و در
+<strong>چه تاریخی</strong>
+این کامیت را انجام داده است. با دستور زیر میتوانیم این تاریخچه را ببینیم.توجه کنید در پیامی که بعد از این دستور مشاهده میکنید کامیتی که جلو آن عبارت<br>
+HEAD
+را میبینید، این یعنی
+<strong>آخرین کامیتی</strong>
+که روی این پروژه انجام شده</p>
+</div>
+<pre><code>$ git log
+#commit &lt;commit unic code&gt; (HEAD -&gt; &lt;branch name&gt;
+#Author: &lt;Author name&gt;
+#Date: &lt;commit date&gt;
+#             &lt;commit message&gt;
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="بررسی-عمیق-تر-تغییرات-پروژه">بررسی عمیق تر تغییرات پروژه</h3>
+<p>در دستور قبلی فهمیدیم که چگونه میتوانیم تغییرات گذشته پروژه را ببینیم. حال اگر بخواهیم بصورت جزئی تر این تفاوت هر کامیت
+با یک کامیت دیگر را مشاهده کنیم میتوانیم از دستور زیر استفاده کنیم.</p>
+</div>
+<pre><code>$ git diff &lt;commit unic code&gt;
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="ساخت-برنچ-جدید-در-پروژه">ساخت برنچ جدید در پروژه</h3>
+<p>ما در یک پروژه برنچ ها یا شاخه های مختلفی میتوانیم ایجاد کنیم و بخش های مختلف پروژه را در شاخه های مختلف گسترش دهیم. برای دیدن برنچ های موجود در پروژه خودمان کافی است دستور زیر را وارد کنیم تا لیستی از برنچ های موجود در پروژه ببینیم</p>
+</div>
 <pre><code>$ git branch
+#*master
 </code></pre>
-<p>5-ساخت برنچ جدید در پروژه یا رفتن به یکی از یرنچ های پروژه</p>
-<pre><code>$ git branch {نام دلخواه برای برنچ}
+<div dir='rtl'>
+برای ساخت برنچ جدید کافی است به دستور بالا اسم مورد نظر خودمان را اضافه کنیم
+تا یک شاخه جدیدی از پروژه با همان نامی که دادیم بسازد
+</div>
+<pre><code>$ git branch  &lt;branch name&gt;
 </code></pre>
-<p>6-مرج کردن یک برنچ</p>
-<pre><code>$ git merge {اسم برنچ}
+<hr>
+<div dir='rtl'>
+<h3 id="تغییر-برنچ-پروژه">تغییر برنچ پروژه</h3>
+<p>اگر بخواهیم برنچ پروژه را تغییر دهیم و بخواهیم بخشی از یک پروژه را در شاخه ای دیگر توسعه دهیم میتوانیم با دستور زیر تغییر برنچ را انجام دهید. یادتان باشد که تغییرات هر برنچ در خود آن برنچ ذخیره میشود نه در برنچ اصلی پروژه.به عنوان مثال وقتی شما در یک برنچی از پروژه یک فایل را حذف میکنید وقتی دوباره به برنچ اصلی یا یک برنچ دیگر بروید شما این فایل را خواهید دید زیرا آن فایل در یک برنچ دیگر حذف شده است.</p>
+</div>
+<pre><code>$ git checkout &lt;branch name&gt;
+#Switched to branch '&lt;branch name&gt;'
 </code></pre>
-<p>7- حذف کردن یک برنچ</p>
-<pre><code>$ git branch -d {اسم برنچ}
+<hr>
+<div dir='rtl'>
+<h3 id="مرج-کردن-برنچ">مرج کردن برنچ</h3>
+<p>اگر بخواهیم تغییرات یک برنچ را در برنچ های دیگر نیز اعمال کنیم میتوانیم آن دو برنچ را مرج کنیم. فرض کنید یک برنچ به اسم x داریم و میخواهیم تغییرات آن را بر روی برنچ master که برنچ اصلی پروژه ما است اعمال کنیم. برای این کار باید وارد برنچ master شویم و دستور زیر را وارد کنیم</p>
+</div>
+<pre><code>$ git merge x
 </code></pre>
-<p>7.1- حذف یک برنچ مرج نشده</p>
-<pre><code>$ git branch -D {اسم برنچ}
+<hr>
+<div dir='rtl'>
+<h3 id="حذف-کردن-برنچ">حذف کردن برنچ</h3>
+<p>در صورتی که بخواهیم یک برنچ را که دیگر نیازی به آن را نداریم حذف کنیم میتوانیم با دستور زیر برنچ مربوطه را حذف کنیم((برای این کار نباید روی برنچی که میخواهید حذف کنید باشید))</p>
+</div>
+<pre><code>$ git branch -d &lt;branch name&gt;
+#Deleted branch &lt;branch name&gt;.
 </code></pre>
-<p>Author or Authors: Shahriar Ghasempour</p>
+<hr>
+<div dir='rtl'>
+<h3 id="حذف-کردن-برنچ-بدون-مرج-کردن">حذف کردن برنچ بدون مرج کردن</h3>
+<p>درصورتی که بخواهیم مثل بخش بالایی برنچی که مرج نشده را پاک کنیم به یک ارور برمیخوریم که برنچ مورد نظر مرج نشده است. درصورتی که بخواهیم برنچی را بدون مرج کردن پاک کنیم باید از سوییچ
+<code>-D</code>
+استفاده کنیم</p>
+</div>
+<pre><code>$ git branch -D &lt;branch name&gt;
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="کلون-کردن-پروژه-از-اینترنت">کلون کردن پروژه از اینترنت</h3>
+<p>یکی از قابلیت های جذاب گیت این است که شما با استفاده از گیت میتوانید یکسری فایل از فضای اینترنتی مانند گیت هاب دریافت یا اصطلاحا کلون کنید. البته این کار درصورتی انجام میشود که گیت اجازه دسترسی به ریپازیتوری(مخزن) مربوطه داشته باشد یا آن فضا در اینترنت  وجود داشته باشد. برای کلون کردن یک پروژه از اینترنت بر روی سیستم خودمان کافی است به دایرکتوری که پروژه را میخواهیم قرار دهیم برویم و در آنجا دستور زیر را وارد کنیم. درصورتی که این کار موفقیت آمیز باشد شما فایل های پروژه را در یک فولدر با نام مخزن خواهید دید.</p>
+</div>
+<pre><code>$ git clone &lt;project url&gt;
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="وصل-کردن-پروژه-به-فضای-ابری">وصل کردن پروژه به فضای ابری</h3>
+<p>اگر بخواهیم یک پروژه را به یک فضای ابری مانند یک ریپازیتوری گیت هاب متصل کنیم اصطلاحا پروژه را به آن ریپازیتوری ریموت میکنیم.ما میتوانیم یک پروژه ره به چندین لینک و فضای مختلف ریموت کنیم و این یعنی عدم محدودیت در تعداد ریموت های یک پروژه , همچنین هر لینکی را میتوانید برای ریموت کردن قرار دهید حتی لینک گوگل. برای این کار میتوانید با دستور زیر یک ریموت اضافه کنید((مرسوم است ریموت اصلی پروژه اسمش origin باشد))</p>
+</div>
+<pre><code>$ git remote add &lt;remote name&gt; &lt;remote url&gt;
+</code></pre>
+<div dir='rtl'>
+همچنین برای مشاهده کردن تمام ریموت های موجود در یک پروژه با دستور زیر میتوانید ریموت های مختلف را ببینید و همچنین با دستور بعدی آن لینک هایی که در هر ریموت قرار دادید را میتوانید مشاهده کنید.
+</div>
+<pre><code>$ git remote
+#origin
+#...
+
+#for see remote link
+$git remote get-url &lt;name&gt;
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="فرستادن-پروژه-به-فضای-ابری">فرستادن پروژه به فضای ابری</h3>
+<p>اگر بخواهیم تغییرات پروژه خودمان یا کل پروژه را به فضای ابری یکی از ریموت هایی که ساختیم بفرستیم از
+سوییچ
+<code>push</code>
+استفاده میکنیم. درصورتی که گیت ما دسترسی لازم به آن فضایی که ریموت کردیم داشته باشد یا فضای مربوطه در اینترنت وجود داشته باشد این کار انجام خواهد شد. همچنین ما میتوانیم هر برنچی را که میخواهیم را به ریموت ارسال کنیم و الزامی نیست که حتما برنچ اصلی ارسال شود.</p>
+</div>
+<pre><code>$ git push &lt;remote name&gt; &lt;branch name&gt;
+# for example 
+$ git push origin master
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="مرچ-کردن-کامیت-های-پروژه-در-فضای-ابری-و-سیستم-لوکال">مرچ کردن کامیت های پروژه در فضای ابری و سیستم لوکال</h3>
+<p>گاهی وقتها ممکن است ما تغییراتی را در پروژه ایجاد کنیم اما نه در سیستم لوکال خودمان بلکه در فضای ابری که پروژه قرار دارد.
+یا ممکن است که کسی روی ریموت تغیراتی ایجاد کرده باشد.
+این باعث میشود تعداد کامیت های پروژه و تغییرات آن بین فضای ابری و سیستم لوکال یکی نباشد که اگر این اتفاق بیفتد در آینده اگر ما در سیستم لوکال در پروژه تغییراتی ایجاد کردیم و میخواستیم پروژه را به فضای ابری push کنیم با اروری مبنی بر عدم هماهنگی کامیت ها بین فضای ریموت و سیستم خودمان مواجه میشویم. برای اینکه این مشکل رفع شود و کامیت های بین دو فضایی که پروژه قرار دارد سینک و مچ شود کافی است دستور زیر را وارد کنیم تا کامیت های انجام شده در فضای ابری بر روی پروژه در فضای لوکال سیستم ما نیز اعمال شود.</p>
+</div>
+<pre><code class="language-bash">$ git pull &lt;remote name&gt; &lt;branch name&gt;
+</code></pre>
+<hr>
+<h3 id="author-or-authors">Author or Authors</h3>
 <ul>
-<li>Email: <a href="mailto:shahriaarrr@gmail.com">shahriaarrr@gmail.com</a></li>
+<li><em><a href="https://github.com/shahriaarrr">Shahriar</a></em> | <strong><a href="mailto:shahriaarrr@gmail.com">shahriaarrr@gmail.com</a></strong></li>
+<li><em><a href="https://github.com/shabane">Arya</a></em> | <strong><a href="mailto:m.mohamadshabane@gmail.com">m.mohamadshabane@gmail.com</a></strong></li>
 </ul>
 
   </main>
