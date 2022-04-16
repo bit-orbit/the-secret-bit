@@ -48,7 +48,7 @@ man page
 
 
 
-### فهرست فصل ها
+### فهرست فصل های به اتمام رسیده
 |Chapter 📖|Author 👽|Status 🗽|
 |:-:|:-:|:-:|
 | [cron](https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/) | [Arya](https://github.com/shabane)                   | ✔️ |
