@@ -245,3 +245,9 @@ wget
 
 
 ممنون بابت کمک به جامعه **فارسی** لینوکس
+
+
+وقتی درحال نوشتن هر ابزاری هستین، توی این
+[لینک](https://docs.google.com/spreadsheets/d/1PXXUOklciHW1glSj9GU8d9ojZw6xKCQVZCAeUhGEg9U/edit?usp=sharing)
+گوگل شیت
+مشخص کنید. اینکار برای این است که چند نفر به طور همزمان روی یک موضوع کار نکنند.
