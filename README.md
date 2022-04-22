@@ -96,5 +96,6 @@ man page
 | [passwd](https://bit-orbit.github.io/the-secret-bit/posts/passwd/passwd/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [redshift](https://bit-orbit.github.io/the-secret-bit/posts/redshift/redshift/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
 | [lsusb](https://bit-orbit.github.io/the-secret-bit/posts/lsusb/lsusb/) | [AmirhoseinSohrabi](https://github.com/amirhoseinsb) | ✔️ |
+| [dd](https://bit-orbit.github.io/the-secret-bit/posts/dd/dd/) | [Arya](https://github.com/shabane)  | ✔️ |
 
 </div>
