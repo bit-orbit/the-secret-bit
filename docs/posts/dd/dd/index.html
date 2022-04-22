@@ -6,11 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.96.0" />
-  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/">
+  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/posts/dd/dd/">
 
   
     
-    <meta name="description" content="فهرست   مقدمه ایجاد یک پارتیشن و فرمت کردن آن استفاده از فایل سیستم های خاص استفاده از فضای ایجاد شده همچنین مطاعه کنید Author or Authors     مقدمه برای ایجاد فایل سیستم یا تغییر فرمت یک پارتیشن به فرمت دیگر میتوانید از از ابزار mkfs استفاده کنید. mkfs مخفف عبارت make file system میباشد. لازم به ذکر است بدانید که هنگام فرمت یک پارتیشن تمامی اطلاعات موجود در پارتیشن از بین خواهند رفت.">
+    <meta name="description" content="فهرست   مقدمه فایل ورودی فایل خروجی محدود کردن سرعت خواندن ورودی محدود کردن تعداد دفعات نمایش وضعیت مثال:‌ ایمج گرفتن از یک دیسک مثال: وایپ کردن یک دیسک مثال: ساخت فایل swap Author or Authors    مقدمه با ابزار dd می‌توان داده های یک بلاک دیوایس را در سطح صفر و یک به روی یک بلاک دیوایس دیگر یا یک فایل کپی کرد.
+این بلاک دیوایس ها می‌توانند یک دیوایس واقعی مثل سی‌دی یا فلش درایو یا حتی هارد شما باشند مانند dev/sda/ یا یکی از پارتیشن ها مثل dev/sda1/ باشد.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -58,7 +59,7 @@
 
   
   
-  <title>mkfs | the-secret-bit</title>
+  <title>dd | the-secret-bit</title>
 </head>
 
   <body>
@@ -264,123 +265,257 @@
         <div>
           
   <main id="main">
-    <h1>mkfs</h1>
-    <div dir='rtl'>
+    <h1>dd</h1>
+    <div style="text-align: center">
+  <img src='dd.jpg'>
+</div>
+<hr>
+<div dir='rtl'>
 <h3 id="فهرست">فهرست</h3>
 <blockquote>
 <ul>
 <li><a href="#%D9%85%D9%82%D8%AF%D9%85%D9%87">مقدمه</a></li>
-<li><a href="#%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%DB%8C%DA%A9-%D9%BE%D8%A7%D8%B1%D8%AA%DB%8C%D8%B4%D9%86-%D9%88-%D9%81%D8%B1%D9%85%D8%AA-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A2%D9%86">ایجاد یک پارتیشن و فرمت کردن آن</a></li>
-<li><a href="#%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%A7%D8%B5">استفاده از فایل سیستم های خاص</a></li>
-<li><a href="#%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%81%D8%B6%D8%A7%DB%8C-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%D8%B4%D8%AF%D9%87">استفاده از فضای ایجاد شده</a></li>
-<li><a href="#%D9%87%D9%85%DA%86%D9%86%DB%8C%D9%86-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D9%87-%DA%A9%D9%86%DB%8C%D8%AF">همچنین مطاعه کنید</a></li>
+<li><a href="#%D9%88%D8%B1%D9%88%D8%AF%DB%8C">فایل ورودی</a></li>
+<li><a href="#%D8%AE%D8%B1%D9%88%D8%AC%DB%8C">فایل خروجی</a></li>
+<li><a href="#%D8%B3%D8%B1%D8%B9%D8%AA-%D8%AE%D9%88%D8%A7%D9%86%D8%AF%D9%86-%D8%A7%D8%B2-%D9%88%D8%B1%D9%88%D8%AF%DB%8C">محدود کردن سرعت خواندن ورودی</a></li>
+<li><a href="#%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF">محدود کردن تعداد دفعات</a></li>
+<li><a href="#%D9%88%D8%B6%D8%B9%DB%8C%D8%AA">نمایش وضعیت</a></li>
+<li><a href="#%D8%A7%DB%8C%D9%85%D8%AC-%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%D8%A7%D8%B2-%DB%8C%DA%A9-%D8%AF%DB%8C%D8%B3%DA%A9">مثال:‌ ایمج گرفتن از یک دیسک</a></li>
+<li><a href="#%D9%88%D8%A7%DB%8C%D9%BE-%DA%A9%D8%B1%D8%AF%D9%86-%DB%8C%DA%A9-%D8%AF%DB%8C%D8%B3%DA%A9">مثال: وایپ کردن یک دیسک</a></li>
+<li><a href="#%D8%B3%D8%A7%D8%AE%D8%AA-%D9%81%D8%A7%DB%8C%D9%84-swap">مثال: ساخت فایل swap</a></li>
 <li><a href="#author-or-authors">Author or Authors</a></li>
 </ul>
 </blockquote>
-</div>
 <hr>
-<div dir='rtl'>
 <h3 id="مقدمه">مقدمه</h3>
-<p>برای ایجاد فایل سیستم یا تغییر فرمت یک پارتیشن به فرمت دیگر میتوانید از از ابزار mkfs استفاده کنید. mkfs مخفف عبارت make file system میباشد. لازم به ذکر است بدانید که هنگام فرمت یک پارتیشن تمامی اطلاعات موجود در پارتیشن از بین خواهند رفت.</p>
-<p>قدم اول برای فرمت کردن، وجود <em>پارتیشن</em> به روی حافظه جانبی است.</p>
-<p>فلش را یک خانه فرض کنید، شما در این خانه قسمتی را برای اتاق حال، قسمتی را برای
-آشپزخانه و قسمتی را به اتاق خواب تخصیص می‌دهید. هر کدام از این قسمت ها
-فضای مشخصی را اشتغال می‌کنند. برای مثال اتاق خواب نسبت به حال فضای کمتری می‌گیرد.
-در کامپیوتر هم یک فلش درایو یا هر نوع حافظه جانبی به این صورت است.
-شما باید حافظه جانبی خود را پارتیشن(قسمت) بندی کنید و هر قسمت را به کاری اختصاص دهید.</p>
-<p>یک فلش درایو 32 گیگ را فرض کنید، ما می‌خواهیم تمام فضای خالی این فلش درایو را
-به یکباره استفاده کنیم. برای اینکار باید فلش را با ابزاری مانند
-<a href="../fdisk/fdisk.md">fdsik</a>
-پارتیشن بندی کنیم و سپس با انتخاب یک فایل سیستم،
-فلش درایو را فرمت کنیم.</p>
-<p>هر حافظه جانبی که به لینوکس متصل می‌کنید، در مسیر
-<code>/dev/</code>
-در دسترس است. اولین حافظه به صورت خودکار نام
-<code>/dev/sda</code>
-را می‌گیرد. و اولین پاتیشن این حافظه مسیر
-<code>/dev/sda1</code>
-و دومین پارتیشن مسیر
-<code>/dev/sda2</code>
-را به خود اختصاص می‌دهد.
-و همینظور برای حافظه های بعدی که متصل می‌کنید نام گذاری می‌شوند.
-برای مثال نام دومین حافظه جانبی
-<code>/dev/sdb</code>
-و سومین
-<code>/dev/sdc</code>
-را به خود اختصاص می‌دهند.</p>
 <p>با ابزار
-mkfs
-یکی از پارتیشن های یک دیوایس را فرمت می‌کنیم.</p>
-<p>همینطور که می‌دانید هر فایل سیستمی مزایا و معایبی دارد.
-برای مثال معمولا دستگاه های اندروید فایل سیستم
-<em>ntfs</em>
-را نمی‌شناسند.
-در عوض
-ntfs
-می‌تواند تعداد فایل های بیشتری را ذخیره کند.</p>
-<p>رایج ترین فرمت که اکثر دیوایس ها می‌توانند آن را شناسایی کنند
-<em>fat</em>
-می‌باشد.</p>
+dd
+می‌توان داده های یک بلاک دیوایس را در سطح صفر و یک به روی یک <strong>بلاک دیوایس</strong> دیگر یا یک <strong>فایل</strong> کپی کرد.</p>
+<p>این بلاک دیوایس ها می‌توانند یک دیوایس واقعی مثل سی‌دی یا فلش درایو یا حتی هارد شما باشند
+مانند
+<code>dev/sda/</code>
+یا یکی از پارتیشن ها مثل
+<code>dev/sda1/</code>
+باشد.</p>
+<p>و یا می‌توانند بلاک دیوایس های مجازی باشند. مثل
+<code>dev/zero/</code>
+یا
+<code>dev/random/</code></p>
+<p>حتی شما می‌توانید داده ها را از یک فایل عادی بخوانید.</p>
 <blockquote>
-<p>این درست است که یک فلش درایو چندین گیگابایت حافظه دارد، اما با اینحال تعداد فایل های قابل ذخیره شما
-در فایل سیستم های مختلف محدود است.</p>
+<p>سوییچ ها نیازی به <strong>&ndash;</strong> و یا <strong>-</strong> ندارند</p>
 </blockquote>
-</div>
-<hr>
-<div dir='rtl'>
-<h3 id="ایجاد-یک-پارتیشن-و-فرمت-کردن-آن">ایجاد یک پارتیشن و فرمت کردن آن</h3>
-<p>برای فرمت کردن یک پارتیشن اول با سوییچ
-<code>-t</code>
-یک فرمت را مشخص می‌کنیم و دومین ارگومان را مسیر یک پارتیشن می‌دهیم.</p>
 <blockquote>
-<p>دقت کنید که این پارتیشن نباید روی سیستم مانت و درحال استفاده باشد.</p>
+<p>برای مشخص کردن مقدار ارگومان ها باید بعد از سوییچ از علامت <strong>=</strong> استفاده کرد</p>
 </blockquote>
-</div>
-<pre><code>$ sudo mkfs -t fat /dev/sdc1
-</code></pre>
-<p>همچنین بجای استفاده از سوییچ
-<code>-t</code>
-می‌توانید مستقیم فرمت فایل سیستم را برای این ابزار مشخص کنید.
-کافی است بعد از کلمه
-<em>mkfs</em>
-نام فایل سیستم را با یک نقطه بنویسید
-برای مثال
-<em>mkfs</em>.<strong>ntfs</strong></p>
 <hr>
-<div dir='rtl'>
-<h3 id="استفاده-از-فایل-سیستم-های-خاص">استفاده از فایل سیستم های خاص</h3>
-<p>برای اینکه فایل سیستم های پیشفرض که در لینوکس موجود هستند را ببینید و ویژگی هایش را مقایسه کنید
-می‌توانید وارد
-man page
-فایل سیستم شوید.</p>
+<h3 id="ورودی">ورودی</h3>
+<p>همینطور که می‌دانید ورودی
+dd
+می‌تواند هر نوع فایلی باشد</p>
+<p>برای اینکه وردی را مشخص کنیم باید از سوییچ
+<code>=if</code>
+که مختصر شده
+<em>input file</em>
+هست استفاده کنیم.</p>
+<div dir='ltr'>
+<pre><code class="language-bash">$ dd if=/dev/zero
+</code></pre>
 </div>
-<pre><code class="language-bash">man fs
+<hr>
+<h3 id="خروجی">خروجی</h3>
+<p>برای اینکه داده ها را بعد از خواندن از ورودی به یک خروجی بریزیم
+کافیه که مسیر خروجی را برای سوییچ
+<code>=of</code>
+که مخفف کلمه
+<code>output file</code>
+هست
+مشخص کنیم.
+خروجی می‌تواند یک فایل یا یک بلاک دیوایس باشد</p>
+<pre><code class="language-bash">$ dd if=/dev/zero of=./zer0s.dd
+</code></pre>
+<blockquote>
+<p>اگر مقدار خواندن از ورودی را محدود نکید، به محتوای این فایل تا زمانی که دیسک شما پر شود اضافه خواهد شد</p>
+</blockquote>
+<hr>
+<h3 id="سرعت-خواندن-از-ورودی">سرعت خواندن از ورودی</h3>
+<p>سرعت خواندن فایل از وردی در حالت عادی به 512 بایت در ثانیه محدود شده است.
+شما می‌توانید این مقدار را با توجه به سرعت دیسک، رم و &hellip;
+سیستم خودتان به مقدار دلخواه تنظیم کنید.</p>
+<p>سوییچ
+<code>=bs</code>
+از شما عدد و یکی از این واحد های
+<code>b</code>, <code>k</code>, <code>m</code>, <code>g</code>, <code>t</code>, <code>p</code>, <code>e</code>
+را می‌گیرد.</p>
+<pre><code class="language-bash">$ dd if=/dev/randon of=./rnd bs=10M
+</code></pre>
+<blockquote>
+<p>دقت کنید که سرعت ورودی را محدود کردیم اما مقدار را نه، اگر مقدار را خصوصا برای
+بلاک دیوایس های مجازی مثل
+<code>dev/zero/</code>
+مشخص نکیم دیتا تا جایی که دیسک شما فضا خالی داشته باشد به فایل اضافه خواهد شد.</p>
+</blockquote>
+<hr>
+<h3 id="تعداد">تعداد</h3>
+<p>ما می‌توانیم ضمن محدودیت برای سرعت خواندن فایل، تعداد دفعات خواندن را هم مشخص کنیم.
+برای مثال با اینکار می‌توانیم مشخص کنیم که دقیقا چند بایت دیتا از
+بلاک دیوایس
+<code>dev/zero/</code>
+بخوان و به خروجی بریز.</p>
+<p>برای اینکار عدد تعداد دفعات را به سوییچ
+<code>=count</code>
+می‌دهیم.
+در این مثال ما به تعداد <strong>800</strong> بار و با سرعت
+<strong>10M</strong>
+بر ثانیه دیتا را می‌خوانیم
+که در نهایت یک فایل با سایز
+<strong>8G</strong>
+ساخته می‌شود.</p>
+<blockquote>
+<p>800 * 10M = 8000M</p>
+</blockquote>
+<pre><code class="language-bash">$ dd if=/dev/zero of=8g.data bs=10M count=800
 </code></pre>
 <hr>
-<div dir='rtl'>
-<h3 id="استفاده-از-فضای-ایجاد-شده">استفاده از فضای ایجاد شده</h3>
-<p>برای استفاده از فضای ایجاد شده باید آن را در یک دایرکتوری فراخوانی کنید. دایرکتوری که این روزها مورد استفاده
-قرار میگیرد دایرکتوری
-<code>/media/</code>
-میباشد.</p>
-<p>عملیات فراخوانی کردن همان برقرار کردن ارتباط شما با دیسک است. شما میتوانید یک پارتیشن خاص یا یک هارد دیوایس خاص را برای استفاده mount
-کنید.برای mount کردن یک فایل سیستم کافیست بعد از عبارت mount مسیر قرارگیری فایل سیستم را به ابزار بدهید، سپس مسیری برای نمایش فایل سیستم به ابزار بدهید، بعد از انجام این کارها پارتیشن شما یا هارد دیوایس شما در مسیری که برای ابزار مشخص کرده‌اید در دسترس خواهد بود.</p>
-</div>
-<pre><code># step 1
-# mount the partition or hard device with mount tools
-$ mount /dev/sdc /media
+<h3 id="وضعیت">وضعیت</h3>
+<p>درحالت عادی
+dd
+هیچ خروجی از پیشرفت و سرعت انجام کار نمی‌دهد. برای اینکه این خروجی را بتوان در لحظه دید
+باید از سوییچ
+<code>=status</code>
+استفاده کنید، این سوییچ <strong>3</strong> اپشن می‌گیرید که به نسبت هر اپشن یک نوع وضعیت را
+نشان می‌دهد.</p>
+<div dir='ltr'>
+<blockquote>
+<ol>
+<li><strong>none</strong></li>
+</ol>
+<p>هیچ خرجی به جز ارور نمایش نمی‌دهد.</p>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><strong>noxfer</strong></li>
+</ol>
+<p>درحالت پیش فرض زمانی که کار
+dd
+تمام شد یک خروجی نمایش می‌دهد. اما با این سوییچ خروجی پایان کار را هم نخواهیم دید.</p>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li><strong>progress</strong></li>
+</ol>
+<p>در هر لحظه هر تغییری را به خروجی نمایش می‌دهد.</p>
+</blockquote>
+<pre><code class="language-bash">$ dd if=/dev/zero of=./somefile bs=10M count=100 status=progress
+
+# 901775360 bytes (902 MB, 860 MiB) copied, 3 s, 298 MB/s
 </code></pre>
+</div>
 <hr>
-<div dir='rtl'>
-<h3 id="همچنین-مطالعه-کنید">همچنین مطالعه کنید</h3>
+<h3 id="ایمج-گرفتن-از-یک-دیسک">ایمج گرفتن از یک دیسک</h3>
 <ul>
-<li><a href="https://bit-orbit.github.io/the-secret-bit/posts/fdisk/fdisk.md">fdsik</a></li>
+<li>مثال اول</li>
 </ul>
+<p>برای اینکه از یک دیست مثلا یک فلش درایو ایمج بگیریم کافیه مسیر
+اون بلاک دیوایس را مشخص کنیم. می‌توانیم از یک پارتیشن هم ایمج بگیریم.</p>
+<blockquote>
+<p>سعی کنید در نام فایل خروجی
+dd
+را قرار دهید. با اینکار شما و یا دیگران می‌دانند چطور از فایل استفاده کنند.</p>
+</blockquote>
+<pre><code class="language-bash">$ dd if=/dev/zero of=/media/backups/bkp.dd
+</code></pre>
+<hr>
+<h3 id="وایپ-کردن-یک-دیسک">وایپ کردن یک دیسک</h3>
+<ul>
+<li>مثال دوم</li>
+</ul>
+<p>وایپ
+(wipe)
+کردن به معنی این است که داده های یک دیسک را کاملا محو کنیم
+بطوری که دیسک دیگر قابل ریکاوری(بازیابی) نباشد.
+همینطور که می‌دانید فایل ها چیزی جز 0 و 1 نیستند، این 0 و 1 ها به عنوان فایل روی دیسک
+ذخیره می‌شوند. اگر شما بخواهید فایل ها دیگر قابل ریکاوری نباشند باید تمامی دیسک را با
+0
+پر کنید.</p>
+<p>برای اینکار ما از بلاک دیوایس
+dev/zero/
+که فقط 0 تولید می‌کند استفاده می‌کنیم و خروجی را مستقیم روی بلاک دیوایس فلش درایو
+قرار می‌دهیم.</p>
+<blockquote>
+<p>دقت کنید که نباید برای وایپ کردن محدودیت تعداد قرار دهید. اگر محدودیت قرار بدین
+ممکن است تمامی دیسک وایپ نشود.</p>
+</blockquote>
+<div dir='ltr'>
+<pre><code class="language-bash">$ dd if=/dev/zero of=/dev/sdc 
+</code></pre>
+</div>
+<hr>
+<h3 id="ساخت-فایل-swap">ساخت فایل swap</h3>
+<ul>
+<li>مثال سوم</li>
+</ul>
+<p>لینوکس می‌تواند از فایل به عنوان
+swap
+استفاده کند.
+برای اینکار چهار مرحله پیشرو داریم</p>
+<ol>
+<li>یک فایل خالی می‌سازیم</li>
+<li>هدر فایل را به هدر
+swap
+تغییر می‌دهیم</li>
+<li>از فایل استفاده می‌کنیم</li>
+<li>برای اینکه بعد از بوت، سیستم عامل خودکار از فایل
+swap
+استفاده کند کافیست مسیر فایل را در
+<code>etc/fstab/</code>
+قرار دهیم</li>
+</ol>
+<blockquote>
+<p>دقت کنید که سایز فایل
+swap
+باید به نسبت رم تنظیم شود.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">مقدار رم سیستم</th>
+<th style="text-align:center">swap پیشنهادی</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">≤ 2GB</td>
+<td style="text-align:center">2X RAM</td>
+</tr>
+<tr>
+<td style="text-align:center">2GB – 8GB</td>
+<td style="text-align:center">= RAM</td>
+</tr>
+<tr>
+<td style="text-align:center">&gt; 8GB</td>
+<td style="text-align:center">8GB</td>
+</tr>
+</tbody>
+</table>
+<div dir='ltr'>
+<pre><code class="language-bash"># create the swapfile with 8G size
+$ sudo dd if=/dev/zero of=/swapfile bs=10M count=800
+
+# add swap header to swapfile
+$ sudo mkswap /swapfile
+
+# use swapfile for just now
+$ swapon /swapfile
+
+# add swapfile to fstab to ensure use the swapfile after each reboot
+$ sudo echo '/swapfile    none    swap    sw    0    0' &gt;&gt; /etc/fstab
+</code></pre>
+</div>
 </div>
 <hr>
 <h3 id="author-or-authors">Author or Authors</h3>
 <ul>
-<li><em><a href="https://github.com/amirhoseinsb">Amirhosein</a></em> | <strong><a href="mailto:amirhoseinsohrabi.official@gmail.com">amirhoseinsohrabi.official@gmail.com</a></strong></li>
 <li><em><a href="https://github.com/shabane">Arya</a></em> | <strong><a href="mailto:m.mohamadshabane@gmail.com">m.mohamadshabane@gmail.com</a></strong></li>
 </ul>
 

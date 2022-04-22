@@ -1,7 +1,7 @@
 ---
 title: "dd"
 date: 2022-04-18T15:59:50+04:30
-draft: true
+draft: false
 tags: [
     'binary',
     'file'

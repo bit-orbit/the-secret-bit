@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bit-orbit.github.io/the-secret-bit/posts/cd/cd/</loc>
-    <lastmod>2022-04-14T10:52:07+04:30</lastmod>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/binary/</loc>
+    <lastmod>2022-04-18T15:59:50+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/dd/dd/</loc>
+    <lastmod>2022-04-18T15:59:50+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/file/</loc>
+    <lastmod>2022-04-18T15:59:50+04:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/</loc>
+    <lastmod>2022-04-18T15:59:50+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/</loc>
+    <lastmod>2022-04-18T15:59:50+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/posts/cd/cd/</loc>
     <lastmod>2022-04-14T10:52:07+04:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/</loc>
@@ -123,9 +135,6 @@
     <lastmod>2022-03-04T16:28:45+03:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tags/program/</loc>
-    <lastmod>2021-12-13T14:57:49+03:30</lastmod>
-  </url><url>
-    <loc>https://bit-orbit.github.io/the-secret-bit/tags/</loc>
     <lastmod>2021-12-13T14:57:49+03:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tags/text-processing/</loc>

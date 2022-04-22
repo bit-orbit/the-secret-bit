@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.96.0" />
-  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/">
+  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/tags/binary/">
 
   
     
-    <meta name="description" content="فهرست   مقدمه ایجاد یک پارتیشن و فرمت کردن آن استفاده از فایل سیستم های خاص استفاده از فضای ایجاد شده همچنین مطاعه کنید Author or Authors     مقدمه برای ایجاد فایل سیستم یا تغییر فرمت یک پارتیشن به فرمت دیگر میتوانید از از ابزار mkfs استفاده کنید. mkfs مخفف عبارت make file system میباشد. لازم به ذکر است بدانید که هنگام فرمت یک پارتیشن تمامی اطلاعات موجود در پارتیشن از بین خواهند رفت.">
+    <meta name="description" content="binary">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -58,7 +58,7 @@
 
   
   
-  <title>mkfs | the-secret-bit</title>
+  <title>binary | the-secret-bit</title>
 </head>
 
   <body>
@@ -263,128 +263,36 @@
       <div class="main-and-footer">
         <div>
           
-  <main id="main">
-    <h1>mkfs</h1>
-    <div dir='rtl'>
-<h3 id="فهرست">فهرست</h3>
-<blockquote>
-<ul>
-<li><a href="#%D9%85%D9%82%D8%AF%D9%85%D9%87">مقدمه</a></li>
-<li><a href="#%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%DB%8C%DA%A9-%D9%BE%D8%A7%D8%B1%D8%AA%DB%8C%D8%B4%D9%86-%D9%88-%D9%81%D8%B1%D9%85%D8%AA-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A2%D9%86">ایجاد یک پارتیشن و فرمت کردن آن</a></li>
-<li><a href="#%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%A7%D8%B5">استفاده از فایل سیستم های خاص</a></li>
-<li><a href="#%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%81%D8%B6%D8%A7%DB%8C-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%D8%B4%D8%AF%D9%87">استفاده از فضای ایجاد شده</a></li>
-<li><a href="#%D9%87%D9%85%DA%86%D9%86%DB%8C%D9%86-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D9%87-%DA%A9%D9%86%DB%8C%D8%AF">همچنین مطاعه کنید</a></li>
-<li><a href="#author-or-authors">Author or Authors</a></li>
-</ul>
-</blockquote>
-</div>
-<hr>
-<div dir='rtl'>
-<h3 id="مقدمه">مقدمه</h3>
-<p>برای ایجاد فایل سیستم یا تغییر فرمت یک پارتیشن به فرمت دیگر میتوانید از از ابزار mkfs استفاده کنید. mkfs مخفف عبارت make file system میباشد. لازم به ذکر است بدانید که هنگام فرمت یک پارتیشن تمامی اطلاعات موجود در پارتیشن از بین خواهند رفت.</p>
-<p>قدم اول برای فرمت کردن، وجود <em>پارتیشن</em> به روی حافظه جانبی است.</p>
-<p>فلش را یک خانه فرض کنید، شما در این خانه قسمتی را برای اتاق حال، قسمتی را برای
-آشپزخانه و قسمتی را به اتاق خواب تخصیص می‌دهید. هر کدام از این قسمت ها
-فضای مشخصی را اشتغال می‌کنند. برای مثال اتاق خواب نسبت به حال فضای کمتری می‌گیرد.
-در کامپیوتر هم یک فلش درایو یا هر نوع حافظه جانبی به این صورت است.
-شما باید حافظه جانبی خود را پارتیشن(قسمت) بندی کنید و هر قسمت را به کاری اختصاص دهید.</p>
-<p>یک فلش درایو 32 گیگ را فرض کنید، ما می‌خواهیم تمام فضای خالی این فلش درایو را
-به یکباره استفاده کنیم. برای اینکار باید فلش را با ابزاری مانند
-<a href="../fdisk/fdisk.md">fdsik</a>
-پارتیشن بندی کنیم و سپس با انتخاب یک فایل سیستم،
-فلش درایو را فرمت کنیم.</p>
-<p>هر حافظه جانبی که به لینوکس متصل می‌کنید، در مسیر
-<code>/dev/</code>
-در دسترس است. اولین حافظه به صورت خودکار نام
-<code>/dev/sda</code>
-را می‌گیرد. و اولین پاتیشن این حافظه مسیر
-<code>/dev/sda1</code>
-و دومین پارتیشن مسیر
-<code>/dev/sda2</code>
-را به خود اختصاص می‌دهد.
-و همینظور برای حافظه های بعدی که متصل می‌کنید نام گذاری می‌شوند.
-برای مثال نام دومین حافظه جانبی
-<code>/dev/sdb</code>
-و سومین
-<code>/dev/sdc</code>
-را به خود اختصاص می‌دهند.</p>
-<p>با ابزار
-mkfs
-یکی از پارتیشن های یک دیوایس را فرمت می‌کنیم.</p>
-<p>همینطور که می‌دانید هر فایل سیستمی مزایا و معایبی دارد.
-برای مثال معمولا دستگاه های اندروید فایل سیستم
-<em>ntfs</em>
-را نمی‌شناسند.
-در عوض
-ntfs
-می‌تواند تعداد فایل های بیشتری را ذخیره کند.</p>
-<p>رایج ترین فرمت که اکثر دیوایس ها می‌توانند آن را شناسایی کنند
-<em>fat</em>
-می‌باشد.</p>
-<blockquote>
-<p>این درست است که یک فلش درایو چندین گیگابایت حافظه دارد، اما با اینحال تعداد فایل های قابل ذخیره شما
-در فایل سیستم های مختلف محدود است.</p>
-</blockquote>
-</div>
-<hr>
-<div dir='rtl'>
-<h3 id="ایجاد-یک-پارتیشن-و-فرمت-کردن-آن">ایجاد یک پارتیشن و فرمت کردن آن</h3>
-<p>برای فرمت کردن یک پارتیشن اول با سوییچ
-<code>-t</code>
-یک فرمت را مشخص می‌کنیم و دومین ارگومان را مسیر یک پارتیشن می‌دهیم.</p>
-<blockquote>
-<p>دقت کنید که این پارتیشن نباید روی سیستم مانت و درحال استفاده باشد.</p>
-</blockquote>
-</div>
-<pre><code>$ sudo mkfs -t fat /dev/sdc1
-</code></pre>
-<p>همچنین بجای استفاده از سوییچ
-<code>-t</code>
-می‌توانید مستقیم فرمت فایل سیستم را برای این ابزار مشخص کنید.
-کافی است بعد از کلمه
-<em>mkfs</em>
-نام فایل سیستم را با یک نقطه بنویسید
-برای مثال
-<em>mkfs</em>.<strong>ntfs</strong></p>
-<hr>
-<div dir='rtl'>
-<h3 id="استفاده-از-فایل-سیستم-های-خاص">استفاده از فایل سیستم های خاص</h3>
-<p>برای اینکه فایل سیستم های پیشفرض که در لینوکس موجود هستند را ببینید و ویژگی هایش را مقایسه کنید
-می‌توانید وارد
-man page
-فایل سیستم شوید.</p>
-</div>
-<pre><code class="language-bash">man fs
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="استفاده-از-فضای-ایجاد-شده">استفاده از فضای ایجاد شده</h3>
-<p>برای استفاده از فضای ایجاد شده باید آن را در یک دایرکتوری فراخوانی کنید. دایرکتوری که این روزها مورد استفاده
-قرار میگیرد دایرکتوری
-<code>/media/</code>
-میباشد.</p>
-<p>عملیات فراخوانی کردن همان برقرار کردن ارتباط شما با دیسک است. شما میتوانید یک پارتیشن خاص یا یک هارد دیوایس خاص را برای استفاده mount
-کنید.برای mount کردن یک فایل سیستم کافیست بعد از عبارت mount مسیر قرارگیری فایل سیستم را به ابزار بدهید، سپس مسیری برای نمایش فایل سیستم به ابزار بدهید، بعد از انجام این کارها پارتیشن شما یا هارد دیوایس شما در مسیری که برای ابزار مشخص کرده‌اید در دسترس خواهد بود.</p>
-</div>
-<pre><code># step 1
-# mount the partition or hard device with mount tools
-$ mount /dev/sdc /media
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="همچنین-مطالعه-کنید">همچنین مطالعه کنید</h3>
-<ul>
-<li><a href="https://bit-orbit.github.io/the-secret-bit/posts/fdisk/fdisk.md">fdsik</a></li>
-</ul>
-</div>
-<hr>
-<h3 id="author-or-authors">Author or Authors</h3>
-<ul>
-<li><em><a href="https://github.com/amirhoseinsb">Amirhosein</a></em> | <strong><a href="mailto:amirhoseinsohrabi.official@gmail.com">amirhoseinsohrabi.official@gmail.com</a></strong></li>
-<li><em><a href="https://github.com/shabane">Arya</a></em> | <strong><a href="mailto:m.mohamadshabane@gmail.com">m.mohamadshabane@gmail.com</a></strong></li>
-</ul>
-
-  </main>
+<main id="main">
+  <h1>binary</h1>
+  
+  <input
+    id="search"
+    type="text"
+    placeholder="Search by title..."
+    aria-label="Search by title"
+  />
+  
+  <ul class="patterns-list" id="list">
+    
+    <li>
+      <h2>
+        <a href="https://bit-orbit.github.io/the-secret-bit/posts/dd/dd/">
+          <svg
+            class="bookmark"
+            aria-hidden="true"
+            viewBox="0 0 40 50"
+            focusable="false"
+          >
+            <use xlink:href="#bookmark"></use>
+          </svg>
+          dd
+        </a>
+      </h2>
+    </li>
+    
+  </ul>
+</main>
 
           
             <footer role="contentinfo">
