@@ -140,7 +140,7 @@ man fs
 
 ### همچنین مطالعه کنید
 
-- [fdsik](../fdisk/fdisk.md)
+- [fdsik](/posts/fdisk/fdisk.md)
 
 </div>
 
