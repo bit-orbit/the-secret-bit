@@ -14,3 +14,7 @@
     direction: ltr;
     font-family: iransans, sans-serif;
 }
+
+pre.language-bash {
+    direction: ltr;
+}
