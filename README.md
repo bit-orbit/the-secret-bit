@@ -1,10 +1,13 @@
 # [The Secret Bit](https://bit⁉️orbit.github.io/the⁉️secret⁉️bit/posts/)
 
+[![telegram chanel](https://img.shields.io/badge/-telegram-313131?logo=telegram&logoColor=2ECC71&style=for-the-badge)](https://t.me/s/bit_orbit)
+[![twitter](https://img.shields.io/badge/-twitter-1DA1F2?logo=twitter&logoColor=FFF&style=for-the-badge)](https://twitter.com/m_shabane)
+
 
 <div dir='rtl'>
 
 
-همه ابزار های لینوکس دفترچه راهنمای بخصوص خودشان را دارند، این دفترچه راهنما ها
+https://t.me/s/bit_orbitهمه ابزار های لینوکس دفترچه راهنمای بخصوص خودشان را دارند، این دفترچه راهنما ها
 man page
 نامیده می‌شوند.
 man page
@@ -38,7 +41,10 @@ man page
 [این فایل](https://docs.google.com/spreadsheets/d/1PXXUOklciHW1glSj9GU8d9ojZw6xKCQVZCAeUhGEg9U/edit?usp=sharing)
 اکسل مشخص کنید.
 
-
+> استفاده از این کتاب آژاد هست، اما فروش کتاب به صورت چاپ شده و یا
+> نسخه های کامپیوتری مثل
+> pdf, ebook
+> منع شده.
 
 ### نماد وضعیت
 > |نماد|معنی|
