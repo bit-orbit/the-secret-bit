@@ -1,7 +1,7 @@
 ---
 title: "tail"
 date: 2022-04-26T03:26:15+04:30
-draft: true
+draft: false
 ---
 
 

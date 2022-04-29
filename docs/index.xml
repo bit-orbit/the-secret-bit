@@ -8,6 +8,15 @@
     <language>fa-IR</language>
     <lastBuildDate>Sun, 13 Sep 2020 18:27:58 +0100</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>tail</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/tail/tail/</link>
+      <pubDate>Tue, 26 Apr 2022 03:26:15 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/tail/tail/</guid>
+      <description>فهرست   مقدمه الگوی استفاده ساده ترین روش استفاده تغییر تعداد خطوط خروجی چاپ تعداد بایت خاص چاپ خطوط انتهایی چند فایل بصورت همزمان مشاهده نسخه مشاهده دستور help مشاهده فایل بصورت زنده برای مانیتور تغییرات وابسته کردن حالت نظارت به یک pid ایجاد وقفه در زمان نظارت Author or Authors     مقدمه برای نمایش انتهای فایل از دستور tail استفاده می شود، بصورت پیشفرض این دستور 10 خط انتهای فایل را در خروجی استاندارد چاپ می کند.</description>
+    </item>
+    
+    <item>
       <title>dd</title>
       <link>https://bit-orbit.github.io/the-secret-bit/posts/dd/dd/</link>
       <pubDate>Mon, 18 Apr 2022 15:59:50 +0430</pubDate>
