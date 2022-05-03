@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundamentals on the-secret-bit</title>
+    <link>https://bit-orbit.github.io/the-secret-bit/fundamentals/</link>
+    <description>Recent content in Fundamentals on the-secret-bit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Tue, 03 May 2022 03:32:45 +0430</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shebang!</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/fundamentals/shebang/shebang/</link>
+      <pubDate>Tue, 03 May 2022 03:32:45 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/fundamentals/shebang/shebang/</guid>
+      <description>فهرست   مقدمه مثال نویسده یا نویسندگان   مقدمه در لینوکس ما چیزی به نام shebang داریم که مشخص می‌کنه یک فایل با استفاده از چه مفسری اجرا بشه.
+اگر زبان های برنامه نویسی رو به دو دسته تقسیم کنیم، زبان های مفسری و زبان های کامپایلری را خواهیم داشت. زبان های کامپالری مثل C زبان هایی هستند که کدی که شما نوشته‌اید را به زبان ماشین تبدیل می‌کنند.</description>
+    </item>
+    
+  </channel>
+</rss>

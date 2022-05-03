@@ -1,7 +1,7 @@
 ---
 title: "Shebang!"
 date: 2022-05-03T03:32:45+04:30
-draft: true
+draft: false
 ---
 
 <div dir='rtl'>
