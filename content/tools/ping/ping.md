@@ -1,7 +1,7 @@
 ---
 title: "Ping"
 date: 2022-05-08T00:18:52+04:30
-draft: true
+draft: false
 tags: [
     "ping",
     "network",
