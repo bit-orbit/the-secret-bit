@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 28 Oct 2021 17:04:54 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/tags/cron/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cron</title>
-      <link>https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/</link>
+      <link>https://bit-orbit.github.io/the-secret-bit/tools/cron/cron/</link>
       <pubDate>Thu, 28 Oct 2021 17:04:54 +0330</pubDate>
       
-      <guid>https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/</guid>
+      <guid>https://bit-orbit.github.io/the-secret-bit/tools/cron/cron/</guid>
       <description>فهرست   مقدمه زمان بندی با دایرکتوری های کرون زمان بندی با crontab میانبر های زمانی مثال کاربردی نکات نویسنده | نویسندگان    مقدمه ابزار cron یا cron-tab ابزاری برای زمانبندی اجرای برنامه ها در یک زمان و یا بازه زمانی خاص است. مثلا شما مشخص می‌کنید که در روز پنجشنبه ساعت 12 بعد از ظهر یک دستور خاص و یا یک مجموعه دستور در داخل یک فایل اسکریپت اجرا بشه.</description>
     </item>
     

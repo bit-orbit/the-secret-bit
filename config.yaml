@@ -44,11 +44,11 @@ menu:
     - name: مشارکت در کتاب
       url: /nav/contribute/how-to-contribute/
       weight: 2
-    - name: فصل ها
-      url: /posts/
+    - name: ابزار ها
+      url: /tools/
       weight: 3
-    - name: تگ ها
-      url: /tags/
+    - name: مفاهیم و اصول
+      url: /fundamentals/
       weight: 4
     - name: انجمن
       url: https://github.com/bit-orbit/the-secret-bit/issues
