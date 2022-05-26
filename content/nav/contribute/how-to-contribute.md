@@ -22,7 +22,7 @@ static site generator
 است ساخته و توسعه داده می‌شود.
 
 پس در قدم اول نیاز به نصب این ابزار دارید.
-هیوگو در مخازن اکثر توزیع های لینوکسی موجوده و میتوانید اون رو به راحتی بریزید.
+هیوگو در مخازن اکثر سیستم عامل ها و توزیع های لینوکسی موجوده و میتوانید اون رو به راحتی بریزید.
 
 > - Solus
 >
@@ -44,13 +44,29 @@ static site generator
 >
 >`sudo zypper in hugo`
 
+> - Windows + choco
+>
+>`choco install hugo -confirm`
+
+> - Windows + scoop
+>
+>`scoop install hugo`
+
+> - macOS + Homebrew
+>
+>`brew install hugo`
+
+> - macOS + MacPorts
+>
+>`port install hugo`
+
 ---
 
 ## 2
 
 فورک و کلون کردن ریپازیتوری.
 دومین قدم اینه که این سایت رو از
-[این ادرس](https://github.com/bit-orbit/the-secret-bit)
+[این آدرس](https://github.com/bit-orbit/the-secret-bit)
 fork
 کنید و سپس روی سیستم لوکالتون
 clone
@@ -232,8 +248,8 @@ wget
 ---
 
 ## 6
-ههم چیز تمام است! ققط توجه کنید که سایت را بیلد نکنید
-و همچین گزینه
+همه چیز تمام است! فقط توجه کنید که سایت را بیلد نکنید
+و همچنین گزینه
 **draft**
 را
 **true**
