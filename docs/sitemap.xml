@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/check-network-connectivity/</loc>
+    <lastmod>2022-05-08T00:18:52+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/command-line-utility/</loc>
+    <lastmod>2022-05-08T00:18:52+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/network/</loc>
+    <lastmod>2022-05-08T00:18:52+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tools/ping/ping/</loc>
+    <lastmod>2022-05-08T00:18:52+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/ping/</loc>
+    <lastmod>2022-05-08T00:18:52+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tags/</loc>
+    <lastmod>2022-05-08T00:18:52+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/tools/</loc>
+    <lastmod>2022-05-08T00:18:52+04:30</lastmod>
+  </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/fundamentals/</loc>
     <lastmod>2022-05-03T03:32:45+04:30</lastmod>
   </url><url>
@@ -11,9 +32,6 @@
     <loc>https://bit-orbit.github.io/the-secret-bit/tools/tail/tail/</loc>
     <lastmod>2022-04-26T03:26:15+04:30</lastmod>
   </url><url>
-    <loc>https://bit-orbit.github.io/the-secret-bit/tools/</loc>
-    <lastmod>2022-04-26T03:26:15+04:30</lastmod>
-  </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tags/binary/</loc>
     <lastmod>2022-04-18T15:59:50+04:30</lastmod>
   </url><url>
@@ -21,9 +39,6 @@
     <lastmod>2022-04-18T15:59:50+04:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tags/file/</loc>
-    <lastmod>2022-04-18T15:59:50+04:30</lastmod>
-  </url><url>
-    <loc>https://bit-orbit.github.io/the-secret-bit/tags/</loc>
     <lastmod>2022-04-18T15:59:50+04:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tools/cd/cd/</loc>

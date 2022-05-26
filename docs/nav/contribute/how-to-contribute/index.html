@@ -13,7 +13,7 @@
     <meta name="description" content="خوشحالم که اینجا هستید :)
 اگر قصد مشارکت دارید، فقط چند مرحله پیشرو داریم.
  1 همینطور که می‌دانید این یک سایت static است که بوسیله hugo که یک static site generator است ساخته و توسعه داده می‌شود.
-پس در قدم اول نیاز به نصب این ابزار دارید. هیوگو در مخازن اکثر توزیع های لینوکسی موجوده و میتوانید اون رو به راحتی بریزید.
+پس در قدم اول نیاز به نصب این ابزار دارید. هیوگو در مخازن اکثر سیستم عامل ها و توزیع های لینوکسی موجوده و میتوانید اون رو به راحتی بریزید.
   Solus  sudo eopkg it hugo">
   
 
@@ -281,7 +281,7 @@ hugo
 static site generator
 است ساخته و توسعه داده می‌شود.</p>
 <p>پس در قدم اول نیاز به نصب این ابزار دارید.
-هیوگو در مخازن اکثر توزیع های لینوکسی موجوده و میتوانید اون رو به راحتی بریزید.</p>
+هیوگو در مخازن اکثر سیستم عامل ها و توزیع های لینوکسی موجوده و میتوانید اون رو به راحتی بریزید.</p>
 <blockquote>
 <ul>
 <li>Solus</li>
@@ -312,11 +312,35 @@ static site generator
 </ul>
 <p><code>sudo zypper in hugo</code></p>
 </blockquote>
+<blockquote>
+<ul>
+<li>Windows + choco</li>
+</ul>
+<p><code>choco install hugo -confirm</code></p>
+</blockquote>
+<blockquote>
+<ul>
+<li>Windows + scoop</li>
+</ul>
+<p><code>scoop install hugo</code></p>
+</blockquote>
+<blockquote>
+<ul>
+<li>macOS + Homebrew</li>
+</ul>
+<p><code>brew install hugo</code></p>
+</blockquote>
+<blockquote>
+<ul>
+<li>macOS + MacPorts</li>
+</ul>
+<p><code>port install hugo</code></p>
+</blockquote>
 <hr>
 <h2 id="2">2</h2>
 <p>فورک و کلون کردن ریپازیتوری.
 دومین قدم اینه که این سایت رو از
-<a href="https://github.com/bit-orbit/the-secret-bit">این ادرس</a>
+<a href="https://github.com/bit-orbit/the-secret-bit">این آدرس</a>
 fork
 کنید و سپس روی سیستم لوکالتون
 clone
@@ -473,8 +497,8 @@ wget
 </code></pre>
 <hr>
 <h2 id="6">6</h2>
-<p>ههم چیز تمام است! ققط توجه کنید که سایت را بیلد نکنید
-و همچین گزینه
+<p>همه چیز تمام است! فقط توجه کنید که سایت را بیلد نکنید
+و همچنین گزینه
 <strong>draft</strong>
 را
 <strong>true</strong>
