@@ -15,9 +15,9 @@
       <guid>https://bit-orbit.github.io/the-secret-bit/nav/contribute/how-to-contribute/</guid>
       <description>خوشحالم که اینجا هستید :)
 اگر قصد مشارکت دارید، فقط چند مرحله پیشرو داریم.
- 1 همینطور که می‌دانید این یک سایت static است که بوسیله hugo که یک static site generator است ساخته و توسعه داده می‌شود.
+1 همینطور که می‌دانید این یک سایت static است که بوسیله hugo که یک static site generator است ساخته و توسعه داده می‌شود.
 پس در قدم اول نیاز به نصب این ابزار دارید. هیوگو در مخازن اکثر سیستم عامل ها و توزیع های لینوکسی موجوده و میتوانید اون رو به راحتی بریزید.
-  Solus  sudo eopkg it hugo</description>
+Solus sudo eopkg it hugo</description>
     </item>
     
   </channel>

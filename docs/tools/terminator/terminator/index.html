@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.101.0" />
-  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/tools/lsusb/lsusb/">
+  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/tools/terminator/terminator/">
 
   
     
-    <meta name="description" content="فهرست مقدمه نمایش دستگاه های متصل شده نمایش وضعیت پورت ها با جزئیات تکمیلی مانیتور کردن پورت ها به شکل دائم مانیتور کردن پورت خاص نمایش وضعیت پورت ها به شکل درختی Author or Authors مقدمه با استفاده از lsusb میتوانید اطلاعات کاملی راجب وضعیت پورت های usb و دستگاه های متصل شده به آن ها مشاهده کنید.
-نمایش دستگاه های متصل شده برای نمایش دستگاه متصل شده به پورت های یو اس بی کافیست از دستور lsusb استفاده کنید.">
+    <meta name="description" content="فهرست مقدمه میانبر جدا سازی افقی جدا سازی عمودی جابجایی بین هر صفحه تغییر اندازه صفحه بستن یک صفحه زوم کردن اسکرول در ترمینال نکته ها نویسنده یا نویسندگان مقدمه فرض کنید شما همزمان نیاز به چهار پنجره ترمینال دارید که در هر یک، برنامه‌ای اجرا کنید. برای مثال در یکی از پنجره ها فایلی را باز کنید و تغییراتش را ببینید، در پنجره دیگری برنامه‌ای اجرا کنید که داده هایی به آن فایل اضافه کند.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -59,7 +58,7 @@
 
   
   
-  <title>lsusb | the-secret-bit</title>
+  <title>terminator | the-secret-bit</title>
 </head>
 
   <body>
@@ -265,157 +264,131 @@
         <div>
           
   <main id="main">
-    <h1>lsusb</h1>
-    <div dir='rtl'>
+    <h1>terminator</h1>
+    <p><img src="./example.png" alt="terminator"></p>
+<div dir='rtl'>
 <h3 id="فهرست">فهرست</h3>
 <blockquote>
 <ul>
 <li><a href="#%D9%85%D9%82%D8%AF%D9%85%D9%87">مقدمه</a></li>
-<li><a href="#%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AA%D8%B5%D9%84-%D8%B4%D8%AF%D9%87">نمایش دستگاه های متصل شده</a></li>
-<li><a href="#%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D9%88%D8%B6%D8%B9%DB%8C%D8%AA-%D9%BE%D9%88%D8%B1%D8%AA-%D9%87%D8%A7-%D8%A8%D8%A7-%D8%AC%D8%B2%D8%A6%DB%8C%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C">نمایش وضعیت پورت ها با جزئیات تکمیلی</a></li>
-<li><a href="#%D9%85%D8%A7%D9%86%DB%8C%D8%AA%D9%88%D8%B1-%DA%A9%D8%B1%D8%AF%D9%86-%D9%BE%D9%88%D8%B1%D8%AA-%D9%87%D8%A7-%D8%A8%D9%87-%D8%B4%DA%A9%D9%84-%D8%AF%D8%A7%D8%A6%D9%85">مانیتور کردن پورت ها به شکل دائم</a></li>
-<li><a href="#%D9%85%D8%A7%D9%86%DB%8C%D8%AA%D9%88%D8%B1-%DA%A9%D8%B1%D8%AF%D9%86-%D9%BE%D9%88%D8%B1%D8%AA-%D8%AE%D8%A7%D8%B5">مانیتور کردن پورت خاص</a></li>
-<li><a href="#%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D9%88%D8%B6%D8%B9%DB%8C%D8%AA-%D9%BE%D9%88%D8%B1%D8%AA-%D9%87%D8%A7-%D8%A8%D9%87-%D8%B4%DA%A9%D9%84-%D8%AF%D8%B1%D8%AE%D8%AA%DB%8C">نمایش وضعیت پورت ها به شکل درختی</a></li>
-<li><a href="#author-or-authors">Author or Authors</a></li>
+<li><a href="#%D9%85%DB%8C%D8%A7%D9%86%D8%A8%D8%B1">میانبر</a></li>
+<li><a href="#%D8%AC%D8%AF%D8%A7-%D8%B3%D8%A7%D8%B2%DB%8C-%D8%A7%D9%81%D9%82%DB%8C">جدا سازی افقی</a></li>
+<li><a href="#%D8%AC%D8%AF%D8%A7-%D8%B3%D8%A7%D8%B2%DB%8C-%D8%B9%D9%85%D9%88%D8%AF%DB%8C">جدا سازی عمودی</a></li>
+<li><a href="#%D8%AC%D8%A7%D8%A8%D8%AC%D8%A7%DB%8C%DB%8C-%D8%A8%DB%8C%D9%86-%D9%87%D8%B1-%D8%B5%D9%81%D8%AD%D9%87">جابجایی بین هر صفحه</a></li>
+<li><a href="#%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%D9%87-%D8%B5%D9%81%D8%AD%D9%87">تغییر اندازه صفحه</a></li>
+<li><a href="#%D8%A8%D8%B3%D8%AA%D9%86-%DB%8C%DA%A9-%D8%B5%D9%81%D8%AD%D9%87">بستن یک صفحه</a></li>
+<li><a href="#%D8%B2%D9%88%D9%85-%DA%A9%D8%B1%D8%AF%D9%86">زوم کردن</a></li>
+<li><a href="#%D8%A7%D8%B3%DA%A9%D8%B1%D9%88%D9%84-%D8%AF%D8%B1-%D8%AA%D8%B1%D9%85%DB%8C%D9%86%D8%A7%D9%84">اسکرول در ترمینال</a></li>
+<li><a href="#%D9%86%DA%A9%D8%AA%D9%87-%D9%87%D8%A7">نکته ها</a></li>
+<li><a href="#%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%D9%87-%DB%8C%D8%A7-%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86">نویسنده یا نویسندگان</a></li>
 </ul>
 </blockquote>
-</div>
-<hr>
-<div dir='rtl'>
 <h3 id="مقدمه">مقدمه</h3>
-<p>با استفاده از lsusb میتوانید اطلاعات کاملی راجب وضعیت پورت های usb و دستگاه های متصل شده به آن ها مشاهده کنید.</p>
-</div>
+<p>فرض کنید شما همزمان نیاز به چهار پنجره ترمینال دارید که در هر یک، برنامه‌ای اجرا کنید.
+برای مثال در یکی از پنجره ها فایلی را باز کنید و تغییراتش را ببینید،
+در پنجره دیگری برنامه‌ای اجرا کنید که داده هایی به آن فایل اضافه کند.</p>
+<p>ابزار های مختلفی برای تقسیم کردن صفحه ترمینال وجود دارد که
+terminator
+یکی از آنها است.</p>
 <hr>
-<div dir='rtl'>
-<h3 id="نمایش-دستگاه-های-متصل-شده">نمایش دستگاه های متصل شده</h3>
-<p>برای نمایش دستگاه متصل شده به پورت های یو اس بی کافیست از دستور lsusb استفاده کنید.</p>
-</div>
-<pre><code># show the status usbport
-$ lsusb
-
-#OUTPUT
-# Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-# Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
-# Bus 004 Device 010: ID 08bb:2902 Texas Instruments PCM2902 Audio Codec
-# Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
-# Bus 003 Device 004: ID 1a2c:2c27 China Resource Semico Co., Ltd USB Keyboard
-# Bus 003 Device 002: ID 30fa:0301  USB OPTICAL MOUSE 
-# Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
-# Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+<h3 id="میانبر">میانبر</h3>
+<p>مهم ترین دلیل استفاده از
+terminator
+تقسیم بندی صفحه به قسمت های مختلف هست.</p>
+<p>یک صفحه می‌تواند افقی و عمودی جدا شود.
+و هر صفحه را می‌توان باز جدا کرد.
+و همچنین شما می‌توانید اندازه صفحه ها بر اساس نیاز تغییر دهید.</p>
+<h4 id="جدا-سازی-افقی">جدا سازی افقی</h4>
+<pre><code class="language-bash">ctrl+shift+O
 </code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="نمایش-وضعیت-پورت-ها-با-جزئیات-تکمیلی">نمایش وضعیت پورت ها با جزئیات تکمیلی</h3>
-<p>برای نمایش وضعیت پورت ها با جزئیات تکمیلی از سوییچ v- استفاده کنید. با استفاده از این سوییچ میتوانید اطلاعات کاملی راجب پورت و دستگاه متصل شده به آن را مشاهده کنید.</p>
-</div>
-<pre><code># show the complete status usbport
-$ lsusb -v
-
-# OUTPUT
-# Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-# Couldn't open device, some information will be missing
-# Device Descriptor:
-# bLength                18
-# bDescriptorType         1
-# bcdUSB               2.00
-# bDeviceClass            9 Hub
-# bDeviceSubClass         0 
-# bDeviceProtocol         0 Full speed (or root) hub
-# bMaxPacketSize0        64
-# idVendor           0x1d6b Linux Foundation
-# idProduct          0x0002 2.0 root hub
-# bcdDevice            5.04
-# iManufacturer           3 
-# iProduct                2 
-# iSerial                 1 
-# bNumConfigurations      1
-# Configuration Descriptor:
-# bLength                 9
-# bDescriptorType         2
-# wTotalLength       0x0019
-# bNumInterfaces          1
-# bConfigurationValue     1
-# iConfiguration          0 
-# bmAttributes         0xe0
-#   Self Powered
-#   Remote Wakeup
-# MaxPower                0mA
-# Interface Descriptor:
-#   bLength                 9
-#   bDescriptorType         4
-#   bInterfaceNumber        0
-#   bAlternateSetting       0
-#   bNumEndpoints           1
-#   bInterfaceClass         9 Hub
-#   bInterfaceSubClass      0 
-#   bInterfaceProtocol      0 Full speed (or root) hub
-#   iInterface              0 
-#   Endpoint Descriptor:
-#     bLength                 7
-#     bDescriptorType         5
-#     bEndpointAddress     0x81  EP 1 IN
-#     bmAttributes            3
-#       Transfer Type            Interrupt
-#       Synch Type               None
-#       Usage Type               Data
-#     wMaxPacketSize     0x0004  1x 4 bytes
-#     bInterval              12
+<h4 id="جدا-سازی-عمودی">جدا سازی عمودی</h4>
+<pre><code class="language-bash">ctrl+shift+E
 </code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="مانیتور-کردن-پورت-ها-به-شکل-دائم">مانیتور کردن پورت ها به شکل دائم</h3>
-<p>اگر میخواهید که وضعیت یک پورت یا چند پورت را مانیتور کنید باید به شکل مکرر دستور lsusb را تایپ کنید تا از وضعیت پورت ها مطلع شوید. برای رفع این مشکل از ابزار watch استفاده کنید.
-این ابزار تا زمانی که شما کلید های ترکیبی ctrl + c را فشار نداده اید وضعیت را برای شما مانیتور خواهد کرد.</p>
-</div>
-<pre><code># monitor with watch
-$ watch lsusb
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="مانیتور-کردن-پورت-خاص">مانیتور کردن پورت خاص</h3>
-<p>هر پورت دارای دو شماره است . شماره اول متعلق به پورت و شماره دوم متعلق به دستگاه متصل شده است.
-با استفاده از سوییچ s- میتوانید پورت خاص را مانیتور کنید.</p>
-</div>
-<pre><code># monitor the specific usbport
-$ lsusb
-
-# Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-# Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
-# Bus 004 Device 010: ID 08bb:2902 Texas Instruments PCM2902 Audio Codec
-# Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
-# Bus 003 Device 004: ID 1a2c:2c27 China Resource Semico Co., Ltd USB Keyboard
-# Bus 003 Device 002: ID 30fa:0301  USB OPTICAL MOUSE 
-# Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
-# Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
-
-$ lsusb -s 5:1
-# Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="نمایش-وضعیت-پورت-ها-به-شکل-درختی">نمایش وضعیت پورت ها به شکل درختی</h3>
-<p>با استفاده از سوییچ t- میتوانید وضعیت پورت ها را به شکل درختی مانیتور کنید.</p>
-</div>
-<pre><code>$ lsusb -t
-
-# OUTPUT
-# /:  Bus 05.Port 1: Dev 1, Class=root_hub, Driver=uhci_hcd/2p, 12M
-# /:  Bus 04.Port 1: Dev 1, Class=root_hub, Driver=uhci_hcd/2p, 12M
-#     |__ Port 1: Dev 10, If 0, Class=Audio, Driver=snd-usb-audio, 12M
-#     |__ Port 1: Dev 10, If 1, Class=Audio, Driver=snd-usb-audio, 12M
-#     |__ Port 1: Dev 10, If 2, Class=Audio, Driver=snd-usb-audio, 12M
-#     |__ Port 1: Dev 10, If 3, Class=Human Interface Device, Driver=usbhid, 12M
-# /:  Bus 03.Port 1: Dev 1, Class=root_hub, Driver=uhci_hcd/2p, 12M
-#     |__ Port 1: Dev 2, If 0, Class=Human Interface Device, Driver=usbhid, 1.5M
-#     |__ Port 2: Dev 4, If 0, Class=Human Interface Device, Driver=usbhid, 1.5M
-#     |__ Port 2: Dev 4, If 1, Class=Human Interface Device, Driver=usbhid, 1.5M
-# /:  Bus 02.Port 1: Dev 1, Class=root_hub, Driver=uhci_hcd/2p, 12M
-# /:  Bus 01.Port 1: Dev 1, Class=root_hub, Driver=ehci-pci/8p, 480M
-</code></pre>
-<hr>
-<h3 id="author-or-authors">Author or Authors</h3>
+<p><img src="https://terminator-gtk3.readthedocs.io/en/latest/_images/rebalance_01.png" alt="spliting"></p>
+<h4 id="جابجایی-بین-هر-صفحه">جابجایی بین هر صفحه</h4>
+<p>برای ایکه بین صفحه‌هایی که ساخته‌اید حرکت کنید با از ترکیب کلید
+alt
+با کلید های جهت دار استفاده کنید.</p>
 <ul>
-<li><em><a href="https://github.com/amirhoseinsb">Amirhosein</a></em> | <strong><a href="mailto:amirhoseinsohrabi.official@gmail.com">amirhoseinsohrabi.official@gmail.com</a></strong></li>
+<li>
+<p>alt+Up
+رفتن به ترمینال بالایی</p>
+</li>
+<li>
+<p>alt+Down
+رفتن به ترمینال پایین</p>
+</li>
+<li>
+<p>alt+Left
+رفتن با ترمینال چپ</p>
+</li>
+<li>
+<p>alt+Right
+رفتن به ترمینال راست</p>
+</li>
+</ul>
+<h4 id="تغییر-اندازه-صفحه">تغییر اندازه صفحه</h4>
+<p>ممکن است شما بخواهید اندازه یکی از صفحه ها را بزرگ تر کنید، چرا که در نیاز به فضای زیاد دارد،
+و همچنین اندازه یک صفحه که نیاز به فضای زیادی ندارد را کاهش دهید. برای اینکار از کلید های ترکیبی
+ctrl
+و
+shift
+با کلید های جهت دار استفاده کنید.</p>
+<ul>
+<li>افزایش/کاهش اندازه ترمینال به صورت عمودی</li>
+</ul>
+<pre><code class="language-bash">ctrl+shift+Up
+</code></pre>
+<pre><code class="language-bash">ctrl+shift+Down
+</code></pre>
+<ul>
+<li>افزایش/کاهش اندازه ترمینال به صورت افقی</li>
+</ul>
+<pre><code class="language-bash">ctrl+shift+Left
+</code></pre>
+<pre><code class="language-bash">ctrl+shift+Right
+</code></pre>
+<h4 id="بستن-یک-صفحه">بستن یک صفحه</h4>
+<pre><code class="language-bash">ctrl+shift+W
+</code></pre>
+<h4 id="زوم-کردن">زوم کردن</h4>
+<p>گاهی فقط با یکی از ترمینال ها کار داریم و نیاز داریم که آن صفحه بزرگ تر از بقیه باشد، در این زمان
+کافیست که در آن صفحه زوم کنیم و بقیه ترمینال ها را همانطور که هستند باقی بگذاریم.</p>
+<pre><code class="language-bash">ctrl+shift+Z
+</code></pre>
+<h4 id="اسکرول-در-ترمینال">اسکرول در ترمینال</h4>
+<blockquote>
+<p>در نظر داشته باشید که برای اسکرول باید
+numlock
+را روشن کنید. و از کلید ها
+num pad
+استفاده کنید.</p>
+</blockquote>
+<ul>
+<li>اسکرول به بالا</li>
+</ul>
+<pre><code class="language-bash">ctrl+shift+8
+</code></pre>
+<ul>
+<li>اسکرول به پایین</li>
+</ul>
+<pre><code class="language-bash">ctrl+shift+2
+</code></pre>
+</div>
+<hr>
+<h3 id="نکته-ها">نکته ها</h3>
+<blockquote>
+<p>به یاد داشته باشید ترمیناتور یک ابزار گرافیکی است. شما می‌توانید با موس جای ترمینال ها را جابجا کنید
+و یا همچنین بین انها جابجا شوید.</p>
+</blockquote>
+<blockquote>
+<p>شاید برخی از کلید ها میانبر ترمیناتور برای شما کار نکند. دلیل آن این است که یک برنامه دیگر
+قبل از اینکه آن میانبر به ترمیناتور برسد، آن میانبر را اجرا می‌کند.</p>
+</blockquote>
+<hr>
+<h3 id="نویسنده-یا-نویسندگان">نویسنده یا نویسندگان</h3>
+<ul>
+<li><em><a href="https://github.com/shabane">Arya</a></em> | <strong><a href="mailto:m.mohamadshabane@gmail.com">m.mohamadshabane@gmail.com</a></strong></li>
 </ul>
 
   </main>
