@@ -44,9 +44,26 @@ shebang
 > را هم مشخص می‌کند.
 
 ```bash
-#!/bin/sh
+#!/bin/python3.7
 
-echo 'hello, world!
+print('hello, world!)
+```
+
+> این نکته را به خاطر داشته باشید که ممکن است باینری مفسر شما در مسیری که مشخص کرده‌اید
+> موجود نباشد. مسیر درست مفسر در متغییر محیطی هر کاربر ذخیره شده است. و برای اینکه ما
+> مسیر درست را به اسکریپت بدهیم باید باید 
+> shebang
+> را به شکل زیر بنویسیم.
+
+
+```bash
+/usr/bin/env **InterpreterName**
+```
+
+برای مثال برای مشخص کردن مفسر پرل به این صورت عمل می‌کنیم:
+
+```bash
+/usr/bin/env perl
 ```
 
 ---
@@ -58,7 +75,7 @@ echo 'hello, world!
 - python
 
 ```bash
-#!/bin/python3
+#!/usr/bin/env python3
 
 print("hello, world!")
 ```
@@ -66,7 +83,7 @@ print("hello, world!")
 - bash
 
 ```bash
-#!/bin/sh
+#!/usr/bin/env sh
 
 echo "hello, world!"
 ```
