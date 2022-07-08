@@ -301,9 +301,21 @@ shebang
 فقط خود مسفر را انتخاب نمی‌کند بلکه ورژن های مختلف مفسر های نصب شده
 را هم مشخص می‌کند.</p>
 </blockquote>
-<pre><code class="language-bash">#!/bin/sh
+<pre><code class="language-bash">#!/bin/python3.7
 
-echo 'hello, world!
+print('hello, world!)
+</code></pre>
+<blockquote>
+<p>این نکته را به خاطر داشته باشید که ممکن است باینری مفسر شما در مسیری که مشخص کرده‌اید
+موجود نباشد. مسیر درست مفسر در متغییر محیطی هر کاربر ذخیره شده است. و برای اینکه ما
+مسیر درست را به اسکریپت بدهیم باید باید
+shebang
+را به شکل زیر بنویسیم.</p>
+</blockquote>
+<pre><code class="language-bash">/usr/bin/env **InterpreterName**
+</code></pre>
+<p>برای مثال برای مشخص کردن مفسر پرل به این صورت عمل می‌کنیم:</p>
+<pre><code class="language-bash">/usr/bin/env perl
 </code></pre>
 <hr>
 <h3 id="مثال">مثال</h3>
@@ -311,14 +323,14 @@ echo 'hello, world!
 <ul>
 <li>python</li>
 </ul>
-<pre><code class="language-bash">#!/bin/python3
+<pre><code class="language-bash">#!/usr/bin/env python3
 
 print(&quot;hello, world!&quot;)
 </code></pre>
 <ul>
 <li>bash</li>
 </ul>
-<pre><code class="language-bash">#!/bin/sh
+<pre><code class="language-bash">#!/usr/bin/env sh
 
 echo &quot;hello, world!&quot;
 </code></pre>
