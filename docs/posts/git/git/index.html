@@ -279,6 +279,7 @@
 <li><a href="#%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D8%AA%D8%B1-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA-%D9%BE%D8%B1%D9%88%DA%98%D9%87">بررسی عمیق تر تغییرات پروژه</a></li>
 <li><a href="#%D8%B3%D8%A7%D8%AE%D8%AA-%D8%A8%D8%B1%D9%86%DA%86-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D9%BE%D8%B1%D9%88%DA%98%D9%87">ساخت برنچ جدید در پروژه</a></li>
 <li><a href="#%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1-%D8%A8%D8%B1%D9%86%DA%86-%D9%BE%D8%B1%D9%88%DA%98%D9%87">تغییر برنچ پروژه</a></li>
+<li><a href="#%D8%B1%D9%81%D8%AA%D9%86-%D8%A8%D9%87-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA-%D9%87%D8%A7%DB%8C-%DA%AF%D8%B0%D8%B4%D8%AA%D9%87">رفتن به کامیت های گذشته</a></li>
 <li><a href="#%D9%85%D8%B1%D8%AC-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A8%D8%B1%D9%86%DA%86">مرج کردن برنچ</a></li>
 <li><a href="#%D8%AD%D8%B0%D9%81-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A8%D8%B1%D9%86%DA%86">حذف کردن برنچ</a></li>
 <li><a href="#%D8%AD%D8%B0%D9%81-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A8%D8%B1%D9%86%DA%86-%D8%A8%D8%AF%D9%88%D9%86-%D9%85%D8%B1%D8%AC-%DA%A9%D8%B1%D8%AF%D9%86">حذف کردن برنچ بدون مرج کردن</a></li>
@@ -445,6 +446,30 @@ HEAD
 </div>
 <pre><code>$ git checkout &lt;branch name&gt;
 #Switched to branch '&lt;branch name&gt;'
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="رفتن-به-کامیت-های-گذشته">رفتن به کامیت های گذشته</h3>
+<p>در برخی زمان ها ممکن است  که ما در پروژه به مشکلی برخورد کنیم که نیاز باشد به سراغ کامیت های قدیمی پروژه برویم و تغییراتی در آن بدهیم.
+برای اینکه بتوانیم وارد یکی از کامیت های قبلی پروژه شویم مانند دستوری که در بخش قبلی گفتیم عمل میکنیم با این تفاوت که باید بجای اسم بخشی از آیدی آن کامیت را بنویسیم.
+با اینجام این دستور یک برنچ جدید ساخته میشود که مانند برنچ های عادی پروژه است با این تفاوت که کامیت مد نظر ما آخرین کامیت آن برنچ است
+</p>
+</div>
+<pre><code>$ git checkout &lt;A part of the unic commit code&gt;
+#Note: switching to '&lt;A part of the unic commit code&gt;'.
+#You are in 'detached HEAD' state. You can look around, make experimental changes and commit them, and you can discard any commits you make in this state without impacting any branches by switching back to a branch.
+#If you want to create a new branch to retain commits you create, you may
+#do so (now or later) by using -c with the switch command. Example:
+#
+#  git switch -c <new-branch-name>
+#
+#Or undo this operation with:
+#
+#  git switch -
+#
+#Turn off this advice by setting config variable advice.detachedHead to false
+#
+#HEAD is now at 58a652e add hello
 </code></pre>
 <hr>
 <div dir='rtl'>
