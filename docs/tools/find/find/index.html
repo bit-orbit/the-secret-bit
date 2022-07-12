@@ -10,7 +10,7 @@
 
   
     
-    <meta name="description" content="فهرست مقدمه پیدا کردن فایل جستجو کردن بر اساس نوع پیداکردن فایل ها بر اساس حروف بزرگ و کوچک جستجو کردن بر اساس سطوح دسترسی جستجو بر اساس تاریخ و ساعت پیدا کردن فایل با پسوند خاص پیداکردن فایل با حجم مشخص پیداکردن فایل هایی با چند فرمت مختلف Author or Authors مقدمه یکی دیگر از ابزارهایی که برای جستجو استفاده میشود ابزار find است . ابزار find تقریبا شبیه به locate است اما در کارکرد تفاوت های بسیاری دارد که اگر شما توضیحات مربوط به ابزار locate را خوانده باشید متوجه خواهید شد.">
+    <meta name="description" content="فهرست مقدمه پیدا کردن فایل جستجو کردن بر اساس نوع پیداکردن فایل ها بر اساس حروف بزرگ و کوچک جستجو کردن بر اساس سطوح دسترسی جستجو بر اساس تاریخ و ساعت پیدا کردن فایل با پسوند خاص پیداکردن فایل با حجم مشخص اجرای کامند روی مسیر هر یک از فایل های یافت شده پیداکردن فایل هایی با چند فرمت مختلف Author or Authors مقدمه یکی دیگر از ابزارهایی که برای جستجو استفاده میشود ابزار find است .">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -277,6 +277,7 @@
 <li><a href="#%D8%AC%D8%B3%D8%AA%D8%AC%D9%88-%D8%A8%D8%B1-%D8%A7%D8%B3%D8%A7%D8%B3-%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D9%88-%D8%B3%D8%A7%D8%B9%D8%AA">جستجو بر اساس تاریخ و ساعت</a></li>
 <li><a href="#%D9%BE%DB%8C%D8%AF%D8%A7-%DA%A9%D8%B1%D8%AF%D9%86-%D9%81%D8%A7%DB%8C%D9%84-%D8%A8%D8%A7-%D9%BE%D8%B3%D9%88%D9%86%D8%AF-%D8%AE%D8%A7%D8%B5">پیدا کردن فایل با پسوند خاص</a></li>
 <li><a href="#%D9%BE%DB%8C%D8%AF%D8%A7%DA%A9%D8%B1%D8%AF%D9%86-%D9%81%D8%A7%DB%8C%D9%84-%D8%A8%D8%A7-%D8%AD%D8%AC%D9%85-%D9%85%D8%B4%D8%AE%D8%B5">پیداکردن فایل با حجم مشخص</a></li>
+<li><a href="#%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%85%D9%86%D8%AF-%D8%B1%D9%88%DB%8C-%D9%85%D8%B3%DB%8C%D8%B1-%D9%87%D8%B1-%DB%8C%DA%A9-%D8%A7%D8%B2-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%DB%8C-%DB%8C%D8%A7%D9%81%D8%AA-%D8%B4%D8%AF%D9%87">اجرای کامند روی مسیر هر یک از فایل های یافت شده</a></li>
 <li><a href="#%D9%BE%DB%8C%D8%AF%D8%A7%DA%A9%D8%B1%D8%AF%D9%86-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-%DA%86%D9%86%D8%AF-%D9%81%D8%B1%D9%85%D8%AA-%D9%85%D8%AE%D8%AA%D9%84%D9%81">پیداکردن فایل هایی با چند فرمت مختلف</a></li>
 <li><a href="#author-or-authors">Author or Authors</a></li>
 </ul>
@@ -368,9 +369,43 @@ $ find /home/Downloads -size +1G
 <pre><code>$ find ~ ( -iname 'jpeg' -o -iname 'jpg' )
 </code></pre>
 <hr>
+<div dir='rtl'>
+<h3 id="اجرای-کامند-روی-مسیر-هر-یک-از-فایل-های-یافت-شده">اجرای کامند روی مسیر هر یک از فایل های یافت شده</h3>
+<p>قطعا یکی از پرکاربرد ترین سوییچ های این ابزار سوییچ
+<code>-exec</code>
+هست، این سوییچ بعد از پیدا کردن فایل های مورد نظر دستوری که شما مشخص می‌کنید را روی
+مسیر هر فایل اجرا می‌کند. مثلا ممکن است شما دستور
+<a href="https://bit-orbit.github.io/the-secret-bit/the-secret-bit/tools/rm/rm/">rm</a>
+را برای حذف فایل بنویسید و فایل ها را بعد از یافت شدن پاک کنید. و یا با ابزار
+<a href="https://bit-orbit.github.io/the-secret-bit/the-secret-bit/tools/cp/cp/">cp</a>
+فایل ها را از
+محلی به محلی دیگر کپی کنید.</p>
+<blockquote>
+<p>در این سوییچ دو نکته وجود دارد:</p>
+<ol>
+<li>مسیر هر فایل یافت شده در متغییر
+<code>{}</code>
+ذخیره می‌شود.</li>
+<li>برای اینکه شما پایان دستورات را مشخص کنید باید از
+<code>;\</code>
+استفاده کنید</li>
+</ol>
+</blockquote>
+<p>برای مثال ما تمامی فایل هایی که پسوندشان
+mp3
+است را از دایرکتوری
+Downloads/~
+پیدا می‌کنیم و بعد به دایرکتوری
+Music/~
+منتقل می‌کنیم</p>
+<pre><code class="language-bash">find ~/Downloads -type f -iname '*mp3' -exec mv {} ~/Music \;
+</code></pre>
+</div>
+<hr>
 <h3 id="author-or-authors">Author or Authors</h3>
 <ul>
 <li><em><a href="https://github.com/amirhoseinsb">Amirhosein</a></em> | <strong><a href="mailto:amirhoseinsohrabi.official@gmail.com">amirhoseinsohrabi.official@gmail.com</a></strong></li>
+<li><em><a href="github.com/shabane">Arya Shabane</a></em> | <strong><a href="mailto:m.mohamadshabane@gmail.com">m.mohamadshabane@gmail.com</a></strong></li>
 </ul>
 
   </main>
