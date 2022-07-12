@@ -19,6 +19,7 @@ draft: false
 > - [مشاهده تاریخچه کامیت ها](#مشاهده-تاریخچه-کامیت-ها)
 > - [بررسی عمیق تر تغییرات پروژه](#بررسی-عمیق-تر-تغییرات-پروژه)
 > - [ساخت برنچ جدید در پروژه](#ساخت-برنچ-جدید-در-پروژه)
+> - [رفتن به کامیت های گذشته](#رفتن-به-کامیت-های-گذشته)
 > - [تغییر برنچ پروژه](#تغییر-برنچ-پروژه)
 > - [مرج کردن برنچ](#مرج-کردن-برنچ)
 > - [حذف کردن برنچ](#حذف-کردن-برنچ)
@@ -240,6 +241,33 @@ HEAD
 
     $ git checkout <branch name>
     #Switched to branch '<branch name>'
+
+---
+
+<div dir='rtl'>
+
+### رفتن به کامیت های گذشته
+
+در برخی زمان ها ممکن است  که ما در پروژه به مشکلی برخورد کنیم که نیاز باشد به سراغ کامیت های قدیمی پروژه برویم و تغییراتی در آن بدهیم.
+برای اینکه بتوانیم وارد یکی از کامیت های قبلی پروژه شویم مانند دستوری که در بخش قبلی گفتیم عمل میکنیم با این تفاوت که باید بجای اسم بخشی از آیدی آن کامیت را بنویسیم.
+با انجام این دستور یک برنچ جدید ساخته میشود که مانند برنچ های عادی پروژه است با این تفاوت که کامیت مد نظر ما آخرین کامیت آن برنچ است.
+</div>
+
+    $ git checkout <A part of the unic commit>
+    #Note: switching to '&lt;A part of the unic commit code&gt;'.
+    #You are in 'detached HEAD' state. You can look around, make experimental changes and commit them, and you can discard any commits you make in this state without   impacting any branches by switching back to a branch.
+    #If you want to create a new branch to retain commits you create, you may
+    #do so (now or later) by using -c with the switch command. Example:
+    #
+    #  git switch -c <new-branch-name>
+    #
+    #Or undo this operation with:
+    #
+    #  git switch -
+    #
+    #Turn off this advice by setting config variable advice.detachedHead to false
+    #
+    #HEAD is now at 58a652e add hello
 
 ---
 
