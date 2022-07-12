@@ -10,7 +10,7 @@
 
   
     
-    <meta name="description" content="فهرست مقدمه ساختار کامند های گیت وارد کردن گیت به داخل پروژه بررسی فایل های پروژه اضافه کردن تغییرات به حالت stage کامیت کردن تغییرات مشاهده تاریخچه کامیت ها بررسی عمیق تر تغییرات پروژه ساخت برنچ جدید در پروژه تغییر برنچ پروژه مرج کردن برنچ حذف کردن برنچ حذف کردن برنچ بدون مرج کردن کلون کردن پروژه از اینترنت وصل کردن پروژه به فضای ابری فرستادن پروژه به فضای ابری مرچ کردن کامیت های پروژه در فضای ابری و سیستم لوکال Author or Authors مقدمه گیت یک سیستم کنترل ورژن (VCS) میباشد.">
+    <meta name="description" content="فهرست مقدمه ساختار کامند های گیت وارد کردن گیت به داخل پروژه بررسی فایل های پروژه اضافه کردن تغییرات به حالت stage کامیت کردن تغییرات مشاهده تاریخچه کامیت ها بررسی عمیق تر تغییرات پروژه ساخت برنچ جدید در پروژه رفتن به کامیت های گذشته تغییر برنچ پروژه مرج کردن برنچ حذف کردن برنچ حذف کردن برنچ بدون مرج کردن کلون کردن پروژه از اینترنت وصل کردن پروژه به فضای ابری فرستادن پروژه به فضای ابری مرچ کردن کامیت های پروژه در فضای ابری و سیستم لوکال Author or Authors مقدمه گیت یک سیستم کنترل ورژن (VCS) میباشد.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -278,6 +278,7 @@
 <li><a href="#%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D9%87-%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%D9%87-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA-%D9%87%D8%A7">مشاهده تاریخچه کامیت ها</a></li>
 <li><a href="#%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D8%AA%D8%B1-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA-%D9%BE%D8%B1%D9%88%DA%98%D9%87">بررسی عمیق تر تغییرات پروژه</a></li>
 <li><a href="#%D8%B3%D8%A7%D8%AE%D8%AA-%D8%A8%D8%B1%D9%86%DA%86-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D9%BE%D8%B1%D9%88%DA%98%D9%87">ساخت برنچ جدید در پروژه</a></li>
+<li><a href="#%D8%B1%D9%81%D8%AA%D9%86-%D8%A8%D9%87-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA-%D9%87%D8%A7%DB%8C-%DA%AF%D8%B0%D8%B4%D8%AA%D9%87">رفتن به کامیت های گذشته</a></li>
 <li><a href="#%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1-%D8%A8%D8%B1%D9%86%DA%86-%D9%BE%D8%B1%D9%88%DA%98%D9%87">تغییر برنچ پروژه</a></li>
 <li><a href="#%D9%85%D8%B1%D8%AC-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A8%D8%B1%D9%86%DA%86">مرج کردن برنچ</a></li>
 <li><a href="#%D8%AD%D8%B0%D9%81-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A8%D8%B1%D9%86%DA%86">حذف کردن برنچ</a></li>
@@ -445,6 +446,29 @@ HEAD
 </div>
 <pre><code>$ git checkout &lt;branch name&gt;
 #Switched to branch '&lt;branch name&gt;'
+</code></pre>
+<hr>
+<div dir='rtl'>
+<h3 id="رفتن-به-کامیت-های-گذشته">رفتن به کامیت های گذشته</h3>
+<p>در برخی زمان ها ممکن است  که ما در پروژه به مشکلی برخورد کنیم که نیاز باشد به سراغ کامیت های قدیمی پروژه برویم و تغییراتی در آن بدهیم.
+برای اینکه بتوانیم وارد یکی از کامیت های قبلی پروژه شویم مانند دستوری که در بخش قبلی گفتیم عمل میکنیم با این تفاوت که باید بجای اسم بخشی از آیدی آن کامیت را بنویسیم.
+با انجام این دستور یک برنچ جدید ساخته میشود که مانند برنچ های عادی پروژه است با این تفاوت که کامیت مد نظر ما آخرین کامیت آن برنچ است.</p>
+</div>
+<pre><code>$ git checkout &lt;A part of the unic commit&gt;
+#Note: switching to '&amp;lt;A part of the unic commit code&amp;gt;'.
+#You are in 'detached HEAD' state. You can look around, make experimental changes and commit them, and you can discard any commits you make in this state without   impacting any branches by switching back to a branch.
+#If you want to create a new branch to retain commits you create, you may
+#do so (now or later) by using -c with the switch command. Example:
+#
+#  git switch -c &lt;new-branch-name&gt;
+#
+#Or undo this operation with:
+#
+#  git switch -
+#
+#Turn off this advice by setting config variable advice.detachedHead to false
+#
+#HEAD is now at 58a652e add hello
 </code></pre>
 <hr>
 <div dir='rtl'>
