@@ -26,7 +26,32 @@ draft: false
 <div dir='rtl'>
 
 ### مقدمه
-یکی دیگر از ابزارهایی که برای جستجو استفاده میشود ابزار find است . ابزار find تقریبا شبیه به locate است اما در کارکرد تفاوت های بسیاری دارد که اگر شما توضیحات مربوط به ابزار locate را خوانده باشید متوجه خواهید شد.لازم به ذکر است بدانید که می توانید به این ابزار rejex هم بدهید و در آخر هم شما با استفاده از این ابزار میتوانید هرچیزی در هرنقطه ای از هاردتان را پیدا کنید.
+در لینوکس ابزار
+find
+هم مانند
+locate
+برای جست و جو بین فایل ها وجود دارد. اما با این تفاوت که
+find
+زمانی که شما برای جست و جو فایل آن را اجرا می‌کنید شروع به گردش در مسیری که مشخص کردید می‌کند اما
+locate
+داده های فایل ها را ار قبل داخل
+database
+نگهداری می‌کند.
+
+ساختار وارد کردن دستور برای
+find
+به این صورت است که اولین آرگومان باید مسیر جست و جو باشد و
+بعد از مسیر سوییج ها و آپشن ها قرار می‌گیرند.
+
+```bash
+find /path/to/dir/ -name 'foo.bar' -type f
+```
+
+> find
+> می‌تواند
+> regex
+> دریافت کند.
+
 </div>
 
 ---
@@ -36,33 +61,54 @@ draft: false
 با استفاده از دستور find مسیر و یک نام برای جستجو میتوانید کارتان را با ابزار شروع کنید. 
 </div>
 
-    $ find ~ 'amirhosein.txt'
+    $ find ~ -iname '*log'
     
 ---
 
 <div dir='rtl'>
 
 ### جستجو کردن بر اساس نوع
-اگر میخواهید که فقط به دنبال فایل یا پوشه ها بگردید میتوانید از سوییچ type-  و آپشن های d & f کمک بگیرید.
-سوییچ d به جستجوی دایرکتوری ها و سوییچ f به جستجوی فایل ها میپردازد.
+با سوییچ
+`-type`
+می‌توانید بین نوع فایل/دایرکتوری ها تمایز قائل بشید. برای مثال فقط دایرکتوری هایی را
+جست و جو کنید که شامل الگوی وارد شده باشد.
+
 </div>
 
-    $ find /home -type d directoryname
-    $ find /home -type f file name
+```bash
+$ find /home -type d directoryname -iname 'musics'
+```
     
+لیست نوع های مختلف
+
+```bash
+b      block (buffered) special
+
+c      character (unbuffered) special
+
+d      directory
+
+p      named pipe (FIFO)
+
+f      regular file
+
+l      symbolic  link;  this  is never true if the -L option or the -follow option is in effect, unless the symbolic link is broken.  If you
+        want to search for symbolic links when -L is in effect, use -xtype.
+
+s      socket
+
+D      door (Solaris)
+```
+
 ---
 <div dir='rtl'>
 
 ### پیداکردن فایل ها بر اساس حروف بزرگ و کوچک 
 اگر بخواهید در جستجویتان ابزار روی حروف بزرگتر و کوچکتر حساسیت نشان ندهد از سوییچ iname- استفاده کنید.
 برعکس همین دستور یعنی name- هم وجود دارد که در صورت استفاده ابزار به حروف بزرگتر و کوچکتر جساسیت نشان خواهد داد..
-</div>
-
-    $ find /home/amirhosein/Downloads -name 'amir'
+</div> 
     
-    Or 
-    
-    $ find /home/amirhosein/Downloads -iname 'amir'
+    $ find /home/amirhosein/Downloads -iname 'BaR'
 ---
 
 <div dir='rtl'>
