@@ -284,6 +284,14 @@ $ sudo echo '/swapfile    none    swap    sw    0    0' >> /etc/fstab
 </div>
 </div>
 
+<div dir = 'rtl'>
+
+### همچنین مطالعه کنید
+</div>
+
+[swap](/fundamentals/swap/swap/)
+
+
 ---
 
 ### Author or Authors
