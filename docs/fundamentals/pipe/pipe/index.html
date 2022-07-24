@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.101.0" />
-  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/tools/rar/rar/">
+  <link rel="canonical" href="https://bit-orbit.github.io/the-secret-bit/fundamentals/pipe/pipe/">
 
   
     
-    <meta name="description" content="فهرست مقدمه فشرده کردن فایل تعمیر فایل های فشرده اضافه کردن فایل های جدید به فایل فشرده شده ست کردن پسورد برای فایل فشرده استخراج فایل همچنین مطالعه کنید Author or Authors مقدمه یکی از ابزارهایی که با آن می‌توان فایلی را با فرمت rar فشرده و یا آرشیو کرد ابزار rar است. با سوییچ های مختلف این ابزار به جز فشرده سازی می‌توان فایل های rar را استخراج کرد.">
+    <meta name="description" content="فهرست توضیحات مثال عملی نویسنده یا نویسندگان توضیحات در گنولینوکس یا سیستم عامل های یونیکس بیس شما میتوانید خروجی یک ابزار را با استفاده از ابزاری به نام پایپ به ابزار دیگر انتقال دهید. به شکل تخصصی تر در گنولینوکس ما سه مفهوم ورودی استاندارد خروجی استاندارد و ارور استاندارد رو داریم. زمانی که شما از علامت پایپ ‌| استفاده میکنید در واقع خروجی استاندارد را به ورودی استاندارد یک ابزار دیگر انتقال دادید.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://bit-orbit.github.io/the-secret-bit/apple-touch-icon.png">
@@ -58,7 +58,7 @@
 
   
   
-  <title>rar | the-secret-bit</title>
+  <title>pipe | the-secret-bit</title>
 </head>
 
   <body>
@@ -264,135 +264,88 @@
         <div>
           
   <main id="main">
-    <h1>rar</h1>
+    <h1>pipe</h1>
     <div dir='rtl'>
 <h3 id="فهرست">فهرست</h3>
 <blockquote>
 <ul>
-<li><a href="#%D9%85%D9%82%D8%AF%D9%85%D9%87">مقدمه</a></li>
-<li><a href="#%D9%81%D8%B4%D8%B1%D8%AF%D9%87-%DA%A9%D8%B1%D8%AF%D9%86-%D9%81%D8%A7%DB%8C%D9%84">فشرده کردن فایل</a></li>
-<li><a href="#%D8%AA%D8%B9%D9%85%DB%8C%D8%B1-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%DB%8C-%D9%81%D8%B4%D8%B1%D8%AF%D9%87">تعمیر فایل های فشرده</a></li>
-<li><a href="#%D8%A7%D8%B6%D8%A7%D9%81%D9%87-%DA%A9%D8%B1%D8%AF%D9%86-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%A8%D9%87-%D9%81%D8%A7%DB%8C%D9%84-%D9%81%D8%B4%D8%B1%D8%AF%D9%87-%D8%B4%D8%AF%D9%87">اضافه کردن فایل های جدید به فایل فشرده شده</a></li>
-<li><a href="#%D8%B3%D8%AA-%DA%A9%D8%B1%D8%AF%D9%86-%D9%BE%D8%B3%D9%88%D8%B1%D8%AF-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%81%D8%A7%DB%8C%D9%84-%D9%81%D8%B4%D8%B1%D8%AF%D9%87">ست کردن پسورد برای فایل فشرده</a></li>
-<li><a href="#%D8%A7%D8%B3%D8%AA%D8%AE%D8%B1%D8%A7%D8%AC-%D9%81%D8%A7%DB%8C%D9%84">استخراج فایل</a></li>
-<li><a href="#%D9%87%D9%85%DA%86%D9%86%DB%8C%D9%86-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D9%87-%DA%A9%D9%86%DB%8C%D8%AF">همچنین مطالعه کنید</a></li>
-<li><a href="#author-or-authors">Author or Authors</a></li>
+<li><a href="#%D8%AA%D9%88%D8%B6%DB%8C%D8%AD%D8%A7%D8%AA">توضیحات</a></li>
+<li><a href="#%D9%85%D8%AB%D8%A7%D9%84-%D8%B9%D9%85%D9%84%DB%8C">مثال عملی</a></li>
+<li><a href="https://bit-orbit.github.io/the-secret-bit/#%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%D9%87-%DB%8C%D8%A7-%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86">نویسنده یا نویسندگان</a></li>
 </ul>
 </blockquote>
-</div>
 <hr>
-<div dir='rtl'>
-<h3 id="مقدمه">مقدمه</h3>
-<p>یکی از ابزارهایی که با آن می‌توان فایلی را با فرمت rar فشرده و یا آرشیو کرد ابزار <em>rar</em> است.
-با سوییچ های مختلف این ابزار به جز فشرده سازی می‌توان
-فایل های
-rar
-را استخراج کرد.</p>
-<blockquote>
-<p>سوییچ های
-rar
-نیاز به پیشوند های - و - - ندارند</p>
-</blockquote>
-</div>
-<hr>
-<div dir='rtl'>
-<h3 id="فشرده-کردن-فایل">فشرده کردن فایل</h3>
-<p>سوییچ
-a
-برای فشرده سازی فایل استفاده می‌شود. اولین ارگومان این سوییچ نام فایل شما بعد از فشرده سازی است،
-ارگومان هایی بعدی مسیر فایل هایی است که نیاز دارید فشرده شوند.</p>
-</div>
-<pre><code>$ rar a amir.rar amir.txt ali.txt
+<h3 id="توضیحات">توضیحات</h3>
+<p>در گنولینوکس یا سیستم عامل های یونیکس بیس شما میتوانید خروجی یک ابزار را با استفاده از ابزاری به نام پایپ به ابزار دیگر انتقال دهید. به شکل تخصصی تر در گنولینوکس ما سه مفهوم ورودی استاندارد خروجی استاندارد و ارور استاندارد رو داریم. زمانی که شما از علامت پایپ ‌| استفاده میکنید در واقع خروجی استاندارد را به ورودی استاندارد یک ابزار دیگر انتقال دادید. با استفاده از پایپ لاین میتوانید به راحتی خروجی را به یک ورودی استاندارد تحویل دهید، به شکل عمومی نام این کار فیلتر هست. در واقع زمانی که شما چند دستور را با استفاده از پایپ لاین به هم دیگر متصل کنید عملیات فیلتر را انجام دادید. در استفاده های روزانه ما از پایپ استفاده میکنیم.
+به عنوان مثال زمانی که میخواهید خروجی ابزار ls را مرتب سازی کنید از پایپ استفاده میکنید. به این شکل که با استفاده از ls لیستی از دایرکتوریها و فایل ها را با استفاده از پایپ به sort انتقال میدهیم و بدین ترتیب خروجی شما به شکل مرتب شده نمایش داده میشود.</p>
+<h3 id="مثال-عملی">مثال عملی</h3>
+<h4 id="مرتب-سازی-فایل-با-استفاده-از-انتقال-خروجی-cat-به-sort">مرتب سازی فایل با استفاده از انتقال خروجی cat به sort</h4>
+<div dir='ltr'>
+<pre><code>$ cat test.txt
+# amirhosein
+# sohrabi
+# gnulinux
 
-# OUTPUT
-# Trial version             Type 'rar -?' for help
+$ cat test.txt | sort
+# amirhosein
+# gnulinux
+# sohrabi
+</code></pre>
+</div>
+<h4 id="نمایش-تعداد-لاین-های-فایل-به-کمک-wc">نمایش تعداد لاین های فایل به کمک wc</h4>
+<div dir='ltr'>
+<pre><code>$ cat amir.txt
+# amirhosein
+# sohrabi
+# gnulinux
+# sohrabi
+# gnulinux
 
-# Evaluation copy. Please register.
-# 
-# Creating archive amir.rar
-# 
-# Adding    amir.txt                                                    OK 
-# Adding    ali.txt                                                     OK 
-# Done
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="تعمیر-فایل-های-فشرده">تعمیر فایل های فشرده</h3>
-<p>با استفاده از سوییچ r میتوانید فایل فشرده خود را تعمیر کنید.
-این سوییچ زمانی کاربرد دارد که فایل فشرده شما به مشکل خورده یا در هیچ حالتی نمیتوانید فایل را از حالت فشرده خارج کنید.</p>
-</div>
-<pre><code>$ rar r test.rar
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="اضافه-کردن-فایل-های-جدید-به-فایل-فشرده-شده">اضافه کردن فایل های جدید به فایل فشرده شده</h3>
-<p>زمانی که شما فایلی هایی را فشرده کرده‌اید و بعد از گذشت زمان، مجدد نیاز دارید تا به فایل
-فشرده قبلی چند فایل دیگر هم اضافه کنید
-می‌توانید با استفاده از سوییچ
-u
-فایل فشرده قبلی را اپدیت کنید.</p>
-<p>ارگومان اول این سوییچ مسیر فایل فشرده است، و ارگومان دوم مسیر فایل هایی است که باید به
-فایل فشرده اضافه شوند.</p>
-</div>
-<pre><code>$ rar u test.rar fileadd.txt
-</code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="ست-کردن-پسورد-برای-فایل-فشرده">ست کردن پسورد برای فایل فشرده</h3>
-<p>با استفاده از سوییچ p- میتوانید برای فایل های فشرده خود پسورد ست کنید.</p>
-</div>
-<pre><code>$ rar -p a amir.rar
-# Enter password (will not be echoed):
 
-# Reenter password:
-# *****
-# RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017
-# Shareware version         Type RAR -? for help
-# 
-# Evaluation copy. Please register.
-# 
-# Updating archive amir.rar
+$ cat amir.txt | wc -l
+# 6 
 </code></pre>
-<hr>
-<div dir='rtl'>
-<h3 id="استخراج-فایل">استخراج فایل</h3>
-<p>برای استخراج فایل دو سوییچ e و x استفاده می‌شوند.</p>
-<ul>
-<li>
-<p>سوییچ
-x
-مسیر کامل هر فایل را می‌سازد.</p>
-</li>
-<li>
-<p>سوییچ
-e
-هیچ پوشه‌ای برای فایل ها نمی‌سازد و تمامی فایل ها را دورن پوشه فعلی استخراج می‌کند.</p>
-</li>
-</ul>
 </div>
-<pre><code>$ rar x amir.rar
-# RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017
-# Shareware version         Type RAR -? for help
-# 
-# Extracting from amir.rar
-# 
-# Creating    amir                                                   OK
-# Extracting  amir/index.php                                         OK
-# Extracting  amir/index.html                                        OK
-# Extracting  amir/xyz.txt                                           OK
-# Extracting  amir/abc.txt                                           OK
+<h4 id="ترکیب-چند-دستور-با-هم-برای-پیدا-کردن-ابزار-خاص">ترکیب چند دستور با هم برای پیدا کردن ابزار خاص</h4>
+<div dir='ltr'>
+<pre><code>$ ls -l /bin/
+# -rwxr-xr-x 1 root root             96 Mar  8  2021 2to3-2.7
+# -rwxr-xr-x 1 root root             39 Aug  9  2019 7z
+# -rwxr-xr-x 1 root root             40 Aug  9  2019 7za
+# -rwxr-xr-x 1 root root             40 Aug  9  2019 7zr
+# -rwxr-xr-x 1 root root          31248 May 19  2020 aa-enabled
+# -rwxr-xr-x 1 root root          35344 May 19  2020 aa-exec
+# -rwxr-xr-x 1 root root          22912 Apr 14  2021 aconnect
+# -rwxr-xr-x 1 root root          19016 Nov 28  2019 acpi_listen
 
-# All OK
+$ ls -l /bin/ | grep zip
+# -rwxr-xr-x 1 root root          39144 Sep  5  2019 bunzip2
+# -rwxr-xr-x 1 root root          39144 Sep  5  2019 bzip2
+# -rwxr-xr-x 1 root root          18584 Sep  5  2019 bzip2recover
+# -rwxr-xr-x 1 root root          26776 Aug 16  2019 funzip
+# -rwxr-xr-x 1 root root           3516 Jan  6  2021 gpg-zip
+# -rwxr-xr-x 1 root root           2346 Dec 13  2019 gunzip
+# -rwxr-xr-x 1 root root          97496 Dec 13  2019 gzip
+# lrwxrwxrwx 1 root root              6 Jun 26 01:32 mzip -&gt; mtools
+# -rwxr-xr-x 1 root root           4754 Aug  9  2019 p7zip
+# -rwxr-xr-x 1 root root           5656 Jul 22  2021 preunzip
+# -rwxr-xr-x 1 root root           5656 Jul 22  2021 prezip
+# -rwxr-xr-x 1 root root          14640 Jul 22  2021 prezip-bin
+# -rwxr-xr-x 1 root root         186664 Aug 16  2019 unzip
+# -rwxr-xr-x 1 root root          84248 Aug 16  2019 unzipsfx
+# -rwxr-xr-x 1 root root         216256 Apr 22  2017 zip
+# -rwxr-xr-x 1 root root          93816 Apr 22  2017 zipcloak
+# -rwxr-xr-x 1 root root          50718 Oct 19  2020 zipdetails
+# -rwxr-xr-x 1 root root           2953 Aug 16  2019 zipgrep
+# -rwxr-xr-x 1 root root         186664 Aug 16  2019 zipinfo
+# -rwxr-xr-x 1 root root          89488 Apr 22  2017 zipnote
+# -rwxr-xr-x 1 root root          93584 Apr 22  2017 zipsplit
 </code></pre>
-<hr>
-<div dir = 'rtl'>
-<h3 id="همچنین-مطالعه-کنید">همچنین مطالعه کنید</h3>
-<p><a href="https://bit-orbit.github.io/the-secret-bit/tools/unrar/unrar">unrar</a></p>
-<hr>
-<h3 id="author-or-authors">Author or Authors</h3>
+</div>
+<h3 id="نویسنده-یا-نویسندگان">نویسنده یا نویسندگان</h3>
+</div>
 <ul>
 <li><em><a href="https://github.com/amirhoseinsb">Amirhosein</a></em> | <strong><a href="mailto:amirhoseinsohrabi.official@gmail.com">amirhoseinsohrabi.official@gmail.com</a></strong></li>
-<li><em><a href="https://github.com/shabane">Arya</a></em> | <strong><a href="mailto:m.mohamadshabane@gmail.com">m.mohamadshabane@gmail.com</a></strong></li>
 </ul>
 
   </main>

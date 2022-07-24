@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/fundamentals/</loc>
+    <lastmod>2022-07-20T19:18:18+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/fundamentals/permissions/permissions/</loc>
+    <lastmod>2022-07-20T19:18:18+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/fundamentals/pipe/pipe/</loc>
+    <lastmod>2022-07-18T15:18:37+04:30</lastmod>
+  </url><url>
+    <loc>https://bit-orbit.github.io/the-secret-bit/fundamentals/swap/swap/</loc>
+    <lastmod>2022-07-18T01:18:48+04:30</lastmod>
+  </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tags/check-network-connectivity/</loc>
     <lastmod>2022-05-08T00:18:52+04:30</lastmod>
   </url><url>
@@ -25,9 +37,6 @@
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/tools/terminator/terminator/</loc>
     <lastmod>2022-05-05T12:26:04+04:30</lastmod>
-  </url><url>
-    <loc>https://bit-orbit.github.io/the-secret-bit/fundamentals/</loc>
-    <lastmod>2022-05-03T03:32:45+04:30</lastmod>
   </url><url>
     <loc>https://bit-orbit.github.io/the-secret-bit/fundamentals/shebang/shebang/</loc>
     <lastmod>2022-05-03T03:32:45+04:30</lastmod>
