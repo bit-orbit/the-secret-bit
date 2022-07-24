@@ -155,7 +155,7 @@ e
 <div dir = 'rtl'>
 
 ### همچنین مطالعه کنید
-[unrar](/posts/unrar/unrar)
+[unrar](/tools/unrar/unrar)
 
 ---
 ### Author or Authors
