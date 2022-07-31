@@ -26,6 +26,12 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - run: sudo apt-get install tree -y
-      - run: tree
-      - run: ls
+      - name: build
+        run: sudo apt-get install tree -y
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/seprate'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
