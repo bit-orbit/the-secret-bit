@@ -31,7 +31,7 @@ def getIssueContext(response: dict) -> dict:
 
     x['title'] = response.get('title')
     x['body'] = response.get('body')
-
+    
     if x['body']:
         if(match := re.findall('(https.*md)', x['body'])):
             x['attachment_link'] = match[0]
@@ -39,7 +39,7 @@ def getIssueContext(response: dict) -> dict:
     return x
 
 
-def downloadAttachment(url: str, name: str, dest: str) -> bool:
+def downloadAttachment(data: dict, name: str, dest: str, body: bool=False) -> bool:
     """ download the attachment url ans save it under ./content/{dest}/{name}/{name}.md
 
     :param url: attachment url
@@ -47,13 +47,14 @@ def downloadAttachment(url: str, name: str, dest: str) -> bool:
     :return: true if download and save file, false otherwise
     """
 
-    data = requests.get(url)
-    while data.status_code != 200:
-        downloadAttachment(url)
+    if not body:
+        data = requests.get(data.attachment_link)
+        while data.status_code != 200:
+            downloadAttachment(data.attachment_link)
 
     os.mkdir(f'./content/{dest}/{name}')
     with open(f'./content/{dest}/{name}/{name}.md', 'wb') as fli:
-        fli.write(data.content)
+        fli.write(bytes(data['body'], encoding='utf-8')) if body else fli.write(data.content)
         return True
 
     return False
@@ -70,5 +71,5 @@ for issue in res.json():
             for label in labels:
                 if label.get('name') in ['tools', 'fundamentals']:
                     x = getIssueContext(issue)
-                    if downloadAttachment(x.get('attachment_link'), x.get('title'), dest=label.get('name')):
+                    if downloadAttachment(data=x, name=x.get('title'), dest=label.get('name'), body=True):
                         print('found and downloaded')
