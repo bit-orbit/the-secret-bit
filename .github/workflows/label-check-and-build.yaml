@@ -1,0 +1,29 @@
+name: check-label-then-build-and-deploy
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+jobs:
+  checkLabel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout the book
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        run: python rain.py
+
+      - name: setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - run: sudo apt-get install tree -y
+      - run: tree
+      - run: ls
