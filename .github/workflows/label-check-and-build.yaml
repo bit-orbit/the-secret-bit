@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: build
-        run: sudo apt-get install tree -y
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
