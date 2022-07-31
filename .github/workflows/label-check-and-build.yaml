@@ -6,6 +6,7 @@ on:
 jobs:
   checkLabel:
     runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'tools') || contains(github.event.issue.labels.*.name, 'fundamentals')
     steps:
       - name: checkout the book
         uses: actions/checkout@v3
