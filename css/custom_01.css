@@ -1,0 +1,20 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap'); */
+
+@font-face {
+    font-family: iransans;
+    src: url("https://cdn.blackiq.ir/fa.BlackIQ.ir/font/iransans/iransans.ttf");
+}
+
+.rtl {
+    direction: rtl;
+    font-family: iransans, sans-serif;
+}
+
+.ltr {
+    direction: ltr;
+    font-family: iransans, sans-serif;
+}
+
+pre.language-bash {
+    direction: ltr;
+}

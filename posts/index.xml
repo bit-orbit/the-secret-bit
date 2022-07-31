@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on the-secret-bit</title>
+    <link>https://bit-orbit.github.io/the-secret-bit/posts/</link>
+    <description>Recent content in Posts on the-secret-bit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Tue, 26 Apr 2022 03:26:15 +0430</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tail</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/tail/tail/</link>
+      <pubDate>Tue, 26 Apr 2022 03:26:15 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/tail/tail/</guid>
+      <description>فهرست   مقدمه الگوی استفاده ساده ترین روش استفاده تغییر تعداد خطوط خروجی چاپ تعداد بایت خاص چاپ خطوط انتهایی چند فایل بصورت همزمان مشاهده نسخه مشاهده دستور help مشاهده فایل بصورت زنده برای مانیتور تغییرات وابسته کردن حالت نظارت به یک pid ایجاد وقفه در زمان نظارت Author or Authors     مقدمه برای نمایش انتهای فایل از دستور tail استفاده می شود، بصورت پیشفرض این دستور 10 خط انتهای فایل را در خروجی استاندارد چاپ می کند.</description>
+    </item>
+    
+    <item>
+      <title>dd</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/dd/dd/</link>
+      <pubDate>Mon, 18 Apr 2022 15:59:50 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/dd/dd/</guid>
+      <description>فهرست   مقدمه فایل ورودی فایل خروجی محدود کردن سرعت خواندن ورودی محدود کردن تعداد دفعات نمایش وضعیت مثال:‌ ایمج گرفتن از یک دیسک مثال: وایپ کردن یک دیسک مثال: ساخت فایل swap Author or Authors    مقدمه با ابزار dd می‌توان داده های یک بلاک دیوایس را در سطح صفر و یک به روی یک بلاک دیوایس دیگر یا یک فایل کپی کرد.
+این بلاک دیوایس ها می‌توانند یک دیوایس واقعی مثل سی‌دی یا فلش درایو یا حتی هارد شما باشند مانند dev/sda/ یا یکی از پارتیشن ها مثل dev/sda1/ باشد.</description>
+    </item>
+    
+    <item>
+      <title>cd</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/cd/cd/</link>
+      <pubDate>Thu, 14 Apr 2022 10:52:07 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/cd/cd/</guid>
+      <description>فهرست   مقدمه رفتن به یک دایرکتوری رفتن به دایرکتوری های تو در تو نماد ها در دستور cd Author or Authors    مقدمه ابزار cd یکی از ابزارهای سیستمی است که به شما اجازه می دهد به دایرکتوری خاصی بروید.
+واژه cd مخفف change directory است.
+ رفتن به یک دایرکتوری برای رفتن به یک دایرکتوری دستور cd را می‌نویسیم و سپس مسیر دایرکتوری را مشخص می‌کنیم</description>
+    </item>
+    
+    <item>
+      <title>mkfs</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/</link>
+      <pubDate>Sat, 09 Apr 2022 18:01:46 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/mkfs/mkfs/</guid>
+      <description>فهرست   مقدمه ایجاد یک پارتیشن و فرمت کردن آن استفاده از فایل سیستم های خاص استفاده از فضای ایجاد شده همچنین مطاعه کنید Author or Authors     مقدمه برای ایجاد فایل سیستم یا تغییر فرمت یک پارتیشن به فرمت دیگر میتوانید از از ابزار mkfs استفاده کنید. mkfs مخفف عبارت make file system میباشد. لازم به ذکر است بدانید که هنگام فرمت یک پارتیشن تمامی اطلاعات موجود در پارتیشن از بین خواهند رفت.</description>
+    </item>
+    
+    <item>
+      <title>btop</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/btop/btop/</link>
+      <pubDate>Thu, 07 Apr 2022 01:57:10 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/btop/btop/</guid>
+      <description>فهرست   مقدمه مانیتور کردن وضعیت کامپیوتر کشتن و بستن یک پروسه نمایش اطلاعات یک پروسه جستجوی پروسه ها تغییر حالت نمایش وضعیت Author or Authors     مقدمه در حوزه مدیریت و مانیتورینگ پروسه ها ابزار هایی مانند htop, ps و &amp;hellip; وجود دارند. اما اگر به دنبال یک ابزار شیک و منظم هستید حتما btop را امتحان کنید. این ابزار اطلاعات کاملی راجب وضعیت رم ها هارد دیسک ها سی پی یو و &amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>neofetch</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/neofetch/neofetch/</link>
+      <pubDate>Thu, 07 Apr 2022 01:27:14 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/neofetch/neofetch/</guid>
+      <description>فهرست   مقدمه نمایش اطلاعات به شکل کامل ذخیره خروجی در فایل نمایش مشخصات cpu نمایش مشخصات کارت گرافیک خروجی گرفتن از مدل سی پی یو Author or Authors     مقدمه برای نمایش اطلاعات کاملی راجب سیستم عامل، سی پی یو، رم و &amp;hellip;. میتوانید از ابزار neofetch استفاده کنید.
+  نمایش اطلاعات به شکل کامل برای اینکه اطلاعات را به شکل کامل، رنگی و مرتب شده ببینید کافیست از دستور neofetch در خط فرمان استفاده کنید.</description>
+    </item>
+    
+    <item>
+      <title>htop</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/htop/htop/</link>
+      <pubDate>Thu, 07 Apr 2022 00:02:56 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/htop/htop/</guid>
+      <description>فهرست   مقدمه مانیتور کردن پردازش ها گرفتن خروجی از ابزار کشتن پروسه ها با htop جستجو به دنبال پروسه خاص نمایش پروسه ها به شکل درختی Author or Authors     مقدمه ابزار htop برای مدیریت پردازش های در حال اجرا به کار میرود، اگر میخواهید که پردازش های خود را ببینید آن ها را حذف کنید یا آن ها را مانیتور کنید از ابزار htop استفاده کنید.</description>
+    </item>
+    
+    <item>
+      <title>fdisk</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/fdisk/fdisk/</link>
+      <pubDate>Mon, 04 Apr 2022 20:44:32 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/fdisk/fdisk/</guid>
+      <description>فهرست   مقدمه لیست کردن پارتیشن های موجود لیست کردن اطلاعات مربوط به هارد دیوایس خاص حذف کردن پارتیشن خاص ایجاد پارتیشن نمایش توضیحات راهنما همچنین مطالعه کنید Author or Authors     مقدمه هنگامی که میخواهید از یک هارد یا یک فلش استفاده کنید،در قدم اول باید آن را پارتیشن بندی کنید. یعنی هارد یا فلش یا دیوایسی که کار ذخیره سازی اطلاعات را انجام میدهد را به چند بخش تقسیم کنید.</description>
+    </item>
+    
+    <item>
+      <title>w</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/w/w/</link>
+      <pubDate>Mon, 04 Apr 2022 02:25:13 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/w/w/</guid>
+      <description>فهرست   مقدمه نمایش کاربرهای وارد شده در سیستم نمایش اطلاعات به صورت خلاصه نمایش بدون هدر مخفی کردن فیلد from نمایش اطلاعات مربوط به یک کاربر خاص Author or Authors     مقدمه برای اینکه متوجه شوید که چه یوزرهایی در سیستم لاگین هستند، میتوانید از دستور w استفاده کنید. زمانی که از این دستور استفاده میکنید، تمامی افرادی که در سیستم حضور دارند به شما نمایش داده خواهد شد.</description>
+    </item>
+    
+    <item>
+      <title>nano</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/nano/nano/</link>
+      <pubDate>Mon, 04 Apr 2022 01:31:42 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/nano/nano/</guid>
+      <description>فهرست   مقدمه باز کردن فایل با ادیتور ذخیره فایل خروج از ادیتور نمایش خطوط در کنار هم لیست کردن تمامی دستورات ادیتور جستجو در فایل کپی و کات کردن سریع برگشتن به کاراکتر قبلی و بعدی نمایش انتها و ابتدای خط جابه جا شدن در فایل عملیات Replace در فایل Author or Authors     مقدمه در گنو/لینوکس ادیتور های زیادی در محیط cli داریم ، که هرکدام بسته به سلیقه و راحتی افراد استفاده میشود.</description>
+    </item>
+    
+    <item>
+      <title>less</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/less/less/</link>
+      <pubDate>Sun, 03 Apr 2022 23:20:10 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/less/less/</guid>
+      <description>فهرست   مقدمه نمایش فایل به صورت صفحه به صفحه جستجو به شکل صفحه به صفحه خروج از ابزار پیمایش به بالا و پایین در ابزار جستجو در فایل شماره گذاری خطوط فایل پرش به انتها و ابتدای فایل ادیت فایل باز شده به شکل همزمان باز کردن صفحه راهنما Author or Authors     مقدمه ابزار less ابزاری برای پیمایش در فایل هاست. با استفاده از ابزار less میتوانید به صورت صفحه به صفحه در فایل پیمایش کنید و با سوییچ های مختلف ابزار یا ترکیب با دیگر ابزار ها فایل خود را پیمایش و فیلتر کنید.</description>
+    </item>
+    
+    <item>
+      <title>rar</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/rar/rar/</link>
+      <pubDate>Wed, 23 Mar 2022 00:29:04 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/rar/rar/</guid>
+      <description>فهرست   مقدمه فشرده کردن فایل تعمیر فایل های فشرده اضافه کردن فایل های جدید به فایل فشرده شده ست کردن پسورد برای فایل فشرده استخراج فایل همچنین مطالعه کنید Author or Authors     مقدمه یکی از ابزارهایی که با آن می‌توان فایلی را با فرمت rar فشرده و یا آرشیو کرد ابزار rar است. با سوییچ های مختلف این ابزار به جز فشرده سازی می‌توان فایل های rar را استخراج کرد.</description>
+    </item>
+    
+    <item>
+      <title>unrar</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/unrar/unrar/</link>
+      <pubDate>Tue, 22 Mar 2022 23:28:56 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/unrar/unrar/</guid>
+      <description>فهرست   مقدمه استخراج فایل فشرده استخراج فایل فشرده در دایرکتوری خاص استخراج فایل با ساختار اصلی نمایش اطلاعات فایل تست کردن فایل rar استخراج دسته ای فایل ها همچنین مطالعه کنید Author or Authors     مقدمه همانطور که میدانید rar جزو فرمت های متن باز نیست، و به همین دلیل توسعه دهندگان لینوکس ابزار های متعددی برای بازکردن این نوع فایل آرشیو طراحی نکرده اند. اما با این حال یکی از ابزارهایی که با آن میتوانید فایل های خود را از حالت فشرده خارج کنید ابزار unrar هست.</description>
+    </item>
+    
+    <item>
+      <title>redshift</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/redshift/redshift/</link>
+      <pubDate>Mon, 21 Mar 2022 18:04:07 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/redshift/redshift/</guid>
+      <description>فهرست   مقدمه کم کردن نور مانیتور با ابزار فعال کردن فیلتر نور آبی ریست کردن ابزار Author or Authors     مقدمه اگر شب ها بیشتر از کامپیوترتان استفاده میکنید، بهتر است برای جلوگیری از مشکلات بینایی در آینده حالت شب سیستم عامل را فعال کنید. اما همیشه ماجرا اینطوری نیست و در برخی سیستم عامل های لینوکسی حالت شب به شکل پیشفرض موجود نیست و برای اینکه شما به این قابلیت مهم دسترسی داشته باشید باید آن را نصب کنید، اما به دلیل پیچیده بودن مراحل نصب ، استفاده از ابزارهای توسعه داده شده بهترین کار است.</description>
+    </item>
+    
+    <item>
+      <title>rm</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/rm/rm/</link>
+      <pubDate>Sat, 19 Mar 2022 20:18:46 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/rm/rm/</guid>
+      <description>فهرست   مقدمه حذف فایلها حذف دایرکتوری در صورت خالی بودن حذف فایل یا دایرکتوری به شکل اجباری حذف دایرکتوری حذف چند فایل یا دایرکتوری به شکل همزمان نمایش اعلان قبل از حذف فایل یا دایرکتوری حذف فایلها بر اساس فرمت حذف تمامی فایلهای درون دایرکتوری Author or Authors     مقدمه با استفاده از ابزار rm میتوانید هر فایل یا دایرکتوری که مد نظرتان است را حذف کنید.</description>
+    </item>
+    
+    <item>
+      <title>lsusb</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/lsusb/lsusb/</link>
+      <pubDate>Sat, 19 Mar 2022 01:18:08 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/lsusb/lsusb/</guid>
+      <description>فهرست   مقدمه نمایش دستگاه های متصل شده نمایش وضعیت پورت ها با جزئیات تکمیلی مانیتور کردن پورت ها به شکل دائم مانیتور کردن پورت خاص نمایش وضعیت پورت ها به شکل درختی Author or Authors     مقدمه با استفاده از lsusb میتوانید اطلاعات کاملی راجب وضعیت پورت های usb و دستگاه های متصل شده به آن ها مشاهده کنید.
+  نمایش دستگاه های متصل شده برای نمایش دستگاه متصل شده به پورت های یو اس بی کافیست از دستور lsusb استفاده کنید.</description>
+    </item>
+    
+    <item>
+      <title>groupadd</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/groupadd/groupadd/</link>
+      <pubDate>Fri, 18 Mar 2022 18:05:36 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/groupadd/groupadd/</guid>
+      <description>فهرست   مقدمه ایجاد گروه جدید ایجاد گروه با gid خاص ایجاد گروه با پسورد اضافه کردن حساب های کاربری به گروه Author or Authors     مقدمه با استفاده از ابزار groupadd میتوانید گروه های جدید با دسترسی های متفاوت ایجاد کنید. برای مثال گروهی ایجاد کنید که فقط دسترسی خواندن داشته باشد.
+  ایجاد گروه جدید با استفاده از دستور groupadd و نام گروه میتوانید به سادگی گروه خود را ایجاد کنید .</description>
+    </item>
+    
+    <item>
+      <title>usermod</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/usermod/usermod/</link>
+      <pubDate>Fri, 18 Mar 2022 16:32:05 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/usermod/usermod/</guid>
+      <description>فهرست   مقدمه اضافه کردن کاربر به گروه خاص تغییر توضیحات کاربر تغییر مسیر دایرکتوری home تغییر شل پیشفرض کاربر تغییر شناسه کاربری یا uid تغییر اسم کاربر تنظیم تاریخ منقضی شدن حساب قفل کردن و آزاد کردن حساب کاربری Author or Authors     مقدمه یکی از ابزارهای مفید در زمینه ایجاد تغییرات در حساب های کاربری لینوکسی. شما با استفاده از این ابزار میتوانید تغییرات گسترده ای اعم از تعویض پسورد، تغییر دایرکتوری home، قفل کردن یا آزاد کردن حساب کاربری، تغییر شناسه کاربری و&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>useradd</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/useradd/useradd/</link>
+      <pubDate>Sun, 13 Mar 2022 18:12:46 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/useradd/useradd/</guid>
+      <description>فهرست   مقدمه ایجاد حساب کاربری ایجاد حساب کاربری با شناسه کاربری خاص ایجاد حساب کاربری در یک گروه خاص ایجاد حساب کاربری با تاریخ انقضای دلخواه نوشتن توضیحات در مورد حساب ایجاد حساب کاربری با رمز عبور حذف کردن حساب کاربری Author or Authors     مقدمه useradd یک ابزار برای اضافه کردن یا حذف یک حساب کاربری است.
+  ایجاد حساب کاربری برای ایجاد حساب کاربری با این ابزار کار عجیب و غریبی نیاز نیست .</description>
+    </item>
+    
+    <item>
+      <title>mkdir</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/mkdir/mkdir/</link>
+      <pubDate>Sun, 13 Mar 2022 17:30:52 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/mkdir/mkdir/</guid>
+      <description>فهرست   مقدمه ایجاد یک یا چند دایرکتوری به شکل همزمان تنظیم مد دایرکتوری نمایش جزئیات عملیات ایجاد دایرکتوری های تو در تو Author or Authors     مقدمه برای ایجاد دایرکتوری در ترمینال میتوانید از ابزار mkdir استفاده کنید. با استفاده از این ابزار میتوانید در کمتر از چند ثانیه هر تعداد دایرکتوری که نیاز دارید را ایجاد کنید.
+  ایجاد یک یا چند دایرکتوری به شکل همزمان اگر میخواهید که یک یا چند دایرکتوری به شکل همزمان ایجاد کنید، کافیست که از دستور mkdir استفاده کنید و نام دایرکتوری ها را با فاصله از هم دیگر جدا کنید.</description>
+    </item>
+    
+    <item>
+      <title>touch</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/touch/touch/</link>
+      <pubDate>Sun, 13 Mar 2022 16:27:08 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/touch/touch/</guid>
+      <description>فهرست   مقدمه ایجاد یک یا چند فایل به شکل همزمان ایجاد نکردن فایل در صورت وجود فایل تغییر یا به روزرسانی زمان دسترسی فایل به روز رسانی یا تغییر زمان اصلاح فایل جایگزین کردن زمان فایل با فایل دیگر ایجاد فایل با زمان دلخواه Author or Authors     مقدمه هنگام مطالعه توضیحات ابزار متوجه میشوید که در واقع این ابزار یک ابزار برای تغییر زمان تغییر یا دسترسی فایل است.</description>
+    </item>
+    
+    <item>
+      <title>shutdown</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/shutdown/shutdown/</link>
+      <pubDate>Sun, 13 Mar 2022 01:48:05 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/shutdown/shutdown/</guid>
+      <description>فهرست   مقدمه خاموش کردن کامپیوتر ریبوت کردن کامپیوتر خاموش شدن کامپیوتر در ساعت مشخص ریبوت شدن کامپیوتر در ساعت مشخص لغو کردن عملیات ارسال پیغام به دیگر کاربران قبل از خاموش یا ریبوت شدن نمایش مجدد عملیات Author or Authors     مقدمه اگر حوصله ی استفاده از رابط گرافیکی برای خاموش کردن کامپیوتر را ندارید . بهترین میانبر استفاده از خط فرمان است. با استفاده از ابزار کامپیوتر خود را خاموش کنید.</description>
+    </item>
+    
+    <item>
+      <title>history</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/history/history/</link>
+      <pubDate>Sat, 12 Mar 2022 00:13:25 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/history/history/</guid>
+      <description>فهرست   مقدمه نمایش ده دستور اول و آخر جداکردن دستور خاص از سابقه گرفتن نسخه پشتیبان از سابقه دستورات ذخیره نشدن دستور با ترفند فاصله گرفتن نسخه پشتیبان از دستور خاص Author or Authors     مقدمه اگر از ترمینال لینوکس استفاده میکنید ممکن است برایتان پیش آمده باشد که دستوری را در ترمینال اجرا کرده باشید و آن دستور رافراموش کرده باشید. با استفاده از دستور history میتوانید سابقه دستورات خود را مشاهده کنید.</description>
+    </item>
+    
+    <item>
+      <title>free</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/free/free/</link>
+      <pubDate>Fri, 11 Mar 2022 22:42:41 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/free/free/</guid>
+      <description>فهرست   مقدمه نمایش مقدار فضای خالی و استفاده شده نمایش اطلاعات رم به بایت، کیلوبایت، مگابایت و &amp;hellip;.. نمایش مقادیر به شکل خلاصه شده نمایش خروجی به شکل مداوم آپدیت اطلاعات هر یک ثانیه یکبار به تعداد دلخواه Author or Authors     مقدمه هنگام استفاده از سیستم عامل لینوکس ممکن است بخواهید وضعیت رم سیستم را مشاهده کنید. با استفاده از دستور free میتوانید در کمتر از ۵ ثانیه تمامی اطلاعات مربوط به رم کامپیوتر را مشاهده کنید.</description>
+    </item>
+    
+    <item>
+      <title>grep</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/grep/grep/</link>
+      <pubDate>Fri, 11 Mar 2022 21:28:11 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/grep/grep/</guid>
+      <description>فهرست   مقدمه فیلتر کردن کلمه خاص در فایل ترکیب ابزار با cat فیلتر کردن بدون حساسیت به حروف بزرگ و کوچک نمایش تعداد تکرار کلمه خاص در فایل جستجو به شکل بازگشتی جستجو با الگوهای منظم یا regular expression نمایش شماره خطوطی که کلمه خاص در آن ها وجود دارد خروجی رنگی از ابزار ترکیب ابزار با ابزار find جستجو در فایلهای فشرده Author or Authors     مقدمه ابزار grep یکی از اساسی ترین ابزارهای لینوکس است، این ابزار به خانواده ابزارهای egrep و fgrep تعلق دارد.</description>
+    </item>
+    
+    <item>
+      <title>passwd</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/passwd/passwd/</link>
+      <pubDate>Fri, 11 Mar 2022 20:09:17 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/passwd/passwd/</guid>
+      <description>فهرست   مقدمه تغییر رمز عبور حساب کاربری حذف رمز عبور حساب کاربری منقضی کردن پسورد حساب کاربری غیرفعال کردن خودکار حساب کاربری تغییر رمز عبور در صورت منقضی شدن نمایش وضعیت رمز عبور باز کردن پسورد حساب کاربری Author or Authors     مقدمه ابزار passwd برای تغییر رمزعبور حساب های کاربری استفاده میشود . اما لازم به ذکر است بدانید که کاربر root نسبت به باقی کاربر ها دسترسی بیشتری دارد.</description>
+    </item>
+    
+    <item>
+      <title>watch</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/</link>
+      <pubDate>Fri, 11 Mar 2022 08:35:34 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/watch/watch/</guid>
+      <description>فهرست   مقدمه اجرای یک کامند در بازه زمانی مشخص برجسته کردن تغییرات بیپ! توقف اجرا در زمان خطا توقف در زمان تغییر خروجی Author or Authors   مقدمه یکی از نیاز های ما در ترمینال این است که کامند ها را در بازه های زمانی مشخص بطور مداوم اجرا کنیم. برای مثال اگر چندین فایل را از یک دایرکتوری به دایرکتوری دیگری منتقل می‌کنید، برای دیدن فایل های منتقل شده می‌توانید هر ثانیه کامند ls را بزنید.</description>
+    </item>
+    
+    <item>
+      <title>gzip</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/gzip/gzip/</link>
+      <pubDate>Wed, 09 Mar 2022 23:07:16 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/gzip/gzip/</guid>
+      <description>فهرست   مقدمه فشرده سازی فایل نگهداری فایل اصلی نمایش جزئیات عملیات فشرده سازی همزمان چند فایل فشرده سازی تمامی فایلهای موجود در دایرکتوری خارج کردن فایل از حالت فشرده خارج کردن چند فایل از حالت فشرده Author or Authors     مقدمه ابزار gzip برای فشرده سازی فایلها استفاده میشود . این ابزار تقریبا به bzip شبیه است. اما در بحث عملیاتی باهم تفاوت دارند که اگر توضیحات ابزار bzip را خوانده باشید متوجه خواهید شد</description>
+    </item>
+    
+    <item>
+      <title>file</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/file/file/</link>
+      <pubDate>Wed, 09 Mar 2022 21:41:26 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/file/file/</guid>
+      <description>فهرست   مقدمه نمایش نوع فایل نمایش نوع چند فایل به صورت همزمان نمایش نوع تمامی فایلهای موجود در دایرکتوری نمایش محدوده خاصی از فایلها و دایرکتوری ها حالت تعاملی ابزار چاپ محتویات بدون فاصله اضافی Author or Authors     مقدمه از این ابزار برای نمایش نوع فایل ها استفاده میشود. برای مثال زمانی که با فایلی برخورد میکنید که پسوندی ندارد و اصلا نوع فایل مشخص نیست میتواند استفاده از این ابزار کاربردی باشد.</description>
+    </item>
+    
+    <item>
+      <title>ls</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/ls/ls/</link>
+      <pubDate>Wed, 09 Mar 2022 20:52:30 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/ls/ls/</guid>
+      <description>فهرست   مقدمه لیست کردن فایلها و دایرکتوری ها نمایش بر اساس آخرین تغییرات نمایش به صورت خط به خط نمایش تمامی اطلاعات مربوط به فایل و دایرکتوری نمایش فایلهای مخفی ترکیب سوییچ پرطرفدار ابزار Author or Authors     مقدمه ابزار ls برای لیست کردن دایرکتوری ها و فایلهای موجود در یک دایرکتوری به کار میرود .با استفاده از این ابزار و سوییچ های مفیدش میتوانید به سرعت فایلها و دایرکتوری های خود را پیدا کنید.</description>
+    </item>
+    
+    <item>
+      <title>locate</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/locate/locate/</link>
+      <pubDate>Wed, 09 Mar 2022 18:47:24 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/locate/locate/</guid>
+      <description>فهرست   مقدمه نکته ی مهم برای استفاده از ابزار جستجوی فایلها خوانایی بهتر هنگام جستجو با ترکیب ابزار با less جستجوی فایلهای با پسوند خاص محدود کردن نتایج خروجی جستجوی فایلها بدون حساسیت روی اسم دیدن تعداد فایل های موجود Author or Authors     مقدمه یکی از سریع ترین و کاربردی ترین ابزارهای سرچ در لینوکس که میتوانید با ترکیب آن با سایر ابزارها به سرعت فایلهای خود را در لینوکس پیدا کنید.</description>
+    </item>
+    
+    <item>
+      <title>find</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/find/find/</link>
+      <pubDate>Tue, 08 Mar 2022 21:18:30 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/find/find/</guid>
+      <description>فهرست   مقدمه پیدا کردن فایل جستجو کردن بر اساس نوع پیداکردن فایل ها بر اساس حروف بزرگ و کوچک جستجو کردن بر اساس سطوح دسترسی جستجو بر اساس تاریخ و ساعت پیدا کردن فایل با پسوند خاص پیداکردن فایل با حجم مشخص پیداکردن فایل هایی با چند فرمت مختلف Author or Authors     مقدمه یکی دیگر از ابزارهایی که برای جستجو استفاده میشود ابزار find است .</description>
+    </item>
+    
+    <item>
+      <title>paste</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/paste/paste/</link>
+      <pubDate>Tue, 08 Mar 2022 19:01:01 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/paste/paste/</guid>
+      <description>فهرست   مقدمه ادغام سریع دو فایل با یکدیگر استفاده از جدا کننده هنگام ادغام فایل ادغام فایلها به شکل خطی Author or Authors     مقدمه ابزاری که پیش رو دارید برای ادغام فایل ها به کار میرود و کاربرد اصلی آن ادغام فایلها با همدیگر است. با استفاده از ابزار paste و سوییچ های مختلف آن میتوانید به سرعت فایل هایتان را ترکیب کنید .اما بهتر است بدانید که این ابزار در استفاده های روزانه به شما بسیار زیاد کمک خواهد کرد.</description>
+    </item>
+    
+    <item>
+      <title>cut</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/cut/cut/</link>
+      <pubDate>Tue, 08 Mar 2022 15:50:23 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/cut/cut/</guid>
+      <description>فهرست   مقدمه جداسازی محدوده‌ای از کاراکتر ها جدا کردن کاراکتر ها جدا سازی ستون جدا کردن ستون با استفاده از جداکننده متفاوت ترکیب ابزار ها با یکدیگر Author or Authors     مقدمه ابزارهای بسیار زیادی در سیستم عامل لینوکس وجود دارد که به شما امکان پردازش و فیلتر کردن فایل را میدهند . ابزار cut هم یکی از ابزارهای تحت فرمان برای برش و اعمال تغییرات روی فایل است.</description>
+    </item>
+    
+    <item>
+      <title>uniq</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/uniq/uniq/</link>
+      <pubDate>Tue, 08 Mar 2022 14:37:21 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/uniq/uniq/</guid>
+      <description>فهرست   مقدمه حذف کردن کلمات تکراری نمایش تعداد تکرار کلمات در فایل نمایش کلمات تکرار شده در فایل جدا کردن کلمات بر اساس حروف بزرگ مرتب کردن و نمایش تعداد تکرار کلمه با ترکیب ابزار sort Author or Authors     مقدمه یکی از ابزارهای سریع و قدرتمند برای مرتب سازی فایل ها . البته لازم به ذکر است گفته شود که کاربرد اصلی این ابزار حذف کردن کلمات تکراری است !</description>
+    </item>
+    
+    <item>
+      <title>sort</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/sort/sort/</link>
+      <pubDate>Mon, 07 Mar 2022 20:59:03 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/sort/sort/</guid>
+      <description>فهرست   مقدمه مرتب سازی فایل مرتب سازی فایل به صورت برعکس مرتب سازی فایل های عددی به ترتیب اعداد کوچک به بزرگ مرتب سازی فایل های عددی به ترتیب اعداد بزرگ به کوچک گرفتن خروجی از فایل مرتب شده به فایل جدید چک کردن مرتب بودن فایل و نمایش خطوط نامرتب مرتب سازی فایل و حذف کلمات تکراری Author or Authors     مقدمه فرض کنید فایلی پر از اسم دارید و میخواهید اسامی را بر اساس حروف الفبا مرتب کنید در همچنین شرایطی استفاده از ابزار sort بهترین کار است.</description>
+    </item>
+    
+    <item>
+      <title>fmt</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/fmt/fmt/</link>
+      <pubDate>Mon, 07 Mar 2022 18:44:26 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/fmt/fmt/</guid>
+      <description>فهرست   مقدمه نمایش فایل متنی با fmt نمایش فایل با طول دلخواه برجسته کردن خط اول فایل حذف کردن فاصله بین کلمات Author or Authors:     مقدمه اگر فایل متنی کوتاه یا بلندی دارید که به هم ریخته است یا به درستی قالب بندی نشده است . میتوانید با ابزار fmt به سرعت فایل خود را قالب بندی کنید.
+  نمایش فایل متنی با fmt اگر به شکل عادی از دستور fmt استفاده کنید تمامی کلمات موجود در فایل در یک خط مساوی قرار خواهند گرفت.</description>
+    </item>
+    
+    <item>
+      <title>nl</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/nl/nl/</link>
+      <pubDate>Mon, 07 Mar 2022 17:58:20 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/nl/nl/</guid>
+      <description>فهرست   فهرست مقدمه نمایش شماره خطوط شماره گذاری خطوط خالی شمارش خطوط از شماره دلخواه نمایش صفر های ابتدایی حین شمارش Author or Authors     مقدمه ابزار nl ابزاری است برای شمارش خطوط . شما میتوانید با استفاده از این ابزار خطوط فایل خود را شمارش کنید . همچنین با ترکیب این ابزار با ابزارهای دیگر میتوانید کارهای مفیدی با این ابزار انجام دهید.
+  نمایش شماره خطوط برای شمارش کردن خطوط فایل با استفاده از ابزار nl کافیست دستور را قبل از فایل قرار دهید.</description>
+    </item>
+    
+    <item>
+      <title>head</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/head/head/</link>
+      <pubDate>Mon, 07 Mar 2022 16:13:49 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/head/head/</guid>
+      <description>فهرست   مقدمه نمایش فایل با head تغییر مقدار پیش فرض خروجی نمایش مقدار مشخصی از فایل به بایت نمایش خط خاص با ترکیب grep Author or Authors     مقدمه در انگلیسی head به معنای &amp;ldquo;سر&amp;rdquo; میباشد و اینجا هم همین معنی را دارد زیرا ابزار head چند خط ابتدایی فایل را نمایش میدهد . شما میتوانید با استفاده از سوییچ های مختلف ابزار یا ترکیب آن با ابزارهای دیگر از ابزار بهترین استفاده را ببرید.</description>
+    </item>
+    
+    <item>
+      <title>cat</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/cat/cat/</link>
+      <pubDate>Sun, 06 Mar 2022 19:31:33 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/cat/cat/</guid>
+      <description>فهرست   مقدمه خواندن محتویات فایل خواندن فایل از دایرکتوری نمایش خروجی با شمارش خطوط فایل نمایش محتوای چند فایل نشانه گذاری خطوط با $ نمایش خطوط جداشده با Tab الحاق چند فایل به یک فایل Author or Authors     مقدمه اسم ابزار cat مخفف کلمه concatenate به معنی الحاق است. cat برای مشاهده فایلهای text به کار میرود. و همانطور که از نام این ابزار مشخص است، cat برای الحاق کردن چند فایل text مجزا هم مورد استفاده قرار می‌گیرد.</description>
+    </item>
+    
+    <item>
+      <title>cp</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/cp/cp/</link>
+      <pubDate>Fri, 04 Mar 2022 16:28:45 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/cp/cp/</guid>
+      <description>فهرست   مقدمه کپی کردن فایل کپی کردن چندین فایل به یک دایرکتوری کپی کردن یک پوشه دیدن تغییرات Author or Authors:    مقدمه ابزار cp یکی پر استفاده ترین ابزار های کامندلاین است. cp برای کپی کردن فایل ها و دایرکتوری ها استفاده می‌شود.
+ کپی کردن فایل برای کپی کردن یک فایل به یک دایرکتوری دیگر، دو آرگومان نیاز است. ارگومان اول منبع و دومین آرگومان مقصد.</description>
+    </item>
+    
+    <item>
+      <title>wc</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/wc/wc/</link>
+      <pubDate>Mon, 13 Dec 2021 14:57:49 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/wc/wc/</guid>
+      <description>فهرست  نمایش تعداد خط
+نمایش تعداد کلمات
+نمایش تعداد کاراکتر
+پایپ | pipe 
+نویسنده | نویسندگان
+  مرور نام برنامه wc مختصر word count به معنی شمارش کلمات است، این برنامه متنی را از ورودی استاندار می‌خواند و یا لیستی از فایل ها را می‌گیرد و در خروجی با توجه به سوییچ های انتخاب شده تعداد خط های جدید، تعداد کلمات و یا تعداد کاراکتر ها را نمایش می‌دهد.</description>
+    </item>
+    
+    <item>
+      <title>netcat</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/nc/nc/</link>
+      <pubDate>Thu, 02 Dec 2021 00:06:44 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/nc/nc/</guid>
+      <description>فهرست   مرور مفاهیم پیشنیاز درست کردن چت سرور اتصال به یک پورت خاص انتقال فایل اسکن کردن پورت banner grabing درست کردن درب پشتی رمزنگاری ارتباط سوییچ های پر استفاده Author or Authors    مرور ابزار netcat ابزار ساده‌ای است که می‌تواند داده ها را تحت شبکه بنویسد و با بخواند. netcat یک ابزار شبکه است که هکر ها بسیار طرفدار آن‌اند و البته این ابزار با تمامی قابلیت هایش بسیار سبک است.</description>
+    </item>
+    
+    <item>
+      <title>cron</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/</link>
+      <pubDate>Thu, 28 Oct 2021 17:04:54 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/cron/cron/</guid>
+      <description>فهرست   مقدمه زمان بندی با دایرکتوری های کرون زمان بندی با crontab میانبر های زمانی مثال کاربردی نکات نویسنده | نویسندگان    مقدمه ابزار cron یا cron-tab ابزاری برای زمانبندی اجرای برنامه ها در یک زمان و یا بازه زمانی خاص است. مثلا شما مشخص می‌کنید که در روز پنجشنبه ساعت 12 بعد از ظهر یک دستور خاص و یا یک مجموعه دستور در داخل یک فایل اسکریپت اجرا بشه.</description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/git/git/</link>
+      <pubDate>Fri, 17 Sep 2021 14:20:01 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/git/git/</guid>
+      <description>فهرست   مقدمه ساختار کامند های گیت وارد کردن گیت به داخل پروژه بررسی فایل های پروژه اضافه کردن تغییرات به حالت stage کامیت کردن تغییرات مشاهده تاریخچه کامیت ها بررسی عمیق تر تغییرات پروژه ساخت برنچ جدید در پروژه تغییر برنچ پروژه مرج کردن برنچ حذف کردن برنچ حذف کردن برنچ بدون مرج کردن کلون کردن پروژه از اینترنت وصل کردن پروژه به فضای ابری فرستادن پروژه به فضای ابری مرچ کردن کامیت های پروژه در فضای ابری و سیستم لوکال Author or Authors     مقدمه گیت یک سیستم کنترل ورژن (VCS) میباشد.</description>
+    </item>
+    
+    <item>
+      <title>wget</title>
+      <link>https://bit-orbit.github.io/the-secret-bit/posts/wget/wget/</link>
+      <pubDate>Fri, 17 Sep 2021 12:27:38 +0430</pubDate>
+      
+      <guid>https://bit-orbit.github.io/the-secret-bit/posts/wget/wget/</guid>
+      <description>فهرست   مقدمه دانلود فایل ذخیره با اسم متفاوت دانلود در پوشه متفاوت دانلود لیستی از فایل های متوالی خروجی دانلود از لیست دانلود ادامه دانلود تلاش مجدد وقفه محدود کردن پهنای باند محدود کردن ترافیک دانلود در پس زمینه میرور کردن سایت نکات پروکسی دانلود فایل با پسونده مشخص     مقدمه  یکی از ابزار های پر استفاده در دانلود فایل است، سال هاست که دانلود منیجر های گرافیکی و پیشرفته وجود دارند اما با اینحال به این دلیل که wget گزینه های پیشرفته ای دارد، هنوز هم بسیار کاربردی و مفید است.</description>
+    </item>
+    
+  </channel>
+</rss>

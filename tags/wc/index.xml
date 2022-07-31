@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wc on the-secret-bit</title><link>https://bit-orbit.github.io/the-secret-bit/tags/wc/</link><description>Recent content in wc on the-secret-bit</description><generator>Hugo -- gohugo.io</generator><language>fa-IR</language><lastBuildDate>Mon, 13 Dec 2021 14:57:49 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/the-secret-bit/tags/wc/index.xml" rel="self" type="application/rss+xml"/><item><title>wc</title><link>https://bit-orbit.github.io/the-secret-bit/tools/wc/wc/</link><pubDate>Mon, 13 Dec 2021 14:57:49 +0330</pubDate><guid>https://bit-orbit.github.io/the-secret-bit/tools/wc/wc/</guid><description>فهرست نمایش تعداد خط
+نمایش تعداد کلمات
+نمایش تعداد کاراکتر
+پایپ | pipe نویسنده | نویسندگان
+مرور نام برنامه wc مختصر word count به معنی شمارش کلمات است، این برنامه متنی را از ورودی استاندار می‌خواند و یا لیستی از فایل ها را می‌گیرد و در خروجی با توجه به سوییچ های انتخاب شده تعداد خط های جدید، تعداد کلمات و یا تعداد کاراکتر ها را نمایش می‌دهد.
+نمایش تعداد خط فرض کنید فایلی به اسم write.</description></item></channel></rss>
