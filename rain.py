@@ -40,7 +40,7 @@ def getIssueContext(response: dict) -> dict:
 
 
 def downloadAttachment(url: str, name: str, dest: str) -> bool:
-    """ download the attachment url ans save it under /tmp/{name}
+    """ download the attachment url ans save it under ./content/{dest}/{name}/{name}.md
 
     :param url: attachment url
     :param name: name to save file as
@@ -51,7 +51,8 @@ def downloadAttachment(url: str, name: str, dest: str) -> bool:
     while data.status_code != 200:
         downloadAttachment(url)
 
-    with open(f'./content/{dest}/{name}.md', 'wb') as fli:
+    os.mkdir(f'./content/{dest}/{name}')
+    with open(f'./content/{dest}/{name}/{name}.md', 'wb') as fli:
         fli.write(data.content)
         return True
 
