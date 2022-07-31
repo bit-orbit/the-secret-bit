@@ -39,7 +39,7 @@ def getIssueContext(response: dict) -> dict:
     return x
 
 
-def downloadAttachment(url: str, name: str) -> bool:
+def downloadAttachment(url: str, name: str, dest: str) -> bool:
     """ download the attachment url ans save it under /tmp/{name}
 
     :param url: attachment url
@@ -51,7 +51,7 @@ def downloadAttachment(url: str, name: str) -> bool:
     while data.status_code != 200:
         downloadAttachment(url)
 
-    with open(f'/tmp/{name}.md', 'wb') as fli:
+    with open(f'./content/{dest}/{name}.md', 'wb') as fli:
         fli.write(data.content)
         return True
 
@@ -67,8 +67,7 @@ for issue in res.json():
     if issue.get('state') == 'open':
         if(labels := issue.get('labels')):
             for label in labels:
-                if label.get('name') in ['tool', 'fundamental']:
+                if label.get('name') in ['tools', 'fundamentals']:
                     x = getIssueContext(issue)
-                    if downloadAttachment(x.get('attachment_link'), x.get('title')):
-                        # basher(TYPE=label.get('name'), CHAPTER_NAME=f'{x.get("title")}.md', REPO_ADDR=REPO_ADDR, REPO_NAME=REPO_NAME)
+                    if downloadAttachment(x.get('attachment_link'), x.get('title'), dest=label.get('name')):
                         print('found and downloaded')
