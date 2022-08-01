@@ -36,9 +36,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
 
-      - uses: dessant/label-actions@v2
+      - name: Close Issue
+        uses: peter-evans/close-issue@v2
         with:
-          github-token: ${{ github.token }}
-          config-path: '.github/label-actions.yml'
-          process-only: 'issues'
-
+          comment: Thanks for your contribution, we added this chapter to the book :)

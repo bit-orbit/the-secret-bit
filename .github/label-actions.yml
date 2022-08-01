@@ -1,5 +1,0 @@
-# The `feature` label is added to issues
-built:
-  issues:
-    comment: 'thanks for contributing, this chapter now added :)'
-    close: true
