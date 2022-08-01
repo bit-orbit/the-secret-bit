@@ -35,3 +35,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
+
+      - uses: dessant/label-actions@v2
+        with:
+          github-token: ${{ github.token }}
+          config-path: '.github/label-actions.yml'
+          process-only: 'issues'
+
