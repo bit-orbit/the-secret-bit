@@ -2,6 +2,9 @@ name: check-label-then-build-and-deploy
 on:
   issues:
     types: [opened, edited, labeled]
+  push:
+    branches:
+      - "seprate"
 
 jobs:
   checkLabel:
