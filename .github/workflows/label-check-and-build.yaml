@@ -36,6 +36,19 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
 
+      - name: Commit files
+        run: |
+          git config --local user.email "m.mohamadshabane@gmail.com"
+          git config --local user.name "shabane"
+          git add --all
+          git commit -m "Auto commiting changes"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
