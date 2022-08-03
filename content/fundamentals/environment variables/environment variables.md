@@ -84,6 +84,7 @@ export VARDEFAULT='bar'
 ```bash
 export foo='bar'
 echo $foo
+echo 'the foo is' $foo
 ```
 </div>
 
