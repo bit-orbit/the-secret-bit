@@ -20,7 +20,7 @@
 استفاده کنید.
 
 و برای *مشارکت* این
-[لینک](https://bit-orbit.github.io/the-secret-bit/posts/contribute/how-to-contribute/)
+[لینک](https://bit-orbit.github.io/the-secret-bit/nav/contribute/how-to-contribute/)
 را مشاهده کنید.
 
 جهت ارتباط با ما می‌توانید از طریق
