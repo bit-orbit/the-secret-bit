@@ -12,7 +12,11 @@ export VAR2=VAR1
 فایل <code>bashrc.</code> در دایرکتوری <em>home</em> هر کاربر است، کافیست یک متغییر را داخل این فایل تعریف کنید.</p><div dir=ltr><pre><code class=language-bash>export VARDEFAULT='bar'
 </code></pre></div><aside aria-label=note class=note><div><svg class="sign" aria-hidden="true" viewBox="0 0 41.667306 41.66729" focusable="false"><use xlink:href="#info"/></svg>به این دقت داشته باشید که اگر بجای _bash_ از _shell_ های دیگری مانند _zsh_ استفاده می‌کنید، باید متغییر ها را درون فایل های _rc_
 همان shell
-ها تعریف کنید. برای مثال در _zsh_ فایل _zshrc_. فایل استارتاپ است.</div></aside><hr><h3 id=فراخوانی-متغییر-های-محیطی>فراخوانی متغییر های محیطی</h3><p>استفاده و فراخوانی متغییر ها با استفاده از علامت <code>$</code> در سمت چپ نام‌شان است. برای مثال ما متغییر <em>foo</em> را تعریف
+ها تعریف کنید. برای مثال در _zsh_ فایل _zshrc_. فایل استارتاپ است.</div></aside><blockquote><p>متغییر هایی که در این فایل های
+rc
+ذخیره شوند فقط برای همان یوزر در دسترس خواهند بود.</p></blockquote><p>برای اینکه این متغییر ها برای همه کاربران در دسترس باشند کافیست آنها را در مسیر
+<code>/etc/environment</code>
+تعریف کنید.</p><hr><h3 id=فراخوانی-متغییر-های-محیطی>فراخوانی متغییر های محیطی</h3><p>استفاده و فراخوانی متغییر ها با استفاده از علامت <code>$</code> در سمت چپ نام‌شان است. برای مثال ما متغییر <em>foo</em> را تعریف
 و سپس چاپ می‌کنیم.</p><div dir=ltr><pre><code class=language-bash>export foo='bar'
 echo $foo
 echo 'the foo is' $foo
