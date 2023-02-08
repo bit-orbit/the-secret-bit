@@ -1,7 +1,7 @@
 ---
 title: "Scp"
 date: 2023-02-06T15:32:19+03:30
-draft: true
+draft: false
 ---
 
 <div dir='rtl'>
