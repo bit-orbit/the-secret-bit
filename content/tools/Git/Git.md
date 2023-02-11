@@ -3,7 +3,7 @@ title: "git"
 date: 2021-09-17T14:20:01+04:30
 tags: ['git', 'VCS', ]
 draft: false
-toc: True
+toc: true
 ---
 
 <div dir='rtl'>
