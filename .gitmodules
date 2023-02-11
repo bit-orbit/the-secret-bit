@@ -10,3 +10,6 @@
 [submodule "themes/cupper-hugo-theme"]
 	path = themes/cupper-hugo-theme
 	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
+[submodule "theme"]
+	path = theme
+	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
