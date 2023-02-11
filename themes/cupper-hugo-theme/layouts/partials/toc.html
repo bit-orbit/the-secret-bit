@@ -1,0 +1,8 @@
+{{ if eq .Params.toc true }}
+<div dir="rtl"> 
+  <strong id="toc-heading"><h2 id="{{ T "table_of_contents" }}">{{ T "table_of_contents" }}</h2></strong>
+  <blockquote>
+    {{ .TableOfContents }}
+  </blockquote>
+</div>
+{{ end }}
