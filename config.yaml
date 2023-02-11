@@ -2,7 +2,7 @@ baseURL : https://bit-orbit.github.io/the-secret-bit
 languageCode : fa-IR
 title : the-secret-bit
 publishDir : docs/
-theme : cupper-hugo-theme/
+theme : theme/
 canonifyurls : true
 
 
