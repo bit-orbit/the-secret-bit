@@ -130,7 +130,7 @@ scp -P {{port}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}
 </div>
 
 ```
-scp -P {{port}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}
+scp {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}
 ```
 
 ---
