@@ -11,7 +11,7 @@ draft: true
 
 > - [مقدمه](#مقدمه)
 > - [مسیر لاجیکال](#مسیر-لاجیکال)
-> - [مسیر فیزیکی](#مسیر-فیزیکال)
+> - [مسیر فیزیکال](#مسیر-فیزیکال)
 > - [Author or Authors](#author-or-authors)
 </div>
 
@@ -64,4 +64,9 @@ $ pwd -P
 ```
 
 ---
+
+
+### Author or Authors:
+
+- *[Mehdi](https://github.com/mahdimmr)* | **<mahdi.rezayi76@gmail.com>**
 
