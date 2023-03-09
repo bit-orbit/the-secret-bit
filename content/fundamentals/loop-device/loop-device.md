@@ -197,10 +197,10 @@ loop device
 losetup
 و سوییچ
 `d-`
-استفاده میکنیم و فایل بلاک دیوایس را به عنوان ورودی به آن میدهیم
+استفاده میکنیم و مسیر بلاک دیوایس را به عنوان ورودی به آن میدهیم
 
 ```bash
-$ sudo losetup -d /var/local/looper/testloop
+$ sudo losetup -d /dev/loop0
 ```
 
 {{< warning >}}
