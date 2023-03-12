@@ -34,8 +34,8 @@
 
 |نوع 🗽|تعداد فصل های تمام شده 📖|
 |:-----:|:--------------------------:|
-|[Linux Tools](https://bit-orbit.github.io/the-secret-bit/tools/)|**54**|
-|[Linux Fundamentals](https://bit-orbit.github.io/the-secret-bit/fundamentals/)|**5**|
+|[Linux Tools](https://bit-orbit.github.io/the-secret-bit/tools/)|**60**|
+|[Linux Fundamentals](https://bit-orbit.github.io/the-secret-bit/fundamentals/)|**6**|
 
 ---
 
