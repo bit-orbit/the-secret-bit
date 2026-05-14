@@ -1,0 +1,60 @@
+# Bytecode files
+__pycache__/
+*.pyc
+
+# Build/Compilation Artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Jupyter Notebook Metadata
+.ipynb_checkpoints/
+
+# Virtual Environment Files
+venv/
+.venv/
+env/
+/env
+pyvenv.cfg
+
+# IDE and Editor Configuration Files
+.vscode/
+.idea/
+.sublime-project
+.sublime-workspace
+
+# Temporary and Log Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs and Debug Files
+logs/
+*.log
+
+# Jupyter Notebooks with Hidden Cells
+*.ipynb~
+
+# Temporary Build Files
+/build
+/dist
+*.egg-info
+.eggs
+
+# Python Test Cache and Coverage Files
+.pytest_cache/
+coverage.pydata*
+htmlcov/
+nosetests.xml
+coverage.xml
+.coverage
+.coverage.*
+
+cache/
+.cache/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
