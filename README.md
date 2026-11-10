@@ -1,47 +1,99 @@
-# [The Secret Bit](https://bit⁉️orbit.github.io/the⁉️secret⁉️bit/posts/)
+<div dir="rtl">
 
-[![telegram chanel](https://img.shields.io/badge/-telegram-313131?logo=telegram&logoColor=2ECC71&style=for-the-badge)](https://t.me/s/bit_orbit)
-[![twitter](https://img.shields.io/badge/-twitter-1DA1F2?logo=twitter&logoColor=FFF&style=for-the-badge)](https://twitter.com/m_shabane)
+<p align="center">
+  <a href="https://hheydarian.github.io/Gitab/">
+    <img src="assets/image/Cover.jpg" alt="The Secret Bit Book Cover" width="380" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.25);"/>
+  </a>
+</p>
 
+<h1 align="center">🐧 دانشنامه جامع و آزاد ابزارهای لینوکس: راز بیت (The Secret Bit)</h1>
 
-<div dir='rtl'>
+<p align="center">
+  <strong>اولین کتاب آزاد و جامعه‌محور فارسی برای درک عمیق مفاهیم بنیادین یونیکس و تسلط بر بیش از ۶۶ ابزار حیاتی خط فرمان لینوکس</strong>
+</p>
 
-این کتاب احتمالا اولین کتاب آزاد فارسی لینوکس است که توسط جامعه برای جامعه نوشته می‌شود.
-هر فصل از این این کتاب درباره یکی از ابزار های لینوکس و یا یک مفهوم در لینوکس است.
-هدف این کتاب آموزش کامل یک ابزار نیست، بلکه هدف شناخت و دید درست از یک ابزار است.
-در هر فصل برای ابزار ها از مثال هایی استفاده می‌شود که دید درست را به کابران بدهد.
-این کتاب با قدرت انگشتان و کیبرد شما نوشته می‌شود.
-امیدوارم شما هم بخشی از این کتاب باشید.
-
----
-
-برای *مطالعه* فصل‌های تکمیل شده کتاب از این
-[لینک](https://bit-orbit.github.io/the-secret-bit/)
-استفاده کنید.
-
-و برای *مشارکت* این
-[لینک](https://bit-orbit.github.io/the-secret-bit/nav/contribute/how-to-contribute/)
-را مشاهده کنید.
-
-جهت ارتباط با ما می‌توانید از طریق
-[تلگرام](https://t.me/m_shabane)
-یا
-[ایمیل](m.mohamadshabane@gmail.com)
-اقدام کنید
+<p align="center">
+  <img src="https://img.shields.io/github/stars/bit-orbit/the-secret-bit?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/bit-orbit/the-secret-bit?color=blueviolet" alt="GitHub forks">
+  <img src="https://img.shields.io/github/license/bit-orbit/the-secret-bit?color=green" alt="License">
+  <img src="https://img.shields.io/badge/Language-Persian%20%7C%20فارسی-blue" alt="Language">
+  <img src="https://img.shields.io/badge/Status-Complete-success" alt="Status">
+</p>
 
 ---
 
+## 💡 چرا این پروژه؟
 
-|نوع 🗽|تعداد فصل های تمام شده 📖|
-|:-----:|:--------------------------:|
-|[Linux Tools](https://bit-orbit.github.io/the-secret-bit/tools/)|**60**|
-|[Linux Fundamentals](https://bit-orbit.github.io/the-secret-bit/fundamentals/)|**6**|
+در دنیای مهندسی نرم‌افزار، لینوکس قلب تپنده زیرساخت‌ها، سرورها و محیط‌های ابری است. اما بیشتر منابع آموزشی صرفاً به معرفی سطحی سینتکس دستورات بسنده می‌کنند. **کتاب راز بیت (The Secret Bit)** با هدفی فراتر متولد شده است:
+* 🎯 **درک عمیق فلسفه یونیکس:** چرا و چگونه ابزارهای خط فرمان کوچک ساخته شده‌اند تا کارهای شگفت‌انگیز بزرگ انجام دهند.
+* 🛠️ **آموزش عملی بیش از ۶۶ ابزار حیاتی:** از مفاهیم اولیه پایپ‌ها، ریدایرکشن و متغیرها تا ابزارهای پیشرفته مدیریت پروسه‌ها، شبکه و دیسک.
+* 🌍 **کتابی آزاد برای جامعه، توسط جامعه:** تلاشی جمعی به سرپرستی *محمد شبانه* و مشارکت توسعه‌دهندگان متن‌باز برای غنی‌سازی منابع فارسی لینوکس.
 
 ---
 
-> استفاده از این کتاب آزاد هست، اما فروش کتاب به صورت چاپ شده و یا
-> نسخه‌های کامپیوتری مثل
-> pdf, ebook
-> منع شده.
+<p align="center">
+
+## ⚡ دسترسی سریع
+
+| مرجع | توضیحات | لینک |
+| :--- | :--- | :---: |
+| 📖 **نسخه وب تعاملی (گیتاب)** | تجربه خواندن زیبا با حالت تاریک/روشن، جستجوی سریع و فونت استاندارد | [ورود به گیتاب ↗](https://hheydarian.github.io/Gitab/books/book11/) |
+| 📥 **سورس مقالات و ابزارها** | پوشه سورس اصلی مقالات و مستندات مارک‌داون کتاب | [مشاهده پوشه Content ↗](content/) |
+
+---
+</p>
+
+## 🔍 راهنمای خوانایی بهتر در گیت‌هاب
+
+برای اینکه متون فارسی در گیت‌هاب با قلم استاندارد و چشم‌نواز نمایش داده شوند:
+1. افزونه رایگان **[فونت ایران (FontIran)](https://chromewebstore.google.com/detail/fontiran/edbchgkbejkdkdkpgenlaciegoidmjoh)** را روی مرورگر خود نصب کنید.
+2. فونت پیش‌فرض را روی **وزیرمتن (Vazirmatn)** یا **ایران‌یکان** قرار دهید تا هماهنگی کدها و توضیحات فارسی بی‌نقص شود.
+
+---
+
+## 📚 سرفصل‌ها و بخش‌های اصلی کتاب
+
+کتاب راز بیت در **۴ بخش بنیادین** سازمان‌دهی شده است:
+
+<div align="center">
+
+| بخش | سرفصل‌ها و مباحث محوری | تعداد ابزارها | وضعیت | مطالعه مستقیم |
+| :---: | :--- | :---: | :---: | :---: |
+| **بخش ۰** | پیش‌گفتار، چرایی تألیف و راهنمای مشارکت | — | ✅ | [پیش‌گفتار](content/preface.md) |
+| **بخش ۱** | مفاهیم بنیادین (پایپ‌ها، متغیرهای محیطی، سطوح دسترسی، شبانگ، فضای نام و سواپ) | ۷ مبحث پایه | ✅ | [مفاهیم پایه](content/concepts/) |
+| **بخش ۲** | ابزارهای مدیریت فایل، پردازش متن و جستجو (`grep`, `sed`, `awk`, `find`, `cat`, ...) | ۲۶ ابزار کاربردی | ✅ | [ابزارهای متن و فایل](content/tools/) |
+| **بخش ۳** | ابزارهای سیستم، نظارت بر پروسه‌ها، دیسک، شبکه و سخت‌افزار (`top`, `ps`, `df`, `curl`, ...) | ۳۳ ابزار تخصصی | ✅ | [ابزارهای سیستم](content/tools/) |
+
+</div>
+
+---
+
+## 🤝 مشارکت در پروژه (Contributions Welcome)
+
+این دانشنامه یک پروژه آزاد و زنده است. مشارکت شما در تصحیح اشکالات تایپی، به‌روزرسانی دستورات، اضافه کردن مثال‌های کاربردی یا نگارش مستندات ابزارهای جدید با آغوش باز پذیرفته می‌شود:
+
+1. **فورک کنید (Fork):** ریپازیتوری را فورک کرده و یک شاخه اختصاصی بسازید:
+   ```bash
+   git checkout -b feature/add-new-tool
+   ```
+2. **اعمال تغییرات:** اصلاحات یا ابزار جدید را مطابق با ساختار پوشه `content/` اضافه کنید.
+3. **کامیت و ارسال پول ریکوئست:** تغییرات را با پیامی رسا کامیت کرده و Pull Request ارسال نمایید.
+
+---
+
+## ⚖️ مجوز و حقوق مالکیت معنوی
+
+* **متن و مستندات کتاب:** این اثر تحت مجوز **[Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)** منتشر می‌شود.
+* **کدها و اسکریپت‌ها:** کلیه کدهای نمونه تحت مجوز **MIT License** آزاد و در دسترس عموم قرار دارند.
+
+---
+
+<p align="center">
+  ⭐ <strong>اگر این دانشنامه به تسلط شما بر لینوکس کمک کرده، با دادن یک ستاره (Star) از پروژه حمایت کنید!</strong> ⭐
+</p>
+
+<p align="center">
+  توسعه داده شده با ❤️ برای جامعه برنامه‌نویسان و لینوکس‌کارهای فارسی‌زبان
+</p>
 
 </div>
